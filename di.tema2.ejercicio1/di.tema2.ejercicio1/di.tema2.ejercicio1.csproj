@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="barChart.png" />
+    <None Remove="barChart2.png" />
+    <None Remove="diagram.png" />
+    <None Remove="home.png" />
+    <None Remove="interrogante.png" />
+    <None Remove="lineChart.png" />
+    <None Remove="location.png" />
+    <None Remove="pieChart.png" />
+    <None Remove="pieChart3D.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="barChart.png" />
+    <Resource Include="barChart2.png" />
+    <Resource Include="diagram.png" />
+    <Resource Include="home.png" />
+    <Resource Include="interrogante.png" />
+    <Resource Include="lineChart.png" />
+    <Resource Include="location.png" />
+    <Resource Include="pieChart.png" />
+    <Resource Include="pieChart3D.png" />
+  </ItemGroup>
+
+</Project>
