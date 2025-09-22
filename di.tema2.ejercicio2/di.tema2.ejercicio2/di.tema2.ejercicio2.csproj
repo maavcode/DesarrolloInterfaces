@@ -9,7 +9,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="escudologin5.png" />
+    <None Remove="googleplus.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="MaterialDesignThemes.MahApps" Version="5.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="escudologin5.png" />
+    <Resource Include="googleplus.png" />
   </ItemGroup>
 
 </Project>
