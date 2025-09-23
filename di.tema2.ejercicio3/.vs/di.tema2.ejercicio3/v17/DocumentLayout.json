@@ -1,0 +1,56 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\di.tema2.ejercicio3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FC8E929D-B9DA-4726-B876-1B7A06650115}|di.tema2.ejercicio3\\di.tema2.ejercicio3.csproj|c:\\users\\windows10\\documents\\clase\\desarrollointerfaces\\di.tema2.ejercicio3\\di.tema2.ejercicio3\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FC8E929D-B9DA-4726-B876-1B7A06650115}|di.tema2.ejercicio3\\di.tema2.ejercicio3.csproj|solutionrelative:di.tema2.ejercicio3\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC8E929D-B9DA-4726-B876-1B7A06650115}|di.tema2.ejercicio3\\di.tema2.ejercicio3.csproj|c:\\users\\windows10\\documents\\clase\\desarrollointerfaces\\di.tema2.ejercicio3\\di.tema2.ejercicio3\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FC8E929D-B9DA-4726-B876-1B7A06650115}|di.tema2.ejercicio3\\di.tema2.ejercicio3.csproj|solutionrelative:di.tema2.ejercicio3\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\di.tema2.ejercicio3\\di.tema2.ejercicio3\\App.xaml",
+              "RelativeDocumentMoniker": "di.tema2.ejercicio3\\App.xaml",
+              "ToolTip": "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\di.tema2.ejercicio3\\di.tema2.ejercicio3\\App.xaml",
+              "RelativeToolTip": "di.tema2.ejercicio3\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-23T06:32:26.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\di.tema2.ejercicio3\\di.tema2.ejercicio3\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "di.tema2.ejercicio3\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\di.tema2.ejercicio3\\di.tema2.ejercicio3\\MainWindow.xaml",
+              "RelativeToolTip": "di.tema2.ejercicio3\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-23T06:04:05.358Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
