@@ -1,0 +1,72 @@
+﻿<Window x:Class="di.tema2.ejercicio5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:di.tema2.ejercicio5"
+        mc:Ignorable="d"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
+        WindowStyle="None" AllowsTransparency="True"
+        Title="MainWindow" Height="450" Width="700">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+                <GradientStop Color="#b22d2f" Offset="0.0"/>
+                <GradientStop Color="#1b63b8" Offset="1.0"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <!-- Login Area -->
+        <Grid Margin="150,50,150,0" Background="Black" >
+            <StackPanel Orientation="Vertical" Margin="0,25,0,0">
+                <TextBlock Text="L O G I N" Foreground="White" FontWeight="DemiBold"
+                           HorizontalAlignment="Center" FontSize="30"/>
+                <TextBlock Text="Por favor introduce tu usuario y clave" Foreground="WhiteSmoke"
+                           HorizontalAlignment="Center" Margin="0,10,0,0"/>
+                <!-- Username | Contraseña -->
+                <TextBox Grid.Row="3" HorizontalAlignment="Center" Width="300" 
+                         Margin="0,30,0,0"   Style="{StaticResource MaterialDesignOutlinedTextBox}"
+                         materialDesign:TextFieldAssist.HasClearButton="True"
+                         materialDesign:TextFieldAssist.TextFieldCornerRadius="25"
+                         materialDesign:HintAssist.HintHorizontalAlignment="Center"
+                         Foreground="White">
+                    <materialDesign:HintAssist.Hint>
+                        <StackPanel Orientation="Horizontal" Margin="-2,0,0,0" HorizontalAlignment="Center">
+                            <TextBlock Text="Username" Foreground="White"/>
+                        </StackPanel>
+                    </materialDesign:HintAssist.Hint>
+                </TextBox>
+                <PasswordBox Grid.Row="3" HorizontalAlignment="Center" Width="300" 
+                         Margin="0,30,0,15"  
+                         Style="{StaticResource MaterialDesignOutlinedPasswordBox}"   
+                         materialDesign:TextFieldAssist.HasClearButton="True"
+                         materialDesign:TextFieldAssist.TextFieldCornerRadius="25"
+                         materialDesign:HintAssist.HintHorizontalAlignment="Center"
+                         Foreground="White">
+                    <materialDesign:HintAssist.Hint>
+                        <TextBlock Text="Password" Foreground="White" />
+                    </materialDesign:HintAssist.Hint>
+                </PasswordBox>
+                <TextBlock Text="¿Has olvidado la contraseña?"
+                           Foreground="White" HorizontalAlignment="Center"/>
+                <TextBox Grid.Row="3" HorizontalAlignment="Center" Width="150" 
+                         Margin="0,20,0,10"   Style="{StaticResource MaterialDesignOutlinedTextBox}"
+                         materialDesign:TextFieldAssist.HasClearButton="True"
+                         materialDesign:TextFieldAssist.TextFieldCornerRadius="25"
+                         materialDesign:HintAssist.HintHorizontalAlignment="Center"
+                         BorderBrush="GreenYellow">        
+                    <materialDesign:HintAssist.Hint>
+                        <StackPanel Orientation="Horizontal" Margin="-2,0,0,0" HorizontalAlignment="Center">
+                            <TextBlock Text="Login" Foreground="White"/>
+                        </StackPanel>
+                    </materialDesign:HintAssist.Hint>
+                </TextBox>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,5,0,0">
+                    <Image Source="/facebookblanco.png" Width="20"/>
+                    <Image Source="/twitter.png" Width="20" Margin="20,0,20,0"/>
+                    <Image Source="/googleplus.png" Width="20"/>
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>

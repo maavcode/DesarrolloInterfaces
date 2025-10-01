@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="facebook.png" />
+    <None Remove="googleplus2.png" />
+    <None Remove="icons8-password-24.png" />
+    <None Remove="icons8-username-30.png" />
+    <None Remove="instagram.png" />
+    <None Remove="logoIESblanco.png" />
+    <None Remove="logoIESnegro.png" />
+    <None Remove="Pasillo-exterior.jpg" />
+    <None Remove="twitter2.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MaterialDesignThemes.MahApps" Version="5.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="facebook.png" />
+    <Resource Include="googleplus2.png" />
+    <Resource Include="icons8-password-24.png" />
+    <Resource Include="icons8-username-30.png" />
+    <Resource Include="instagram.png" />
+    <Resource Include="logoIESblanco.png" />
+    <Resource Include="logoIESnegro.png" />
+    <Resource Include="Pasillo-exterior.jpg" />
+    <Resource Include="twitter2.png" />
+  </ItemGroup>
+
+</Project>

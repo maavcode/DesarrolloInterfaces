@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="cropped-imagen-nombre-ies-matisse-web-v2.jpg" />
+    <None Remove="icons8-contact-48.png" />
+    <None Remove="logoIES.png" />
+    <None Remove="portatil.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MaterialDesignThemes.MahApps" Version="5.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="cropped-imagen-nombre-ies-matisse-web-v2.jpg" />
+    <Resource Include="icons8-contact-48.png" />
+    <Resource Include="logoIES.png" />
+    <Resource Include="portatil.jpg" />
+  </ItemGroup>
+
+</Project>
