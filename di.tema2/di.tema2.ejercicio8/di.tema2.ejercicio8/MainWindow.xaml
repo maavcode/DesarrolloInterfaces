@@ -1,0 +1,95 @@
+﻿<Window x:Class="di.tema2.ejercicio8.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:di.tema2.ejercicio8"
+        mc:Ignorable="d"
+        WindowStyle="None" AllowsTransparency="True" Background="Transparent"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="5*" />
+            <ColumnDefinition Width="5*" />
+        </Grid.ColumnDefinitions>
+        <Border BorderThickness="1" CornerRadius="50,50,50,50" BorderBrush="White" Background="White" Grid.ColumnSpan="2"/>
+        <Grid>
+            <Grid.OpacityMask>
+                <VisualBrush Visual="{Binding ElementName=Mask}" />
+            </Grid.OpacityMask>
+            <Border Name="Mask" BorderBrush="White" Background="White" CornerRadius="50 0 0 50" />
+            <!--  Parte izquierda de la pantalla  -->
+            <Image Source="office.jpg" Stretch="UniformToFill" />
+            <TextBlock VerticalAlignment="Center" Text="Inventario Matisse" 
+                       TextWrapping="WrapWithOverflow" Width="300" Foreground="White" 
+                       FontSize="50" HorizontalAlignment="Left"  Margin="30,0,0,0" FontWeight="Bold"/>
+        </Grid>
+        <Grid Grid.Column="1" Margin="45">
+            <!--  Parte derecha de la pantalla  -->
+            <StackPanel Orientation="Vertical">
+                
+                <TextBlock Text="LOGIN" FontSize="20" FontWeight="Bold"
+                           Margin="0,0,0,15"/>
+                <TextBlock Text="Inicia sesión en la aplicación" 
+                           FontSize="10" Foreground="Gray" FontWeight="ExtraLight"
+                           Margin="0,0,0,15"/>
+                
+                <TextBox Style="{StaticResource MaterialDesignFloatingHintTextBox}" 
+                         materialDesign:HintAssist.Hint="Email" FontWeight="Black"
+                         Margin="0,0,0,10"/>
+                <PasswordBox Style="{StaticResource MaterialDesignFloatingHintPasswordBox}"
+                             materialDesign:HintAssist.Hint="Password" FontWeight="Black"
+                             Margin="0,0,0,10"/>
+
+                <CheckBox Content="Acepto los términos de la Política de Privacidad" IsChecked="True" 
+                          HorizontalAlignment="Left" FontSize="10" Foreground="Gray"
+                          Margin="-8,0,0,15" VerticalAlignment="Center" Background="Red"/>
+
+                <Button Content="Login" Width="100" Height="25"
+                        Foreground="White" HorizontalAlignment="Right" Background="red"
+                        Style="{StaticResource MaterialDesignRaisedButton}"
+                        materialDesign:ButtonAssist.CornerRadius="20"
+                        Margin="0,0,0,15"/>
+
+                <TextBlock Text="Login con redes sociales"
+                           FontSize="10" Foreground="Gray" FontWeight="ExtraLight"
+                           HorizontalAlignment="Left" Margin="0,0,0,25"/>
+
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <Button Width="87" Height="25" Foreground="White"
+                            Style="{StaticResource MaterialDesignRaisedButton}"
+                            materialDesign:ButtonAssist.CornerRadius="20"
+                            Margin="0,0,25,0" Background="#255594">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="/facebookblanco.png" Width="20"/>
+                            <TextBlock Text="Facebook"
+                                       FontSize="8" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </StackPanel>
+                    </Button>
+                    <Button Width="87" Height="25" Foreground="White"
+                            Style="{StaticResource MaterialDesignRaisedButton}"
+                            materialDesign:ButtonAssist.CornerRadius="20"
+                            Background="#1a9bf2">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="/twitter.png" Width="20"/>
+                            <TextBlock Text="Twitter"
+                                       FontSize="8" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </StackPanel>
+                    </Button>
+                    <Button Width="87" Height="25" Foreground="White"
+                            Style="{StaticResource MaterialDesignRaisedButton}"
+                            materialDesign:ButtonAssist.CornerRadius="20"
+                            Margin="25,0,0,0" Background="#e54342">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="/googleplus.png" Width="20"/>
+                            <TextBlock Text="Google +"
+                                       FontSize="8" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>

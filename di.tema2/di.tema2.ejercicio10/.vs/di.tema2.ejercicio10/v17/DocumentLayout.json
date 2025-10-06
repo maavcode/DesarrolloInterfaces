@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\di.tema2.ejercicio10\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C22DECBF-18B8-44F6-B094-F9B9578EEB6D}|di.tema2.ejercicio10\\di.tema2.ejercicio10.csproj|c:\\users\\windows10\\documents\\clase\\desarrollointerfaces\\di.tema2.ejercicio10\\di.tema2.ejercicio10\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C22DECBF-18B8-44F6-B094-F9B9578EEB6D}|di.tema2.ejercicio10\\di.tema2.ejercicio10.csproj|solutionrelative:di.tema2.ejercicio10\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C22DECBF-18B8-44F6-B094-F9B9578EEB6D}|di.tema2.ejercicio10\\di.tema2.ejercicio10.csproj|c:\\users\\windows10\\documents\\clase\\desarrollointerfaces\\di.tema2.ejercicio10\\di.tema2.ejercicio10\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C22DECBF-18B8-44F6-B094-F9B9578EEB6D}|di.tema2.ejercicio10\\di.tema2.ejercicio10.csproj|solutionrelative:di.tema2.ejercicio10\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C22DECBF-18B8-44F6-B094-F9B9578EEB6D}|di.tema2.ejercicio10\\di.tema2.ejercicio10.csproj|c:\\users\\windows10\\documents\\clase\\desarrollointerfaces\\di.tema2.ejercicio10\\di.tema2.ejercicio10\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C22DECBF-18B8-44F6-B094-F9B9578EEB6D}|di.tema2.ejercicio10\\di.tema2.ejercicio10.csproj|solutionrelative:di.tema2.ejercicio10\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\di.tema2.ejercicio10\\di.tema2.ejercicio10\\App.xaml",
+              "RelativeDocumentMoniker": "di.tema2.ejercicio10\\App.xaml",
+              "ToolTip": "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\di.tema2.ejercicio10\\di.tema2.ejercicio10\\App.xaml",
+              "RelativeToolTip": "di.tema2.ejercicio10\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-06T07:08:23.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\di.tema2.ejercicio10\\di.tema2.ejercicio10\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "di.tema2.ejercicio10\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\di.tema2.ejercicio10\\di.tema2.ejercicio10\\MainWindow.xaml",
+              "RelativeToolTip": "di.tema2.ejercicio10\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-06T07:06:14.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\di.tema2.ejercicio10\\di.tema2.ejercicio10\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "di.tema2.ejercicio10\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\di.tema2.ejercicio10\\di.tema2.ejercicio10\\MainWindow.xaml.cs",
+              "RelativeToolTip": "di.tema2.ejercicio10\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T07:06:12.855Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
