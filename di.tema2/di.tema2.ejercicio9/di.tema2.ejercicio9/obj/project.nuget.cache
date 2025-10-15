@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wv5Tv4eUcM8=",
+  "dgSpecHash": "SjrK9egiMII=",
   "success": true,
-  "projectFilePath": "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\di.tema2.ejercicio9\\di.tema2.ejercicio9\\di.tema2.ejercicio9.csproj",
+  "projectFilePath": "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\di.tema2\\di.tema2.ejercicio9\\di.tema2.ejercicio9\\di.tema2.ejercicio9.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\windows10\\.nuget\\packages\\controlzex\\4.4.0\\controlzex.4.4.0.nupkg.sha512",
     "C:\\Users\\windows10\\.nuget\\packages\\mahapps.metro\\2.4.10\\mahapps.metro.2.4.10.nupkg.sha512",

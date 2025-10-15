@@ -1,0 +1,177 @@
+﻿<mah:MetroWindow x:Class="di.tema3.ejercicio1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:di.tema3.ejercicio1"
+        mc:Ignorable="d"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
+        Title="INVENTARIO MATISSE" Height="450" Width="800"
+        Icon="/logoIESblanco.png">
+    
+    <mah:MetroWindow.RightWindowCommands>
+        <mah:WindowCommands>
+            <Button ToolTip="Añadir Usuario">
+                <materialDesign:PackIcon Kind="AccountPlus"/>
+            </Button>
+            <Button ToolTip="Cerrar Aplicación" x:Name="btnSalir" Click="btnSalir_Click">
+                <materialDesign:PackIcon Kind="Login"/>
+            </Button>
+        </mah:WindowCommands>
+    </mah:MetroWindow.RightWindowCommands>
+    <Grid>
+        <Menu x:Name="menuEjercicio1" HorizontalAlignment="Left" Height="auto"
+              VerticalAlignment="Top" Width="auto" IsMainMenu="True"
+              FontSize="12">
+            <!-- Prestamos -->
+            <MenuItem Header="Prestamos">
+                <MenuItem Header="Salidas">
+                    <MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="Logout" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="Entradas">
+                    <MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="Login" />
+                    </MenuItem.Icon>
+                </MenuItem>
+
+                <Separator />
+
+                <MenuItem Header="Listado Pendientes">
+                    <MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="ListBox" />
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+            <!-- Articulos -->
+            <MenuItem Header="Articulos">
+                <MenuItem Header="Articulo Nuevo">
+                    <MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="ListBox" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="Editar">
+                    <MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="Box" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="Lista">
+                    <MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="ListBox" />
+                    </MenuItem.Icon>
+                </MenuItem>
+
+                <Separator />
+
+                <MenuItem Header="Modelo Articulo Nuevo">
+                    <MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="Folder" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="Modelo Articulo Editar">
+                    <MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="Folder" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="Lista Modelo Articulo">
+                    <MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="ListStatus" />
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+            <!-- Administracion -->
+            <MenuItem Header="Administracion">
+                <MenuItem Header="Gestion Usuarios">
+                    <MenuItem Header="Nuevo">
+                        <MenuItem.Icon>
+                            <materialDesign:PackIcon Kind="UserAdd" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="Editar">
+                        <MenuItem.Icon>
+                            <materialDesign:PackIcon Kind="UserEdit" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="Lista">
+                        <MenuItem.Icon>
+                            <materialDesign:PackIcon Kind="ListBox" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                </MenuItem>
+                <MenuItem Header="Contraseñas">
+                    <MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="PasswordReset" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="Mantenimiento">
+                    <MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="Tools" />
+                    </MenuItem.Icon>
+                    <MenuItem Header="Eliminar Articulo">
+                        <MenuItem.Icon>
+                            <materialDesign:PackIcon Kind="DeleteCircle" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="Eliminar Modelo Articulo">
+                        <MenuItem.Icon>
+                            <materialDesign:PackIcon Kind="DeleteEmpty" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="Eliminar Usuario">
+                        <MenuItem.Icon>
+                            <materialDesign:PackIcon Kind="AccountMinus" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                </MenuItem>
+
+                <Separator />
+
+                <MenuItem Header="Stock">
+                    <MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="Archive" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="Listado Usuarios">
+                    <MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="AccountMultiple" />
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+            <!-- Inventario -->
+            <MenuItem Header="Inventario">
+                <MenuItem Header="Listado de espacios">
+                    <MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="Greenhouse" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="Chequear Inventario">
+                    <MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="ClipboardListOutline" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="Inventario Nuevo">
+                    <MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="PlaylistStar" />
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+            <!-- Informacion -->
+            <MenuItem Header="Informacion">
+                <MenuItem Header="Informes">
+                    <MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="ListBox" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="Graficos">
+                    <MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="ChartAreaspline" />
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+        </Menu>
+
+        
+    </Grid>
+</mah:MetroWindow>
