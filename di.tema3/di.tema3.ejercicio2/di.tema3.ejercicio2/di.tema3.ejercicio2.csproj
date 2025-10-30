@@ -9,8 +9,57 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="icons8-add-24.png" />
+    <None Remove="icons8-add-50.png" />
+    <None Remove="icons8-box.gif" />
+    <None Remove="icons8-charts-32.png" />
+    <None Remove="icons8-city-buildings-50.png" />
+    <None Remove="icons8-delete-user-24.png" />
+    <None Remove="icons8-edit-50.png" />
+    <None Remove="icons8-edit-user-32.png" />
+    <None Remove="icons8-list-50.png" />
+    <None Remove="icons8-list-60.png" />
+    <None Remove="icons8-listing-67.png" />
+    <None Remove="icons8-master-50.png" />
+    <None Remove="icons8-password-50.png" />
+    <None Remove="icons8-return-purchase-50.png" />
+    <None Remove="icons8-stock-50.png" />
+    <None Remove="icons8-to-do-50.png" />
+    <None Remove="icons8-trash-48.png" />
+    <None Remove="icons8-trolley-50.png" />
+    <None Remove="icons8-users-30.png" />
+    <None Remove="icons8-verified-account-50.png" />
+    <None Remove="icons8-web-30.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Fluent.Ribbon" Version="9.0.4" />
     <PackageReference Include="MaterialDesignThemes.MahApps" Version="5.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="icons8-add-24.png" />
+    <Resource Include="icons8-add-50.png" />
+    <Resource Include="icons8-box.gif" />
+    <Resource Include="icons8-charts-32.png" />
+    <Resource Include="icons8-city-buildings-50.png" />
+    <Resource Include="icons8-delete-user-24.png" />
+    <Resource Include="icons8-edit-50.png" />
+    <Resource Include="icons8-edit-user-32.png" />
+    <Resource Include="icons8-list-50.png" />
+    <Resource Include="icons8-list-60.png" />
+    <Resource Include="icons8-listing-67.png" />
+    <Resource Include="salida.png" />
+    <Resource Include="icons8-master-50.png" />
+    <Resource Include="icons8-password-50.png" />
+    <Resource Include="icons8-return-purchase-50.png" />
+    <Resource Include="icons8-stock-50.png" />
+    <Resource Include="icons8-to-do-50.png" />
+    <Resource Include="icons8-trash-48.png" />
+    <Resource Include="icons8-trolley-50.png" />
+    <Resource Include="icons8-users-30.png" />
+    <Resource Include="icons8-verified-account-50.png" />
+    <Resource Include="icons8-web-30.png" />
   </ItemGroup>
 
 </Project>

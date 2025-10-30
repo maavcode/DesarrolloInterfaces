@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Backend\Models\" />
+    <Folder Include="Backend\Services\" />
+    <Folder Include="Frontend\Dialogs\" />
+    <Folder Include="Frontend\UserControl\" />
+    <Folder Include="MVC\" />
+    <Folder Include="Resources\Icons\" />
+    <Folder Include="Resources\Images\" />
+    <Folder Include="Resources\Styles\" />
+  </ItemGroup>
+
+</Project>

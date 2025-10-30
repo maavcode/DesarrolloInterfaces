@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\di.project.tema3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{52AC1C83-3815-4117-9FFB-E5F8742BA3D6}|di.project.tema3\\di.project.tema3.csproj|c:\\users\\windows10\\documents\\clase\\desarrollointerfaces\\di.project.tema3\\di.project.tema3\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52AC1C83-3815-4117-9FFB-E5F8742BA3D6}|di.project.tema3\\di.project.tema3.csproj|solutionrelative:di.project.tema3\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\di.project.tema3\\di.project.tema3\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "di.project.tema3\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\di.project.tema3\\di.project.tema3\\MainWindow.xaml.cs",
+              "RelativeToolTip": "di.project.tema3\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T08:15:57.086Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

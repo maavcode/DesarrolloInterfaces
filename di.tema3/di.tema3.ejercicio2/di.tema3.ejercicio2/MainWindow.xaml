@@ -1,4 +1,4 @@
-﻿<Window x:Class="di.tema3.ejercicio2.MainWindow"
+﻿<mah:MetroWindow x:Class="di.tema3.ejercicio2.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -12,32 +12,183 @@
         xmlns:Fluent="urn:fluent-ribbon" 
         
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <Menu>
-            <MenuItem Header="ARCHIVO">
-                
-            </MenuItem>
-            
-            <MenuItem Header="PRESTAMOS">
-                
-            </MenuItem>
-            
-            <MenuItem Header="ARTÍCULOS">
-                
-            </MenuItem>
-            
-            <MenuItem Header="ADMINISTRACIÓN">
-                
-            </MenuItem>
-            
-            <MenuItem Header="INVENTARIO">
-                
-            </MenuItem>
-            
-            <MenuItem Header="INFORMACIÓN">
-                
-            </MenuItem>
-            
-        </Menu>
-    </Grid>
-</Window>
+    <mah:MetroWindow.RightWindowCommands>
+        <mah:WindowCommands>
+            <Button ToolTip="Añadir Usuario">
+                <materialDesign:PackIcon Kind="AccountPlus"/>
+            </Button>
+            <Button ToolTip="Cerrar Aplicación" x:Name="btnSalir" Click="btnSalir_Click">
+                <materialDesign:PackIcon Kind="Login"/>
+            </Button>
+        </mah:WindowCommands>
+    </mah:MetroWindow.RightWindowCommands>
+
+    <DockPanel>
+        <Grid DockPanel.Dock="Top">
+            <Fluent:Ribbon>
+                <Fluent:Ribbon.QuickAccessItems>
+                    <!--Use Content or Target Property to set QAT item-->
+                    <Fluent:QuickAccessMenuItem IsChecked="true">
+                        <Fluent:Button Header="Pink" Icon="/salida.png" />
+                    </Fluent:QuickAccessMenuItem>
+                </Fluent:Ribbon.QuickAccessItems>
+                <Fluent:Ribbon.Menu>
+                    <Fluent:Backstage>
+                        <Fluent:BackstageTabControl>
+                            <Fluent:BackstageTabItem Header="Opciones" />
+                            <Fluent:Button Header="Cerrar" LargeIcon="/salida.png" />
+                        </Fluent:BackstageTabControl>
+                    </Fluent:Backstage>
+                </Fluent:Ribbon.Menu>
+
+                <Fluent:RibbonTabItem Header="PRESTAMOS">
+                    <!-- Home group-->
+                    <Fluent:RibbonGroupBox x:Name="ClipboardGroup" Header="Operaciones"
+                                           Margin="0,10,0,0">
+                        <Fluent:Button LargeIcon="salida.png" Header="Salida"/>
+                        <Fluent:Button LargeIcon="devolucion.png" Header="Devolución"/>
+
+                    </Fluent:RibbonGroupBox>
+                    <!-- Employee And Payroll group-->
+                    <Fluent:RibbonGroupBox x:Name="Employee" 
+                                           Header="Búsqueda">
+                        <StackPanel>
+                            <TextBlock Text="Por número de serie"
+                                       Margin="30,15,40,0"
+                                       FontWeight="ExtraBold"
+                                       />
+                            <TextBox Width="130"                                     
+                                     Style="{StaticResource MahApps.Styles.TextBox}"
+                                     Margin="0,10,0,0"
+                                     BorderBrush="#e4e4e4"/>
+                        </StackPanel>
+                    </Fluent:RibbonGroupBox>
+                    <Fluent:RibbonGroupBox x:Name="Lists" Header="Listados"
+                       Margin="0,10,0,0">
+                        <Fluent:Button LargeIcon="pendientes.png" 
+                                       Header="Pendientes"
+                                       Foreground="#FF5212"/>
+                    </Fluent:RibbonGroupBox>
+                </Fluent:RibbonTabItem>
+
+                <Fluent:RibbonTabItem Header="ARTÍCULOS">
+
+                    <Fluent:RibbonGroupBox x:Name="Articulos" 
+                                           Header="Artículos"
+                                           Margin="0,10,0,0">
+                        <Fluent:Button LargeIcon="addarticulomvvm.png" 
+                                       Header="Nuevo"
+                                       Margin="10,5,15,10"/>
+                        <Fluent:Button LargeIcon="gesarticulo.png" 
+                                       Header="Editar"
+                                       Margin="10,5,10,10"/>
+                        <Fluent:Button LargeIcon="listado.png" 
+                                       Header="Listado"
+                                       Foreground="#00008B"
+                                       Margin="15,5,10,10"/>
+                    </Fluent:RibbonGroupBox>
+
+                    <Fluent:RibbonGroupBox x:Name="Model" 
+                               Header="Modelo artículo"
+                               Margin="0,10,0,0">
+                        <Fluent:Button LargeIcon="iconmodelo.png" 
+                           Header="Nuevo"
+                           Margin="10,5,15,10"/>
+                        <Fluent:Button LargeIcon="caja.png" 
+                           Header="Editar"
+                           Margin="10,5,10,10"/>
+                        <Fluent:Button LargeIcon="listamodelos.png" 
+                           Header="Listado"
+                           Margin="15,5,10,10"/>
+                    </Fluent:RibbonGroupBox>
+                </Fluent:RibbonTabItem>
+
+                <Fluent:RibbonTabItem Header="ADMINISTRACIÓN">
+
+                    <Fluent:RibbonGroupBox x:Name="Adminis" 
+                            Header="Gestión Usuarios"
+                            Margin="0,10,0,0">
+                        <Fluent:Button LargeIcon="adduser.png" 
+                                       Header="Nuevo"
+                                       Margin="10,5,15,10"/>
+                        <Fluent:Button LargeIcon="edituser.png" 
+                                       Header="Editar"
+                                       Margin="10,5,10,10"/>
+                        <Fluent:Button LargeIcon="resetclave.png" 
+                                       Header="Contraseña"
+                                       Margin="15,5,10,10"/>
+                        <Fluent:Button LargeIcon="listausuarios.png" 
+                                       Header="Listado"
+                                       Margin="15,5,10,10"/>
+                    </Fluent:RibbonGroupBox>
+
+                    <Fluent:RibbonGroupBox x:Name="Mant" 
+                                           Header="Mantenimiento"
+                                           Margin="0,10,0,0">
+                        <Fluent:Button LargeIcon="basura.png" 
+                                    Header="Artículo"
+                                    Foreground="#8b0000"
+                                    Margin="10,5,15,10"/>
+                        <Fluent:Button LargeIcon="master.png" 
+                                    Header="Modelo"
+                                    Foreground="#ff0000"
+                                    Margin="10,5,10,10"/>
+                        <Fluent:Button LargeIcon="eliminar-user.png" 
+                                    Header="Usuario"
+                                    Foreground="#FF4500"
+                                    Margin="15,5,10,10"/>
+                    </Fluent:RibbonGroupBox>
+                    <Fluent:RibbonGroupBox x:Name="Stock" 
+                        Header="STOCK"
+                        Margin="0,10,0,0">
+                        <Fluent:Button LargeIcon="stock.png" 
+                                       Margin="10,5,15,10"/>
+                    </Fluent:RibbonGroupBox>
+                </Fluent:RibbonTabItem>
+
+                <Fluent:RibbonTabItem Header="INVENTARIO">
+
+                    <Fluent:RibbonGroupBox x:Name="Inv" 
+                                           Header="Espacios"
+                                           Margin="0,10,0,0">
+                        <Fluent:Button LargeIcon="edificios.png" 
+                                       Header="Espacios"
+                                       Margin="10,5,15,10"/>
+                        <Fluent:Button LargeIcon="verificación.png" 
+                                       Header="Chequeo"
+                                       Margin="10,5,10,10"/>
+                        <Fluent:Button LargeIcon="espacios.png" 
+                                       Header="Inventario"
+                                       Margin="15,5,10,10"/>
+
+                    </Fluent:RibbonGroupBox>
+                </Fluent:RibbonTabItem>
+
+                <Fluent:RibbonTabItem Header="INFORMACIÓN">
+
+                    <Fluent:RibbonGroupBox x:Name="Inf" 
+                                           Header="Informes"
+                                           Margin="0,10,0,0">
+                        <Fluent:Button LargeIcon="informe.png" 
+                                       Header="Informe"
+                                       Margin="10,5,15,10"/>
+                    </Fluent:RibbonGroupBox>
+
+                    <Fluent:RibbonGroupBox x:Name="Char" 
+                                           Header="Gráficos"
+                                           Margin="0,10,0,0">
+                        <Fluent:Button LargeIcon="charts.png" 
+                                       Header="Charts"
+                                       Margin="10,5,15,10"/>
+                    </Fluent:RibbonGroupBox>
+
+                </Fluent:RibbonTabItem>
+
+
+            </Fluent:Ribbon>
+        </Grid>
+        <Grid>
+        </Grid>
+    </DockPanel>
+
+</mah:MetroWindow>
