@@ -1,0 +1,90 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\di.tema3.proyecto\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F5DCADBB-1A85-44EC-8097-F15038B64BEB}|di.tema3.proyecto\\di.tema3.proyecto.csproj|c:\\users\\windows10\\documents\\clase\\desarrollointerfaces\\di.tema3.proyecto\\di.tema3.proyecto\\backend\\modelo\\diinventarioexamencontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5DCADBB-1A85-44EC-8097-F15038B64BEB}|di.tema3.proyecto\\di.tema3.proyecto.csproj|solutionrelative:di.tema3.proyecto\\backend\\modelo\\diinventarioexamencontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5DCADBB-1A85-44EC-8097-F15038B64BEB}|di.tema3.proyecto\\di.tema3.proyecto.csproj|c:\\users\\windows10\\documents\\clase\\desarrollointerfaces\\di.tema3.proyecto\\di.tema3.proyecto\\frontend\\dialogos\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F5DCADBB-1A85-44EC-8097-F15038B64BEB}|di.tema3.proyecto\\di.tema3.proyecto.csproj|solutionrelative:di.tema3.proyecto\\frontend\\dialogos\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5DCADBB-1A85-44EC-8097-F15038B64BEB}|di.tema3.proyecto\\di.tema3.proyecto.csproj|c:\\users\\windows10\\documents\\clase\\desarrollointerfaces\\di.tema3.proyecto\\di.tema3.proyecto\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F5DCADBB-1A85-44EC-8097-F15038B64BEB}|di.tema3.proyecto\\di.tema3.proyecto.csproj|solutionrelative:di.tema3.proyecto\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5DCADBB-1A85-44EC-8097-F15038B64BEB}|di.tema3.proyecto\\di.tema3.proyecto.csproj|c:\\users\\windows10\\documents\\clase\\desarrollointerfaces\\di.tema3.proyecto\\di.tema3.proyecto\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5DCADBB-1A85-44EC-8097-F15038B64BEB}|di.tema3.proyecto\\di.tema3.proyecto.csproj|solutionrelative:di.tema3.proyecto\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DiinventarioexamenContext.cs",
+              "DocumentMoniker": "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\di.tema3.proyecto\\di.tema3.proyecto\\Backend\\Modelo\\DiinventarioexamenContext.cs",
+              "RelativeDocumentMoniker": "di.tema3.proyecto\\Backend\\Modelo\\DiinventarioexamenContext.cs",
+              "ToolTip": "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\di.tema3.proyecto\\di.tema3.proyecto\\Backend\\Modelo\\DiinventarioexamenContext.cs",
+              "RelativeToolTip": "di.tema3.proyecto\\Backend\\Modelo\\DiinventarioexamenContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T07:58:40.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.xaml",
+              "DocumentMoniker": "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\di.tema3.proyecto\\di.tema3.proyecto\\Frontend\\Dialogos\\Login.xaml",
+              "RelativeDocumentMoniker": "di.tema3.proyecto\\Frontend\\Dialogos\\Login.xaml",
+              "ToolTip": "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\di.tema3.proyecto\\di.tema3.proyecto\\Frontend\\Dialogos\\Login.xaml",
+              "RelativeToolTip": "di.tema3.proyecto\\Frontend\\Dialogos\\Login.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-03T07:55:26.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\di.tema3.proyecto\\di.tema3.proyecto\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "di.tema3.proyecto\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\di.tema3.proyecto\\di.tema3.proyecto\\MainWindow.xaml",
+              "RelativeToolTip": "di.tema3.proyecto\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-03T07:11:11.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\di.tema3.proyecto\\di.tema3.proyecto\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "di.tema3.proyecto\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\di.tema3.proyecto\\di.tema3.proyecto\\MainWindow.xaml.cs",
+              "RelativeToolTip": "di.tema3.proyecto\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T07:11:09.191Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
