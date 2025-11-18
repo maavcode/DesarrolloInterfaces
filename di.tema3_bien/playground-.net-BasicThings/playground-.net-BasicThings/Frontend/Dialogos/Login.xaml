@@ -1,0 +1,59 @@
+﻿<Window x:Class="playground_.net_BasicThings.Frontend.Dialogos.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:playground_.net_BasicThings.Frontend.Dialogos"
+        mc:Ignorable="d"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
+        WindowStyle="None" Background="Transparent" AllowsTransparency="True"
+        Title="MainWindow" Height="450" Width="800"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize">
+    <Grid>
+        <Grid Background="#dd243c" Margin="20">
+            <!-- Parte izquierda -->
+            <StackPanel Orientation="Vertical">
+                <TextBlock Text="Bienvenidos !" FontSize="40" FontWeight="Bold"
+                       Foreground="White"  Margin="30,30,0,10"/>
+                <TextBlock Text="INVENTARIO MATISSE" FontSize="18" FontWeight="Normal"
+                       Foreground="White" Margin="30,0,0,0" />
+                <Image Source="/Estilos/logoIESblanco.png" Width="80" 
+                       HorizontalAlignment="Left" Margin="30,180,0,0"/>
+                <TextBlock Text="IES HENRI MATISSE" FontSize="12" FontWeight="Normal"
+                       Foreground="White" Margin="30,0,0,0" />
+            </StackPanel>
+        </Grid>
+
+        <!-- Parte derecha -->
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Right" 
+                    Width="300" Margin="0,0,80,0" Background="White" Cursor="">
+            <TextBlock Text="LOGIN" HorizontalAlignment="Center" Margin="0,30,0,30"
+                       FontSize="20" FontWeight="Normal" Foreground="#dd243c"/>
+
+            <TextBox Width="200" 
+                     Style="{StaticResource MaterialDesignFloatingHintTextBox}" 
+                     materialDesign:HintAssist.Hint="Nombre de Usuario" FontWeight="Black"
+                     Margin="0,0,0,30" x:Name="nombreUsuario"/>
+            
+            <PasswordBox Width="200" 
+                         Style="{StaticResource MaterialDesignFloatingHintPasswordBox}"
+                         materialDesign:HintAssist.Hint="Clave de Acceso" FontWeight="Black"
+                         Margin="0,0,0,55" x:Name="claveUsuario"/>
+
+            <Button Content="Login" Width="200" Background="#dd243c"
+                    Foreground="White" FontWeight="Bold"
+                    Margin="0,0,0,45" Click="onBotonLoginPulsado"
+                    IsDefault="True" />
+            
+            <Button Content="¿TIENES CUENTA?" Width="200" Background="White"
+                    Foreground="#dd243c"
+                    Margin="0,0,0,45"/>
+
+            <TextBlock Text="¿Olvidaste la Contraseña?" Foreground="#dd243c" 
+                       HorizontalAlignment="Center" FontSize="14"/>
+        </StackPanel>
+
+    </Grid>
+</Window>

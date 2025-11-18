@@ -25,9 +25,9 @@ namespace di.proyecto.clase._2025.Frontend_visual_.Dialogo
     /// </summary>
     public partial class DialogoModeloArticulo : MetroWindow
     {
-        private DiinventarioexamenContext _context;
-        private ModeloArticuloRepository _modeloArticuloRepository;
-        private TipoArticuloRepository _tipoArticuloRepository;
+        private DiinventarioexamenContext _context; // SIEMPRE NECESARIO, RECOGE TODAS LAS TABLAS
+        private ModeloArticuloRepository _modeloArticuloRepository; // NECESARIO YA QUE VAMOS A TOCAR EL MODELO DE ARTICULO
+        private TipoArticuloRepository _tipoArticuloRepository; // NECESARIO PORQUE VAMOS A USAR EL TIPO DE ARTICULO
 
         public DialogoModeloArticulo()
         {
@@ -36,28 +36,28 @@ namespace di.proyecto.clase._2025.Frontend_visual_.Dialogo
 
         }
 
-        private async void diagModeloArticulo_Loaded(object sender, RoutedEventArgs e)
+        private async void diagModeloArticulo_Loaded(object sender, RoutedEventArgs e) // CUANDO SE ABRE EL DIALOGO, HACE LO SIGUIENTE:
         {
-            _context = new DiinventarioexamenContext();//añadimos
-            _modeloArticuloRepository = new ModeloArticuloRepository(_context, null);
-            _tipoArticuloRepository = new TipoArticuloRepository(_context, null);
+            _context = new DiinventarioexamenContext();// INSTANCIA TODAS LAS TABLAS
+            _modeloArticuloRepository = new ModeloArticuloRepository(_context, null); // INSTANCIA EL MODELO, PIDE EL CONTEXTO (PARA VER LA TABLA) Y UN NULO
+            _tipoArticuloRepository = new TipoArticuloRepository(_context, null); // INSTANCIA EL TIPO ARTICULO, PIDE EL CONTEXTO (PARA VER LA TABLA) Y UN NULO
             //se modificará mas adelante
-            //Cargamos los tipos de articulo en el combo
-            List<Tipoarticulo> tipos = await _tipoArticuloRepository.GetAllAsync();
-            cmbTipoArticulo.ItemsSource = tipos;
+            
+            List<Tipoarticulo> tipos = await _tipoArticuloRepository.GetAllAsync(); // CARGAMOS LOS TIPOS DE ARTICULO EN UNA LISTA QUE ESTARA EN EL COMBOBOX
+            cmbTipoArticulo.ItemsSource = tipos; // CARGAMOS LA LISTA DE TIPOS EN EL COMBO BOX
         }
 
 
 
-        private void RecogeDatos(Modeloarticulo modeloarticulo)
+        private void RecogeDatos(Modeloarticulo modeloarticulo) // RECOGE LOS DATOS INSERTADOS EN EL DIALOGO
         {
-            modeloarticulo.Nombre = txtNombre.Text;
-            modeloarticulo.Descripcion = txtDescripcion.Text;
-            modeloarticulo.Marca = txtMarca.Text;
-            modeloarticulo.Modelo = txtModelo.Text;
+            modeloarticulo.Nombre = txtNombre.Text; // RECOGE EL DATO DE NOMBRE
+            modeloarticulo.Descripcion = txtDescripcion.Text; // RECOGE EL DATO DE DESCRIPCION
+            modeloarticulo.Marca = txtMarca.Text; // RECOGE EL DATO DE MARCA
+            modeloarticulo.Modelo = txtModelo.Text; // RECOGE EL DATO DE MODELO
             if (cmbTipoArticulo.SelectedItem != null)
             {
-                modeloarticulo.TipoNavigation = (Tipoarticulo)cmbTipoArticulo.SelectedItem;
+                modeloarticulo.TipoNavigation = (Tipoarticulo)cmbTipoArticulo.SelectedItem; // RECOGE EL DATO SELECCIONADO DEL COMBOBOX | EN  LOS CMB SIEMPRE SE USA LOS NAVIGATION (TABLAS RELACIONALES)
             }
 
         }
@@ -65,14 +65,14 @@ namespace di.proyecto.clase._2025.Frontend_visual_.Dialogo
 
 
         //Botones por activar
-        private async void btnAnyadirModeloArticulo_Click(object sender, RoutedEventArgs e)
+        private async void btnAnyadirModeloArticulo_Click(object sender, RoutedEventArgs e) // AÑADE UN MODELO DE ARTICULO
         {
-            Modeloarticulo modeloarticulo = new Modeloarticulo();
-            RecogeDatos(modeloarticulo);
+            Modeloarticulo modeloarticulo = new Modeloarticulo(); // CREA EL NUEVO MODELO
+            RecogeDatos(modeloarticulo); // RELLENA  EL  NUEVO MODELO CON LOS DATOS RECOGIDOS
             try
             {
-                await _modeloArticuloRepository.AddAsync(modeloarticulo);
-                _context.SaveChanges();
+                await _modeloArticuloRepository.AddAsync(modeloarticulo); // AÑADE EL MODELO DE  ARTICULO NUEVO
+                _context.SaveChanges(); // GUARDA LOS CAMBIOS
             }
             catch (Exception ex)
             {
@@ -84,7 +84,7 @@ namespace di.proyecto.clase._2025.Frontend_visual_.Dialogo
 
         private void btnCancelarModeloArticulo_Click(object sender, RoutedEventArgs e)
         {
-            DialogResult = false;
+            DialogResult = false; // CIERRA EL DIALOGO
         }
 
         

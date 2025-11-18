@@ -1,0 +1,250 @@
+﻿<mah:MetroWindow x:Class="playground_.net_BasicThings.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:playground_.net_BasicThings"
+       
+        xmlns:mat="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:material="clr-namespace:MaterialDesignThemes.Wpf;assembly=MaterialDesignThemes.Wpf"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
+
+        
+        mc:Ignorable="d"
+
+        Title="HenriMatise"
+        Height="450"
+        Width="800"
+        WindowState="Maximized">
+    <!-- Menú superior (derecha) -->
+    <mah:MetroWindow.RightWindowCommands>
+        <mah:WindowCommands>
+            <material:PopupBox>
+                <StackPanel MinWidth="160" Background="{DynamicResource MaterialDesignPaper}">
+
+                    <Button Style="{StaticResource MaterialDesignFlatButton}"
+                            HorizontalContentAlignment="Stretch"
+                            Foreground="White">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Ajustes" Width="100" VerticalAlignment="Center" />
+                            <materialDesign:PackIcon Kind="HammerScrewdriver" Width="20" Height="20" />
+                        </StackPanel>
+                    </Button>
+
+                    <Button Style="{StaticResource MaterialDesignFlatButton}"
+                            HorizontalContentAlignment="Stretch"
+                            Foreground="White">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Cuenta" Width="100" VerticalAlignment="Center" />
+                            <materialDesign:PackIcon Kind="Account" Width="20" Height="20" />
+                        </StackPanel>
+                    </Button>
+
+                    <Button Style="{StaticResource MaterialDesignFlatButton}"
+                            HorizontalContentAlignment="Stretch"
+                            Foreground="White">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Ayuda" Width="100" VerticalAlignment="Center" />
+                            <materialDesign:PackIcon Kind="HelpCircleOutline" Width="20" Height="20" />
+                        </StackPanel>
+                    </Button>
+
+                    <Separator Margin="4" />
+
+                    <Button Style="{StaticResource MaterialDesignFlatButton}"
+                            Foreground="White"
+                            HorizontalContentAlignment="Stretch">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Desconectar" Width="100" VerticalAlignment="Center" />
+                            <materialDesign:PackIcon Kind="Power" Width="20" Height="20" />
+                        </StackPanel>
+                    </Button>
+
+                </StackPanel>
+            </material:PopupBox>
+        </mah:WindowCommands>
+    </mah:MetroWindow.RightWindowCommands>
+
+    <!-- CUERPO PRINCIPAL -->
+    <DockPanel>
+
+        <!-- Menú lateral -->
+        <Grid DockPanel.Dock="Left" Background="#E5303030" Width="250">
+            <StackPanel x:Name="Menu" Margin="10">
+
+                <!-- Dashboard -->
+                <Grid>
+                    <materialDesign:PackIcon
+                        Kind="Menu"
+                        Width="20"
+                        Height="20"
+                        Margin="10,16"
+                        Foreground="White" />
+
+                    <ListBoxItem
+                        x:Name="ListViewItemMenu"
+                        Content="Dashboard"
+                        Padding="37 14"
+                        FontSize="15"
+                        Foreground="White"
+                        Style="{StaticResource MaterialDesignListBoxItem}" />
+                </Grid>
+
+                <!-- Sección Préstamos -->
+                <Grid>
+                    <materialDesign:PackIcon
+                        Kind="ViewDashboard"
+                        Width="15"
+                        Height="15"
+                        Margin="10,16"
+                        Foreground="White" />
+
+                    <Expander
+                        IsExpanded="False"
+                        Width="210"
+                        HorizontalAlignment="Right"
+                        Style="{StaticResource MaterialDesignExpander}"
+                        Header="Préstamos"
+                        Background="{x:Null}"
+                        Foreground="White">
+                        <ListView
+                            Foreground="White"
+                            Style="{StaticResource MaterialDesignListView}"
+                            ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+                            <ListViewItem Content="Salidas" Padding="20 5" />
+                            <ListViewItem Content="Entraas" Padding="20 5" />
+                            <ListViewItem Content="Busqueda" Padding="20 5" />
+                            <ListViewItem Content="Listado pendientes" Padding="20 5" />
+                        </ListView>
+                    </Expander>
+                </Grid>
+
+                <!-- Sección Artículos -->
+                <Grid>
+                    <materialDesign:PackIcon
+                        Kind="ViewDashboard"
+                        Width="15"
+                        Height="15"
+                        Margin="10,16"
+                        Foreground="White" />
+
+                    <Expander
+                        IsExpanded="False"
+                        Width="210"
+                        HorizontalAlignment="Right"
+                        Style="{StaticResource MaterialDesignExpander}"
+                        Header="Artículos"
+                        Background="{x:Null}"
+                        Foreground="White">
+                        <ListView
+                            x:Name="Articulos"
+                            SelectionChanged="RouteButton"
+                            Foreground="White"
+                            Style="{StaticResource MaterialDesignListView}"
+                            ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+                            <ListViewItem Content="Nuevo Articulo" Padding="20 5" />
+                            <ListViewItem Content="Nuevo Modelo Articulo" Padding="20 5" />
+                            <ListViewItem Content="Tipo de Articulos" Padding="20 5" />
+                        </ListView>
+                    </Expander>
+                </Grid>
+
+                <!-- Sección Administración -->
+                <Grid>
+                    <materialDesign:PackIcon
+                        Kind="ViewDashboard"
+                        Width="15"
+                        Height="15"
+                        Margin="10,16"
+                        Foreground="White" />
+
+                    <Expander
+                        IsExpanded="False"
+                        Width="210"
+                        HorizontalAlignment="Right"
+                        Style="{StaticResource MaterialDesignExpander}"
+                        Header="Administación"
+                        Background="{x:Null}"
+                        Foreground="White">
+                        <ListView
+                            Foreground="White"
+                            Style="{StaticResource MaterialDesignListView}"
+                            ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+                            <ListViewItem Content="Gestión de Usuarios" Padding="20 5" />
+                            <ListViewItem Content="Contraseñas" Padding="20 5" />
+                            <ListViewItem Content="Mantenimiento" Padding="20 5" />
+                            <ListViewItem Content="Stock" Padding="20 5" />
+                            <ListViewItem Content="Listados" Padding="20 5" />
+                        </ListView>
+                    </Expander>
+                </Grid>
+
+                <!-- Sección Inventario -->
+                <Grid>
+                    <materialDesign:PackIcon
+                        Kind="ViewDashboard"
+                        Width="15"
+                        Height="15"
+                        Margin="10,16"
+                        Foreground="White" />
+
+                    <Expander
+                        IsExpanded="False"
+                        Width="210"
+                        HorizontalAlignment="Right"
+                        Style="{StaticResource MaterialDesignExpander}"
+                        Header="Inventario"
+                        Background="{x:Null}"
+                        Foreground="White">
+                        <ListView
+                            Foreground="White"
+                            Style="{StaticResource MaterialDesignListView}"
+                            ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+                            <ListViewItem Content="Listado de Espacios" Padding="20 5" />
+                            <ListViewItem Content="Chequear Inventario" Padding="20 5" />
+                            <ListViewItem Content="Inventario Nuevo" Padding="20 5" />
+                        </ListView>
+                    </Expander>
+                </Grid>
+
+                <!-- Sección Información -->
+                <Grid>
+                    <materialDesign:PackIcon
+                        Kind="ViewDashboard"
+                        Width="15"
+                        Height="15"
+                        Margin="10,16"
+                        Foreground="White" />
+
+                    <Expander
+                        IsExpanded="False"
+                        Width="210"
+                        HorizontalAlignment="Right"
+                        Style="{StaticResource MaterialDesignExpander}"
+                        Header="Información"
+                        Background="{x:Null}"
+                        Foreground="White">
+                        <ListView
+                            Foreground="White"
+                            Style="{StaticResource MaterialDesignListView}"
+                            ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+                            <ListViewItem Content="Informes" Padding="20 5" />
+                            <ListViewItem Content="Gráficos" Padding="20 5" />
+                        </ListView>
+                    </Expander>
+                </Grid>
+
+            </StackPanel>
+        </Grid>
+
+        <!-- UserControl -->
+        <Grid Background="White" x:Name="MainContent">
+            <!-- Contenido UserControl -->
+        </Grid>
+
+    </DockPanel>
+
+</mah:MetroWindow>
+
+
