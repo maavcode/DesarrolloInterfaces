@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\Padre-NoHamburguer\\di.proyecto.clase.2025\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{53388B5D-5A47-41B1-833B-952242C924E1}|di.proyecto.clase.2025\\di.proyecto.clase.2025.csproj|c:\\users\\pcvip\\documents\\codigo\\myrepos\\classprojects\\desarrollointerfaces\\di.tema3_bien\\padre-nohamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\backend\\servicios(repositorio)\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53388B5D-5A47-41B1-833B-952242C924E1}|di.proyecto.clase.2025\\di.proyecto.clase.2025.csproj|solutionrelative:di.proyecto.clase.2025\\backend\\servicios(repositorio)\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53388B5D-5A47-41B1-833B-952242C924E1}|di.proyecto.clase.2025\\di.proyecto.clase.2025.csproj|c:\\users\\pcvip\\documents\\codigo\\myrepos\\classprojects\\desarrollointerfaces\\di.tema3_bien\\padre-nohamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\frontend(visual)\\dialogo\\dialogoarticulo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53388B5D-5A47-41B1-833B-952242C924E1}|di.proyecto.clase.2025\\di.proyecto.clase.2025.csproj|solutionrelative:di.proyecto.clase.2025\\frontend(visual)\\dialogo\\dialogoarticulo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53388B5D-5A47-41B1-833B-952242C924E1}|di.proyecto.clase.2025\\di.proyecto.clase.2025.csproj|c:\\users\\pcvip\\documents\\codigo\\myrepos\\classprojects\\desarrollointerfaces\\di.tema3_bien\\padre-nohamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\backend\\servicios(repositorio)\\articulorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53388B5D-5A47-41B1-833B-952242C924E1}|di.proyecto.clase.2025\\di.proyecto.clase.2025.csproj|solutionrelative:di.proyecto.clase.2025\\backend\\servicios(repositorio)\\articulorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{53388B5D-5A47-41B1-833B-952242C924E1}|di.proyecto.clase.2025\\di.proyecto.clase.2025.csproj|c:\\users\\pcvip\\documents\\codigo\\myrepos\\classprojects\\desarrollointerfaces\\di.tema3_bien\\padre-nohamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\backend\\servicios(repositorio)\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{53388B5D-5A47-41B1-833B-952242C924E1}|di.proyecto.clase.2025\\di.proyecto.clase.2025.csproj|solutionrelative:di.proyecto.clase.2025\\backend\\servicios(repositorio)\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -39,10 +51,6 @@
       "RelativeMoniker": "D:0:0:{53388B5D-5A47-41B1-833B-952242C924E1}|di.proyecto.clase.2025\\di.proyecto.clase.2025.csproj|solutionrelative:di.proyecto.clase.2025\\backend\\servicios(repositorio)\\iarticulorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{53388B5D-5A47-41B1-833B-952242C924E1}|di.proyecto.clase.2025\\di.proyecto.clase.2025.csproj|c:\\users\\pcvip\\documents\\codigo\\myrepos\\classprojects\\desarrollointerfaces\\di.tema3_bien\\padre-nohamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\backend\\servicios(repositorio)\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53388B5D-5A47-41B1-833B-952242C924E1}|di.proyecto.clase.2025\\di.proyecto.clase.2025.csproj|solutionrelative:di.proyecto.clase.2025\\backend\\servicios(repositorio)\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{53388B5D-5A47-41B1-833B-952242C924E1}|di.proyecto.clase.2025\\di.proyecto.clase.2025.csproj|c:\\users\\pcvip\\documents\\codigo\\myrepos\\classprojects\\desarrollointerfaces\\di.tema3_bien\\padre-nohamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\backend\\servicios(repositorio)\\espaciorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{53388B5D-5A47-41B1-833B-952242C924E1}|di.proyecto.clase.2025\\di.proyecto.clase.2025.csproj|solutionrelative:di.proyecto.clase.2025\\backend\\servicios(repositorio)\\espaciorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -51,20 +59,12 @@
       "RelativeMoniker": "D:0:0:{53388B5D-5A47-41B1-833B-952242C924E1}|di.proyecto.clase.2025\\di.proyecto.clase.2025.csproj|solutionrelative:di.proyecto.clase.2025\\backend\\servicios(repositorio)\\departamentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{53388B5D-5A47-41B1-833B-952242C924E1}|di.proyecto.clase.2025\\di.proyecto.clase.2025.csproj|c:\\users\\pcvip\\documents\\codigo\\myrepos\\classprojects\\desarrollointerfaces\\di.tema3_bien\\padre-nohamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\backend\\servicios(repositorio)\\articulorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53388B5D-5A47-41B1-833B-952242C924E1}|di.proyecto.clase.2025\\di.proyecto.clase.2025.csproj|solutionrelative:di.proyecto.clase.2025\\backend\\servicios(repositorio)\\articulorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{53388B5D-5A47-41B1-833B-952242C924E1}|di.proyecto.clase.2025\\di.proyecto.clase.2025.csproj|c:\\users\\pcvip\\documents\\codigo\\myrepos\\classprojects\\desarrollointerfaces\\di.tema3_bien\\padre-nohamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\backend\\modelos\\departamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{53388B5D-5A47-41B1-833B-952242C924E1}|di.proyecto.clase.2025\\di.proyecto.clase.2025.csproj|solutionrelative:di.proyecto.clase.2025\\backend\\modelos\\departamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{53388B5D-5A47-41B1-833B-952242C924E1}|di.proyecto.clase.2025\\di.proyecto.clase.2025.csproj|c:\\users\\pcvip\\documents\\codigo\\myrepos\\classprojects\\desarrollointerfaces\\di.tema3_bien\\padre-nohamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\backend\\modelos\\diinventarioexamencontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{53388B5D-5A47-41B1-833B-952242C924E1}|di.proyecto.clase.2025\\di.proyecto.clase.2025.csproj|solutionrelative:di.proyecto.clase.2025\\backend\\modelos\\diinventarioexamencontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{53388B5D-5A47-41B1-833B-952242C924E1}|di.proyecto.clase.2025\\di.proyecto.clase.2025.csproj|c:\\users\\pcvip\\documents\\codigo\\myrepos\\classprojects\\desarrollointerfaces\\di.tema3_bien\\padre-nohamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\frontend(visual)\\dialogo\\dialogoarticulo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53388B5D-5A47-41B1-833B-952242C924E1}|di.proyecto.clase.2025\\di.proyecto.clase.2025.csproj|solutionrelative:di.proyecto.clase.2025\\frontend(visual)\\dialogo\\dialogoarticulo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{53388B5D-5A47-41B1-833B-952242C924E1}|di.proyecto.clase.2025\\di.proyecto.clase.2025.csproj|c:\\users\\pcvip\\documents\\codigo\\myrepos\\classprojects\\desarrollointerfaces\\di.tema3_bien\\padre-nohamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\frontend(visual)\\dialogo\\dialogoarticulo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -94,151 +94,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 161,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 9,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UsuarioRepository.cs",
-              "DocumentMoniker": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\Padre-NoHamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\UsuarioRepository.cs",
-              "RelativeDocumentMoniker": "di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\UsuarioRepository.cs",
-              "ToolTip": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\Padre-NoHamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\UsuarioRepository.cs",
-              "RelativeToolTip": "di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\UsuarioRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T19:40:23.379Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ModeloArticuloRepository.cs",
-              "DocumentMoniker": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\Padre-NoHamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\ModeloArticuloRepository.cs",
-              "RelativeDocumentMoniker": "di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\ModeloArticuloRepository.cs",
-              "ToolTip": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\Padre-NoHamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\ModeloArticuloRepository.cs",
-              "RelativeToolTip": "di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\ModeloArticuloRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T19:40:04.529Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IUsuarioRepository.cs",
-              "DocumentMoniker": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\Padre-NoHamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\IUsuarioRepository.cs",
-              "RelativeDocumentMoniker": "di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\IUsuarioRepository.cs",
-              "ToolTip": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\Padre-NoHamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\IUsuarioRepository.cs",
-              "RelativeToolTip": "di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\IUsuarioRepository.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAAACwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T19:39:47.4Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TipoArticuloRepository.cs",
-              "DocumentMoniker": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\Padre-NoHamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\TipoArticuloRepository.cs",
-              "RelativeDocumentMoniker": "di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\TipoArticuloRepository.cs",
-              "ToolTip": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\Padre-NoHamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\TipoArticuloRepository.cs",
-              "RelativeToolTip": "di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\TipoArticuloRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T18:12:16.766Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IModeloArticuloRepository.cs",
-              "DocumentMoniker": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\Padre-NoHamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\IModeloArticuloRepository.cs",
-              "RelativeDocumentMoniker": "di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\IModeloArticuloRepository.cs",
-              "ToolTip": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\Padre-NoHamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\IModeloArticuloRepository.cs",
-              "RelativeToolTip": "di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\IModeloArticuloRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T19:39:30.996Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IEspacioRepository.cs",
-              "DocumentMoniker": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\Padre-NoHamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\IEspacioRepository.cs",
-              "RelativeDocumentMoniker": "di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\IEspacioRepository.cs",
-              "ToolTip": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\Padre-NoHamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\IEspacioRepository.cs",
-              "RelativeToolTip": "di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\IEspacioRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T19:39:22.673Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ITipoArticuloRepository.cs",
-              "DocumentMoniker": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\Padre-NoHamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\ITipoArticuloRepository.cs",
-              "RelativeDocumentMoniker": "di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\ITipoArticuloRepository.cs",
-              "ToolTip": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\Padre-NoHamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\ITipoArticuloRepository.cs",
-              "RelativeToolTip": "di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\ITipoArticuloRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T18:12:49.939Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IDepartamentoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\Padre-NoHamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\IDepartamentoRepository.cs",
-              "RelativeDocumentMoniker": "di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\IDepartamentoRepository.cs",
-              "ToolTip": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\Padre-NoHamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\IDepartamentoRepository.cs",
-              "RelativeToolTip": "di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\IDepartamentoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T19:39:15.318Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IArticuloRepository.cs",
-              "DocumentMoniker": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\Padre-NoHamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\IArticuloRepository.cs",
-              "RelativeDocumentMoniker": "di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\IArticuloRepository.cs",
-              "ToolTip": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\Padre-NoHamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\IArticuloRepository.cs",
-              "RelativeToolTip": "di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\IArticuloRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T19:39:04.524Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "EspacioRepository.cs",
-              "DocumentMoniker": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\Padre-NoHamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\EspacioRepository.cs",
-              "RelativeDocumentMoniker": "di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\EspacioRepository.cs",
-              "ToolTip": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\Padre-NoHamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\EspacioRepository.cs",
-              "RelativeToolTip": "di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\EspacioRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T19:38:50.959Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ArticuloRepository.cs",
-              "DocumentMoniker": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\Padre-NoHamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\ArticuloRepository.cs",
-              "RelativeDocumentMoniker": "di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\ArticuloRepository.cs",
-              "ToolTip": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\Padre-NoHamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\ArticuloRepository.cs",
-              "RelativeToolTip": "di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\ArticuloRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T19:36:48.537Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -249,20 +106,167 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\Padre-NoHamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\UsuarioRepository.cs",
+              "RelativeDocumentMoniker": "di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\UsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\Padre-NoHamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\UsuarioRepository.cs",
+              "RelativeToolTip": "di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\UsuarioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T19:40:23.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IModeloArticuloRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\Padre-NoHamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\IModeloArticuloRepository.cs",
+              "RelativeDocumentMoniker": "di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\IModeloArticuloRepository.cs",
+              "ToolTip": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\Padre-NoHamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\IModeloArticuloRepository.cs",
+              "RelativeToolTip": "di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\IModeloArticuloRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T19:39:30.996Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "IEspacioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\Padre-NoHamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\IEspacioRepository.cs",
+              "RelativeDocumentMoniker": "di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\IEspacioRepository.cs",
+              "ToolTip": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\Padre-NoHamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\IEspacioRepository.cs",
+              "RelativeToolTip": "di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\IEspacioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T19:39:22.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ITipoArticuloRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\Padre-NoHamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\ITipoArticuloRepository.cs",
+              "RelativeDocumentMoniker": "di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\ITipoArticuloRepository.cs",
+              "ToolTip": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\Padre-NoHamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\ITipoArticuloRepository.cs",
+              "RelativeToolTip": "di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\ITipoArticuloRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T18:12:49.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IDepartamentoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\Padre-NoHamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\IDepartamentoRepository.cs",
+              "RelativeDocumentMoniker": "di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\IDepartamentoRepository.cs",
+              "ToolTip": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\Padre-NoHamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\IDepartamentoRepository.cs",
+              "RelativeToolTip": "di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\IDepartamentoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T19:39:15.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ArticuloRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\Padre-NoHamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\ArticuloRepository.cs",
+              "RelativeDocumentMoniker": "di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\ArticuloRepository.cs",
+              "ToolTip": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\Padre-NoHamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\ArticuloRepository.cs",
+              "RelativeToolTip": "di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\ArticuloRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T19:36:48.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DialogoArticulo.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\Padre-NoHamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\Frontend(visual)\\Dialogo\\DialogoArticulo.xaml.cs",
+              "RelativeDocumentMoniker": "di.proyecto.clase.2025\\Frontend(visual)\\Dialogo\\DialogoArticulo.xaml.cs",
+              "ToolTip": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\Padre-NoHamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\Frontend(visual)\\Dialogo\\DialogoArticulo.xaml.cs",
+              "RelativeToolTip": "di.proyecto.clase.2025\\Frontend(visual)\\Dialogo\\DialogoArticulo.xaml.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAwwFYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T08:06:12.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "GenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\Padre-NoHamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\GenericRepository.cs",
               "RelativeDocumentMoniker": "di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\GenericRepository.cs",
               "ToolTip": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\Padre-NoHamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\GenericRepository.cs",
               "RelativeToolTip": "di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\GenericRepository.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAuwJEAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAYwJIAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-18T18:55:35.882Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 4,
+              "Title": "TipoArticuloRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\Padre-NoHamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\TipoArticuloRepository.cs",
+              "RelativeDocumentMoniker": "di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\TipoArticuloRepository.cs",
+              "ToolTip": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\Padre-NoHamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\TipoArticuloRepository.cs",
+              "RelativeToolTip": "di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\TipoArticuloRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T18:12:16.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IUsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\Padre-NoHamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\IUsuarioRepository.cs",
+              "RelativeDocumentMoniker": "di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\IUsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\Padre-NoHamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\IUsuarioRepository.cs",
+              "RelativeToolTip": "di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\IUsuarioRepository.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAACwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T19:39:47.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ModeloArticuloRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\Padre-NoHamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\ModeloArticuloRepository.cs",
+              "RelativeDocumentMoniker": "di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\ModeloArticuloRepository.cs",
+              "ToolTip": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\Padre-NoHamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\ModeloArticuloRepository.cs",
+              "RelativeToolTip": "di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\ModeloArticuloRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T19:40:04.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IArticuloRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\Padre-NoHamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\IArticuloRepository.cs",
+              "RelativeDocumentMoniker": "di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\IArticuloRepository.cs",
+              "ToolTip": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\Padre-NoHamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\IArticuloRepository.cs",
+              "RelativeToolTip": "di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\IArticuloRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T19:39:04.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EspacioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\Padre-NoHamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\EspacioRepository.cs",
+              "RelativeDocumentMoniker": "di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\EspacioRepository.cs",
+              "ToolTip": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\Padre-NoHamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\EspacioRepository.cs",
+              "RelativeToolTip": "di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\EspacioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T19:38:50.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Departamento.cs",
               "DocumentMoniker": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\Padre-NoHamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\Backend\\Modelos\\Departamento.cs",
               "RelativeDocumentMoniker": "di.proyecto.clase.2025\\Backend\\Modelos\\Departamento.cs",
@@ -270,12 +274,11 @@
               "RelativeToolTip": "di.proyecto.clase.2025\\Backend\\Modelos\\Departamento.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T19:36:25.621Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-18T19:36:25.621Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "DepartamentoRepository.cs",
               "DocumentMoniker": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\Padre-NoHamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\DepartamentoRepository.cs",
               "RelativeDocumentMoniker": "di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\DepartamentoRepository.cs",
@@ -283,25 +286,11 @@
               "RelativeToolTip": "di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\DepartamentoRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T19:12:06.579Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-18T19:12:06.579Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "DialogoArticulo.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\Padre-NoHamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\Frontend(visual)\\Dialogo\\DialogoArticulo.xaml.cs",
-              "RelativeDocumentMoniker": "di.proyecto.clase.2025\\Frontend(visual)\\Dialogo\\DialogoArticulo.xaml.cs",
-              "ToolTip": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\Padre-NoHamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\Frontend(visual)\\Dialogo\\DialogoArticulo.xaml.cs",
-              "RelativeToolTip": "di.proyecto.clase.2025\\Frontend(visual)\\Dialogo\\DialogoArticulo.xaml.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAwwFYAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T08:06:12.859Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
               "Title": "DiinventarioexamenContext.cs",
               "DocumentMoniker": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\Padre-NoHamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\Backend\\Modelos\\DiinventarioexamenContext.cs",
               "RelativeDocumentMoniker": "di.proyecto.clase.2025\\Backend\\Modelos\\DiinventarioexamenContext.cs",
@@ -309,8 +298,7 @@
               "RelativeToolTip": "di.proyecto.clase.2025\\Backend\\Modelos\\DiinventarioexamenContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T17:05:23.734Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-18T17:05:23.734Z"
             },
             {
               "$type": "Document",
@@ -321,8 +309,7 @@
               "ToolTip": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\Padre-NoHamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\Frontend(visual)\\Dialogo\\DialogoArticulo.xaml",
               "RelativeToolTip": "di.proyecto.clase.2025\\Frontend(visual)\\Dialogo\\DialogoArticulo.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-18T08:02:29.973Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-18T08:02:29.973Z"
             },
             {
               "$type": "Document",
@@ -334,8 +321,7 @@
               "RelativeToolTip": "di.proyecto.clase.2025\\Backend\\Servicios(Repositorio)\\IGenericRepository.cs",
               "ViewState": "AgIAAFoAAAAAAAAAAAAUwG0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T18:57:24.213Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-18T18:57:24.213Z"
             },
             {
               "$type": "Document",
@@ -347,8 +333,7 @@
               "RelativeToolTip": "di.proyecto.clase.2025\\Frontend(visual)\\Dialogo\\DialogoModeloArticulo.xaml.cs",
               "ViewState": "AgIAADoAAAAAAAAAAAAUwEkAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T17:50:31.06Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-18T17:50:31.06Z"
             },
             {
               "$type": "Document",
@@ -359,8 +344,7 @@
               "ToolTip": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\Padre-NoHamburguer\\di.proyecto.clase.2025\\di.proyecto.clase.2025\\Frontend(visual)\\Dialogo\\DialogoModeloArticulo.xaml",
               "RelativeToolTip": "di.proyecto.clase.2025\\Frontend(visual)\\Dialogo\\DialogoModeloArticulo.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-18T17:50:25.832Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-18T17:50:25.832Z"
             },
             {
               "$type": "Document",
@@ -372,8 +356,7 @@
               "RelativeToolTip": "di.proyecto.clase.2025\\Backend\\Modelos\\Tipoarticulo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T18:12:06.97Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-18T18:12:06.97Z"
             }
           ]
         }

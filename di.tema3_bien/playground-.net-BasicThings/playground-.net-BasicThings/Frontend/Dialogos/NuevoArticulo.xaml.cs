@@ -1,5 +1,6 @@
 ﻿using Castle.Core.Logging;
 using MahApps.Metro.Controls;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using playground_.net_BasicThings.Backend.Modelos;
 using playground_.net_BasicThings.Backend.Servicios;
@@ -103,14 +104,15 @@ namespace playground_.net_BasicThings.Frontend.Dialogos
             if (cmbEstado.SelectedItem != null)
                 articulo.Estado = cmbEstado.SelectedItem.ToString();
         }
-
+         /*                                                      */
         private async void BtnGuardarArticulo_Click(object sender, RoutedEventArgs e)
         {
             Articulo articulo = new Articulo();
             RecogeDatos(articulo);
-
+            
             try
             {
+                articulo.Idarticulo = ObtenerSiguienteId(); // ASIGNAR ID DE ARTICULO
                 await _articuloRepository.AddAsync(articulo);
                 _context.SaveChanges();
 
@@ -121,6 +123,18 @@ namespace playground_.net_BasicThings.Frontend.Dialogos
             }
 
         }
+
+        // ESTOOOO PARA GENERAR EL SIGUIENTE ID DE ARTICULO
+        private int ObtenerSiguienteId()
+        {
+
+
+            // Obtener el máximo ID actual y sumar 1
+            var maxId = _context.Articulos.Max(a => (int?)a.Idarticulo) ?? 0;
+            return maxId + 1;
+        }
+
+        /*                                                             */
 
         private void BtnCancelarArticulo_Click(object sender, RoutedEventArgs e)
         {

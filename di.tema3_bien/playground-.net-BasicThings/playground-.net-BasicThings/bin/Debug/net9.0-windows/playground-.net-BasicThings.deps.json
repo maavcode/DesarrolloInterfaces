@@ -13,7 +13,7 @@
           "Microsoft.EntityFrameworkCore": "8.0.21",
           "Microsoft.EntityFrameworkCore.Design": "8.0.21",
           "Microsoft.EntityFrameworkCore.Proxies": "8.0.21",
-          "Microsoft.EntityFrameworkCore.Tools": "10.0.0",
+          "Microsoft.EntityFrameworkCore.Tools": "8.0.21",
           "Microsoft.Extensions.Logging.Console": "8.0.0",
           "MySql.EntityFrameworkCore": "8.0.20"
         },
@@ -437,7 +437,11 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.Tools/10.0.0": {},
+      "Microsoft.EntityFrameworkCore.Tools/8.0.21": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Design": "8.0.21"
+        }
+      },
       "Microsoft.Extensions.Caching.Abstractions/8.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "8.0.0"
@@ -976,12 +980,12 @@
       "path": "microsoft.entityframeworkcore.relational/8.0.21",
       "hashPath": "microsoft.entityframeworkcore.relational.8.0.21.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.Tools/10.0.0": {
+    "Microsoft.EntityFrameworkCore.Tools/8.0.21": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Gx6AWCf1CsBHTbvVVWBYBKp6hrwZt0IgBigoBPaybwOBG2EFIfZc7NP2BoR6r56YuuikbPIzCuvQuFYNnX43+A==",
-      "path": "microsoft.entityframeworkcore.tools/10.0.0",
-      "hashPath": "microsoft.entityframeworkcore.tools.10.0.0.nupkg.sha512"
+      "sha512": "sha512-Jmm3WtUyalpgfHEozcD+q0SmbKwMTVsZCz46ws/YHbePScu3PkNMmhn0iUFvi32djCJBCfOvXtQdnJFyXyW6LA==",
+      "path": "microsoft.entityframeworkcore.tools/8.0.21",
+      "hashPath": "microsoft.entityframeworkcore.tools.8.0.21.nupkg.sha512"
     },
     "Microsoft.Extensions.Caching.Abstractions/8.0.0": {
       "type": "package",

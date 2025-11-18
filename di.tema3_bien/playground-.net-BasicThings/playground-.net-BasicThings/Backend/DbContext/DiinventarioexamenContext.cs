@@ -1,11 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore;
-using playground_.net_BasicThings.Backend.Modelos;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using playground_.net_BasicThings.Backend.Modelos;
 
 public partial class DiinventarioexamenContext : DbContext
 {
@@ -48,7 +44,7 @@ public partial class DiinventarioexamenContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseLazyLoadingProxies().UseMySQL("server=127.0.0.1;port=33060;database=diinventarioexamen;user=root;password=admin");
+        => optionsBuilder.UseMySQL("server=127.0.0.1;port=33060;database=diinventarioexamen;user=root;password=admin;");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -56,55 +52,149 @@ public partial class DiinventarioexamenContext : DbContext
         {
             entity.HasKey(e => e.Idarticulo).HasName("PRIMARY");
 
-            entity.Property(e => e.Dentrode).HasComment("Indica que este artículo forma parte de otro");
-            entity.Property(e => e.Departamento).HasComment("departamento al que pertenece o del que depende");
-            entity.Property(e => e.Espacio).HasComment("espacio en que se encuentra");
-            entity.Property(e => e.Fechaalta).HasComment("fecha en que se introdujo en el sistema");
-            entity.Property(e => e.Usuariobaja).HasComment("usuario que lo dio de baja");
+            entity.ToTable("articulo");
 
-            entity.HasOne(d => d.DentrodeNavigation).WithMany(p => p.InverseDentrodeNavigation).HasConstraintName("fk_dentrode_articulo");
+            entity.HasIndex(e => e.Departamento, "fk_departamentos_articulo_idx");
 
-            entity.HasOne(d => d.DepartamentoNavigation).WithMany(p => p.Articulos).HasConstraintName("fk_departamentos_articulo");
+            entity.HasIndex(e => e.Espacio, "fk_espacios_articulo_idx");
+
+            entity.HasIndex(e => e.Dentrode, "fk_estaen_articulo_idx");
+
+            entity.HasIndex(e => e.Modelo, "fk_modelos_articulo_idx");
+
+            entity.HasIndex(e => e.Usuarioalta, "fk_usuarioalta_articulo_idx");
+
+            entity.HasIndex(e => e.Usuariobaja, "fk_usuariobaja_modeloarticulo_idx");
+
+            entity.Property(e => e.Idarticulo).HasColumnName("idarticulo");
+            entity.Property(e => e.Dentrode)
+                .HasComment("Indica que este artículo forma parte de otro")
+                .HasColumnName("dentrode");
+            entity.Property(e => e.Departamento)
+                .HasComment("departamento al que pertenece o del que depende")
+                .HasColumnName("departamento");
+            entity.Property(e => e.Espacio)
+                .HasComment("espacio en que se encuentra")
+                .HasColumnName("espacio");
+            entity.Property(e => e.Estado)
+                .HasMaxLength(45)
+                .HasColumnName("estado");
+            entity.Property(e => e.Fechaalta)
+                .HasComment("fecha en que se introdujo en el sistema")
+                .HasColumnType("date")
+                .HasColumnName("fechaalta");
+            entity.Property(e => e.Fechabaja)
+                .HasColumnType("date")
+                .HasColumnName("fechabaja");
+            entity.Property(e => e.Modelo).HasColumnName("modelo");
+            entity.Property(e => e.Numserie)
+                .HasMaxLength(45)
+                .HasColumnName("numserie");
+            entity.Property(e => e.Observaciones)
+                .HasColumnType("mediumtext")
+                .HasColumnName("observaciones");
+            entity.Property(e => e.Usuarioalta).HasColumnName("usuarioalta");
+            entity.Property(e => e.Usuariobaja)
+                .HasComment("usuario que lo dio de baja")
+                .HasColumnName("usuariobaja");
+
+            entity.HasOne(d => d.DentrodeNavigation).WithMany(p => p.InverseDentrodeNavigation)
+                .HasForeignKey(d => d.Dentrode)
+                .HasConstraintName("fk_dentrode_articulo");
+
+            entity.HasOne(d => d.DepartamentoNavigation).WithMany(p => p.Articulos)
+                .HasForeignKey(d => d.Departamento)
+                .HasConstraintName("fk_departamentos_articulo");
 
             entity.HasOne(d => d.EspacioNavigation).WithMany(p => p.Articulos)
+                .HasForeignKey(d => d.Espacio)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("fk_espacios_articulo");
 
             entity.HasOne(d => d.ModeloNavigation).WithMany(p => p.Articulos)
+                .HasForeignKey(d => d.Modelo)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("fk_modelos_articulo");
 
-            entity.HasOne(d => d.UsuarioaltaNavigation).WithMany(p => p.ArticuloUsuarioaltaNavigations).HasConstraintName("fk_usuarioalta_articulo");
+            entity.HasOne(d => d.UsuarioaltaNavigation).WithMany(p => p.ArticuloUsuarioaltaNavigations)
+                .HasForeignKey(d => d.Usuarioalta)
+                .HasConstraintName("fk_usuarioalta_articulo");
 
-            entity.HasOne(d => d.UsuariobajaNavigation).WithMany(p => p.ArticuloUsuariobajaNavigations).HasConstraintName("fk_usuariobaja_articulo");
+            entity.HasOne(d => d.UsuariobajaNavigation).WithMany(p => p.ArticuloUsuariobajaNavigations)
+                .HasForeignKey(d => d.Usuariobaja)
+                .HasConstraintName("fk_usuariobaja_articulo");
         });
 
         modelBuilder.Entity<Departamento>(entity =>
         {
             entity.HasKey(e => e.Iddepartamento).HasName("PRIMARY");
 
-            entity.Property(e => e.Iddepartamento).HasComment("Departamentos del instituto");
+            entity.ToTable("departamento");
+
+            entity.HasIndex(e => e.Nombre, "nombre_UNIQUE").IsUnique();
+
+            entity.Property(e => e.Iddepartamento)
+                .HasComment("Departamentos del instituto")
+                .HasColumnName("iddepartamento");
+            entity.Property(e => e.Nombre)
+                .HasMaxLength(45)
+                .HasColumnName("nombre");
         });
 
         modelBuilder.Entity<Espacio>(entity =>
         {
             entity.HasKey(e => e.Idespacio).HasName("PRIMARY");
 
-            entity.Property(e => e.Idespacio).HasComment("Cualquier lugar en el que se puede encontrar un artículo.\nUnos espacios pueden estar dentro de otros: relación jerárquica");
+            entity.ToTable("espacio");
 
-            entity.HasOne(d => d.PadreNavigation).WithMany(p => p.InversePadreNavigation).HasConstraintName("fk_espacios_espacio");
+            entity.HasIndex(e => e.Padre, "fk_espacios_espacio_idx");
+
+            entity.HasIndex(e => e.Nombre, "nombre_UNIQUE").IsUnique();
+
+            entity.Property(e => e.Idespacio)
+                .HasComment("Cualquier lugar en el que se puede encontrar un artículo.\nUnos espacios pueden estar dentro de otros: relación jerárquica")
+                .HasColumnName("idespacio");
+            entity.Property(e => e.Descripcion)
+                .HasMaxLength(45)
+                .HasColumnName("descripcion");
+            entity.Property(e => e.Nombre)
+                .HasMaxLength(15)
+                .HasColumnName("nombre");
+            entity.Property(e => e.Padre).HasColumnName("padre");
+
+            entity.HasOne(d => d.PadreNavigation).WithMany(p => p.InversePadreNavigation)
+                .HasForeignKey(d => d.Padre)
+                .HasConstraintName("fk_espacios_espacio");
         });
 
         modelBuilder.Entity<Ficheromodelo>(entity =>
         {
             entity.HasKey(e => e.Idficheromodelo).HasName("PRIMARY");
 
-            entity.Property(e => e.Idficheromodelo).HasComment("Permite asociar ficheros a cada modelo de articulo");
-            entity.Property(e => e.Modelo).HasComment("Modelo al que pertenece");
-            entity.Property(e => e.Nombre).HasComment("Nombre del fichero");
-            entity.Property(e => e.Tipo).HasComment("tipo de informacion que contiene");
+            entity.ToTable("ficheromodelo");
+
+            entity.HasIndex(e => e.Modelo, "fk_modelos_ficheromodelo_idx");
+
+            entity.Property(e => e.Idficheromodelo)
+                .HasComment("Permite asociar ficheros a cada modelo de articulo")
+                .HasColumnName("idficheromodelo");
+            entity.Property(e => e.Contenido)
+                .HasColumnType("blob")
+                .HasColumnName("contenido");
+            entity.Property(e => e.Modelo)
+                .HasComment("Modelo al que pertenece")
+                .HasColumnName("modelo");
+            entity.Property(e => e.Nombre)
+                .HasMaxLength(45)
+                .HasComment("Nombre del fichero")
+                .HasColumnName("nombre");
+            entity.Property(e => e.Tipo)
+                .HasMaxLength(45)
+                .HasComment("tipo de informacion que contiene")
+                .HasColumnName("tipo");
 
             entity.HasOne(d => d.ModeloNavigation).WithMany(p => p.Ficheromodelos)
+                .HasForeignKey(d => d.Modelo)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("fk_modelos_ficheromodelo");
         });
@@ -113,11 +203,28 @@ public partial class DiinventarioexamenContext : DbContext
         {
             entity.HasKey(e => e.Idficherousuario).HasName("PRIMARY");
 
-            entity.Property(e => e.Nombre).HasComment("nombre del fichero");
-            entity.Property(e => e.Tipo).HasComment("tipo de informacion que contiene");
-            entity.Property(e => e.Usuario).HasComment("usuario al que pertenece el fichero");
+            entity.ToTable("ficherousuario");
+
+            entity.HasIndex(e => e.Usuario, "fk_usuarios_ficherousuario_idx");
+
+            entity.Property(e => e.Idficherousuario).HasColumnName("idficherousuario");
+            entity.Property(e => e.Contenido)
+                .HasColumnType("blob")
+                .HasColumnName("contenido");
+            entity.Property(e => e.Nombre)
+                .HasMaxLength(45)
+                .HasComment("nombre del fichero")
+                .HasColumnName("nombre");
+            entity.Property(e => e.Tipo)
+                .HasMaxLength(45)
+                .HasComment("tipo de informacion que contiene")
+                .HasColumnName("tipo");
+            entity.Property(e => e.Usuario)
+                .HasComment("usuario al que pertenece el fichero")
+                .HasColumnName("usuario");
 
             entity.HasOne(d => d.UsuarioNavigation).WithMany(p => p.Ficherousuarios)
+                .HasForeignKey(d => d.Usuario)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("fk_usuarios_ficherousuario");
         });
@@ -126,42 +233,104 @@ public partial class DiinventarioexamenContext : DbContext
         {
             entity.HasKey(e => e.Idgrupo).HasName("PRIMARY");
 
-            entity.Property(e => e.Idgrupo).HasComment("grupos de clase");
+            entity.ToTable("grupo");
+
+            entity.HasIndex(e => e.Nombre, "nombre_UNIQUE").IsUnique();
+
+            entity.Property(e => e.Idgrupo)
+                .HasMaxLength(10)
+                .HasComment("grupos de clase")
+                .HasColumnName("idgrupo");
+            entity.Property(e => e.Nombre)
+                .HasMaxLength(45)
+                .HasColumnName("nombre");
         });
 
         modelBuilder.Entity<Modeloarticulo>(entity =>
         {
             entity.HasKey(e => e.Idmodeloarticulo).HasName("PRIMARY");
 
-            entity.Property(e => e.Idmodeloarticulo).HasComment("Es un catalogo de articulos existentes. De cada modelo puede haber varias unidades con distintos numeros de serie, etc");
+            entity.ToTable("modeloarticulo");
 
-            entity.HasOne(d => d.TipoNavigation).WithMany(p => p.Modeloarticulos).HasConstraintName("fk_tipoarticulos_modeloarticulo");
+            entity.HasIndex(e => e.Tipo, "fk_tipoarticulos_modeloarticulo_idx");
+
+            entity.Property(e => e.Idmodeloarticulo)
+                .HasComment("Es un catalogo de articulos existentes. De cada modelo puede haber varias unidades con distintos numeros de serie, etc")
+                .HasColumnName("idmodeloarticulo");
+            entity.Property(e => e.Descripcion)
+                .HasColumnType("mediumtext")
+                .HasColumnName("descripcion");
+            entity.Property(e => e.Marca)
+                .HasMaxLength(255)
+                .HasColumnName("marca");
+            entity.Property(e => e.Modelo)
+                .HasMaxLength(255)
+                .HasColumnName("modelo");
+            entity.Property(e => e.Nombre)
+                .HasMaxLength(45)
+                .HasColumnName("nombre");
+            entity.Property(e => e.Tipo).HasColumnName("tipo");
+
+            entity.HasOne(d => d.TipoNavigation).WithMany(p => p.Modeloarticulos)
+                .HasForeignKey(d => d.Tipo)
+                .HasConstraintName("fk_tipoarticulos_modeloarticulo");
         });
 
         modelBuilder.Entity<Permiso>(entity =>
         {
             entity.HasKey(e => e.Idpermiso).HasName("PRIMARY");
 
-            entity.Property(e => e.Idpermiso).HasComment("Las distintas acciones que se pueden realizar sobre las entidades que maneja la aplicacion\n");
-            entity.Property(e => e.Permisopadre).HasComment("Permite jerarquizar los permisos de manera que unos dependand de otros.\n\nAqui se indica el id del permiso del que depende o nul si es independiente\n\nPor ejemplo \"alta de usuario\" y \"baja de usuario\" pueden depender de \"acceso a usuarios\"");
+            entity.ToTable("permiso");
 
-            entity.HasOne(d => d.PermisopadreNavigation).WithMany(p => p.InversePermisopadreNavigation).HasConstraintName("fk_permisos_padre");
+            entity.HasIndex(e => e.Permisopadre, "fk_permisos_padre_idx");
+
+            entity.HasIndex(e => e.Nombre, "nombre_UNIQUE").IsUnique();
+
+            entity.Property(e => e.Idpermiso)
+                .HasComment("Las distintas acciones que se pueden realizar sobre las entidades que maneja la aplicacion\n")
+                .HasColumnName("idpermiso");
+            entity.Property(e => e.Descripcion)
+                .HasMaxLength(45)
+                .HasColumnName("descripcion");
+            entity.Property(e => e.Nombre)
+                .HasMaxLength(45)
+                .HasColumnName("nombre");
+            entity.Property(e => e.Permisopadre)
+                .HasComment("Permite jerarquizar los permisos de manera que unos dependand de otros.\n\nAqui se indica el id del permiso del que depende o nul si es independiente\n\nPor ejemplo \"alta de usuario\" y \"baja de usuario\" pueden depender de \"acceso a usuarios\"")
+                .HasColumnName("permisopadre");
+
+            entity.HasOne(d => d.PermisopadreNavigation).WithMany(p => p.InversePermisopadreNavigation)
+                .HasForeignKey(d => d.Permisopadre)
+                .HasConstraintName("fk_permisos_padre");
         });
 
         modelBuilder.Entity<Permisosrol>(entity =>
         {
             entity.HasKey(e => e.Idpermisosrol).HasName("PRIMARY");
 
-            entity.Property(e => e.Idpermisosrol).HasComment("Permisos asignados a cada rol");
+            entity.ToTable("permisosrol");
+
+            entity.HasIndex(e => e.Permiso, "fk_permisos_permisosrol_idx");
+
+            entity.HasIndex(e => e.Rol, "fk_roles_permisosrol_idx");
+
+            entity.Property(e => e.Idpermisosrol)
+                .HasComment("Permisos asignados a cada rol")
+                .HasColumnName("idpermisosrol");
             entity.Property(e => e.Acceso)
                 .HasDefaultValueSql("'0'")
-                .HasComment("Indica si el permiso se permite, deniega o hereda. En caso de heredarse, se hereda del padre inmediato.\n0: denegado\n1: permitido\n2: heredado");
+                .HasComment("Indica si el permiso se permite, deniega o hereda. En caso de heredarse, se hereda del padre inmediato.\n0: denegado\n1: permitido\n2: heredado")
+                .HasColumnName("acceso");
+            entity.Property(e => e.Permiso).HasColumnName("permiso");
+            entity.Property(e => e.Rol).HasColumnName("rol");
 
             entity.HasOne(d => d.PermisoNavigation).WithMany(p => p.Permisosrols)
+                .HasForeignKey(d => d.Permiso)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("fk_permisos_permisosrol");
 
             entity.HasOne(d => d.RolNavigation).WithMany(p => p.Permisosrols)
+                .HasForeignKey(d => d.Rol)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("fk_roles_permisosrol");
         });
@@ -170,18 +339,48 @@ public partial class DiinventarioexamenContext : DbContext
         {
             entity.HasKey(e => e.Idrol).HasName("PRIMARY");
 
-            entity.Property(e => e.Idrol).HasComment("Roles que juegan los usuarios de la aplicacion");
+            entity.ToTable("rol");
+
+            entity.HasIndex(e => e.Nombre, "nombre_UNIQUE").IsUnique();
+
+            entity.Property(e => e.Idrol)
+                .HasComment("Roles que juegan los usuarios de la aplicacion")
+                .HasColumnName("idrol");
+            entity.Property(e => e.Descripcion)
+                .HasMaxLength(45)
+                .HasColumnName("descripcion");
+            entity.Property(e => e.Nombre)
+                .HasMaxLength(45)
+                .HasColumnName("nombre");
         });
 
         modelBuilder.Entity<Salidum>(entity =>
         {
             entity.HasKey(e => e.Idsalida).HasName("PRIMARY");
 
+            entity.ToTable("salida");
+
+            entity.HasIndex(e => e.Articulo, "fk_articulos_salida_idx");
+
+            entity.HasIndex(e => e.Usuario, "fk_usuarios_salida_idx");
+
+            entity.Property(e => e.Idsalida).HasColumnName("idsalida");
+            entity.Property(e => e.Articulo).HasColumnName("articulo");
+            entity.Property(e => e.Fechadevolucion)
+                .HasColumnType("datetime")
+                .HasColumnName("fechadevolucion");
+            entity.Property(e => e.Fechasalida)
+                .HasColumnType("datetime")
+                .HasColumnName("fechasalida");
+            entity.Property(e => e.Usuario).HasColumnName("usuario");
+
             entity.HasOne(d => d.ArticuloNavigation).WithMany(p => p.Salida)
+                .HasForeignKey(d => d.Articulo)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("fk_articulos_salida");
 
             entity.HasOne(d => d.UsuarioNavigation).WithMany(p => p.Salida)
+                .HasForeignKey(d => d.Usuario)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("fk_usuarios_salida");
         });
@@ -190,35 +389,114 @@ public partial class DiinventarioexamenContext : DbContext
         {
             entity.HasKey(e => e.Idtipoarticulo).HasName("PRIMARY");
 
-            entity.Property(e => e.Idtipoarticulo).HasComment("tipos de articulo: relacion jerárquica\\nMobiliario\\n- Mesa\\n -- Mesa despacho\\n...");
-            entity.Property(e => e.Padre).HasComment("tipo de articulo del que depende: relacion jerarquica");
+            entity.ToTable("tipoarticulo");
 
-            entity.HasOne(d => d.PadreNavigation).WithMany(p => p.InversePadreNavigation).HasConstraintName("fk_padre_tipoarticulo");
+            entity.HasIndex(e => e.Padre, "fk_padre_tipoarticulo_idx");
+
+            entity.Property(e => e.Idtipoarticulo)
+                .HasComment("tipos de articulo: relacion jerárquica\\nMobiliario\\n- Mesa\\n -- Mesa despacho\\n...")
+                .HasColumnName("idtipoarticulo");
+            entity.Property(e => e.Nombre)
+                .HasMaxLength(45)
+                .HasColumnName("nombre");
+            entity.Property(e => e.Padre)
+                .HasComment("tipo de articulo del que depende: relacion jerarquica")
+                .HasColumnName("padre");
+
+            entity.HasOne(d => d.PadreNavigation).WithMany(p => p.InversePadreNavigation)
+                .HasForeignKey(d => d.Padre)
+                .HasConstraintName("fk_padre_tipoarticulo");
         });
 
         modelBuilder.Entity<Tipousuario>(entity =>
         {
             entity.HasKey(e => e.Idtipousuario).HasName("PRIMARY");
 
-            entity.Property(e => e.Idtipousuario).HasComment("Para diferenciar tipos de usuario, independientemente del rol que juegan, y poder hacer operaciones masivas con ellos: alumnos, profesores, pas, ...");
-            entity.Property(e => e.Nombre).HasComment("descripción del tipo de usuario");
+            entity.ToTable("tipousuario");
+
+            entity.HasIndex(e => e.Nombre, "nombre_UNIQUE").IsUnique();
+
+            entity.Property(e => e.Idtipousuario)
+                .HasComment("Para diferenciar tipos de usuario, independientemente del rol que juegan, y poder hacer operaciones masivas con ellos: alumnos, profesores, pas, ...")
+                .HasColumnName("idtipousuario");
+            entity.Property(e => e.Nombre)
+                .HasMaxLength(45)
+                .HasComment("descripción del tipo de usuario")
+                .HasColumnName("nombre");
         });
 
         modelBuilder.Entity<Usuario>(entity =>
         {
             entity.HasKey(e => e.Idusuario).HasName("PRIMARY");
 
-            entity.Property(e => e.Username).HasComment("Usuarios de la aplicacion\n");
+            entity.ToTable("usuario");
 
-            entity.HasOne(d => d.DepartamentoNavigation).WithMany(p => p.Usuarios).HasConstraintName("fk_departamentos_usuario");
+            entity.HasIndex(e => e.Departamento, "fk_departamentos_usuario_idx");
 
-            entity.HasOne(d => d.GrupoNavigation).WithMany(p => p.Usuarios).HasConstraintName("fk_grupos_usuario");
+            entity.HasIndex(e => e.Grupo, "fk_grupos_usuario_idx");
+
+            entity.HasIndex(e => e.Grupo, "fk_grupos_usuario_idx1");
+
+            entity.HasIndex(e => e.Rol, "fk_roles_usuario_idx");
+
+            entity.HasIndex(e => e.Tipo, "fk_tipos_usuario_idx");
+
+            entity.HasIndex(e => e.Username, "username_UNIQUE").IsUnique();
+
+            entity.Property(e => e.Idusuario).HasColumnName("idusuario");
+            entity.Property(e => e.Apellido1)
+                .HasMaxLength(45)
+                .HasColumnName("apellido1");
+            entity.Property(e => e.Apellido2)
+                .HasMaxLength(45)
+                .HasColumnName("apellido2");
+            entity.Property(e => e.Codpostal)
+                .HasMaxLength(10)
+                .HasColumnName("codpostal");
+            entity.Property(e => e.Departamento).HasColumnName("departamento");
+            entity.Property(e => e.Domicilio)
+                .HasMaxLength(45)
+                .HasColumnName("domicilio");
+            entity.Property(e => e.Email)
+                .HasMaxLength(100)
+                .HasColumnName("email");
+            entity.Property(e => e.Grupo)
+                .HasMaxLength(10)
+                .HasColumnName("grupo");
+            entity.Property(e => e.Nombre)
+                .HasMaxLength(45)
+                .HasColumnName("nombre");
+            entity.Property(e => e.Password)
+                .HasMaxLength(200)
+                .HasColumnName("password");
+            entity.Property(e => e.Poblacion)
+                .HasMaxLength(45)
+                .HasColumnName("poblacion");
+            entity.Property(e => e.Rol).HasColumnName("rol");
+            entity.Property(e => e.Telefono)
+                .HasMaxLength(20)
+                .HasColumnName("telefono");
+            entity.Property(e => e.Tipo).HasColumnName("tipo");
+            entity.Property(e => e.Username)
+                .HasMaxLength(20)
+                .HasComment("Usuarios de la aplicacion\n")
+                .HasColumnName("username");
+
+            entity.HasOne(d => d.DepartamentoNavigation).WithMany(p => p.Usuarios)
+                .HasForeignKey(d => d.Departamento)
+                .HasConstraintName("fk_departamentos_usuario");
+
+            entity.HasOne(d => d.GrupoNavigation).WithMany(p => p.Usuarios)
+                .HasForeignKey(d => d.Grupo)
+                .HasConstraintName("fk_grupos_usuario");
 
             entity.HasOne(d => d.RolNavigation).WithMany(p => p.Usuarios)
+                .HasForeignKey(d => d.Rol)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("fk_roles_usuario");
 
             entity.HasOne(d => d.TipoNavigation).WithMany(p => p.Usuarios)
+                .HasForeignKey(d => d.Tipo)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("fk_tipos_usuario");
         });
