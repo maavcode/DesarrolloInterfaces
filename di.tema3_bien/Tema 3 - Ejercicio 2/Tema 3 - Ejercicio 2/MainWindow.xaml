@@ -1,0 +1,95 @@
+﻿<mah:MetroWindow x:Class="Tema_3___Ejercicio_2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:materialDesignIcons="http://materialdesigninxaml.net/winfx/xaml/shared"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:Fluent="urn:fluent-ribbon" 
+        xmlns:local="clr-namespace:Tema_3___Ejercicio_2"
+        mc:Ignorable="d"
+        Icon="/res/matisse.png"
+        Title="INVENTARIO MATISSE" 
+        Height="650" Width="1200">
+    <mah:MetroWindow.RightWindowCommands>
+            <mah:WindowCommands>
+            <Button ToolTip="Cuenta">
+                <materialDesign:PackIcon Kind="account"/>
+            </Button>
+        </mah:WindowCommands>
+        </mah:MetroWindow.RightWindowCommands>
+    <Grid>
+        <Fluent:Ribbon>
+            <Fluent:Ribbon.QuickAccessItems>
+                <Fluent:QuickAccessMenuItem IsChecked="true">
+                    <Fluent:Button Header="Pink" />
+                </Fluent:QuickAccessMenuItem>
+            </Fluent:Ribbon.QuickAccessItems>
+            <Fluent:Ribbon.Menu>
+                <Fluent:Backstage>
+                    <Fluent:BackstageTabControl>
+                        <Fluent:BackstageTabItem Header="Opciones" />
+                        <Fluent:Button Header="Cerrar" />
+                    </Fluent:BackstageTabControl>
+                </Fluent:Backstage>
+            </Fluent:Ribbon.Menu>
+            <Fluent:RibbonTabItem Header="PRÉSTAMOS">
+                <Fluent:RibbonGroupBox x:Name="Operaciones" Header="Operaciones" Width="140">
+                    <Fluent:Button LargeIcon=".\res\salida.png" Header="Salida" Margin="10,0,15,0"/>
+                    <Fluent:Button LargeIcon=".\res\devolucion.png" Header="Devolución"/>
+                </Fluent:RibbonGroupBox>
+                <Fluent:RibbonGroupBox x:Name="Busquedas" Header="Búsquedas" Width="140">
+                    <TextBlock Text="Por número de serie" FontWeight="Bold" Margin="4,5,0,0"/>
+                    <TextBox Width="120" Margin="5,5,5,0"/>
+                </Fluent:RibbonGroupBox>
+                <Fluent:RibbonGroupBox x:Name="Listados" Header="Listados">
+                    <Fluent:Button LargeIcon=".\res\checklist.png"  Header="Pendientes" Foreground="Red" />
+                </Fluent:RibbonGroupBox>
+            </Fluent:RibbonTabItem>
+            <Fluent:RibbonTabItem Header="ARTÍCULOS">
+                <Fluent:RibbonGroupBox x:Name="Artículos" Header="Artículos" Width="170">
+                    <Fluent:Button LargeIcon=".\res\addarticulomvvm.png" Header="Nuevo" Margin="10,5,5,0"/>
+                    <Fluent:Button LargeIcon=".\res\gesarticulo.png" Header="Editar" Margin="5,5,5,0"/>
+                    <Fluent:Button LargeIcon=".\res\inventario.png" Header="Listado" Margin="5,5,5,0"/>
+                </Fluent:RibbonGroupBox>
+                <Fluent:RibbonGroupBox x:Name="ModeloArtículo" Header="Modelo Artículo" Width="170">
+                    <Fluent:Button LargeIcon=".\res\iconmodelo.png" Header="Nuevo" Margin="10,5,5,0"/>
+                    <Fluent:Button LargeIcon=".\res\articulo.png" Header="Editar" Margin="5,5,5,0"/>
+                    <Fluent:Button LargeIcon=".\res\inventario.png" Header="Listado" Margin="5,5,5,0"/>
+                </Fluent:RibbonGroupBox>
+            </Fluent:RibbonTabItem>
+            <Fluent:RibbonTabItem Header="ADMINISTRACIÓN">
+                <Fluent:RibbonGroupBox x:Name="GestionUsuarios" Header="Gestion Usuarios" Width="280">
+                    <Fluent:Button LargeIcon=".\res\adduser.png" Header="Nuevo" Margin="10,5,15,0"/>
+                    <Fluent:Button LargeIcon=".\res\gesusuario.png" Header="Editar" Margin="5,5,15,0"/>
+                    <Fluent:Button LargeIcon=".\res\resetclave.png" Header="Contraseñas" Margin="5,5,15,0"/>
+                    <Fluent:Button LargeIcon=".\res\listausuarios.png" Header="Listado" Margin="5,5,5,0"/>
+                </Fluent:RibbonGroupBox>
+                <Fluent:RibbonGroupBox x:Name="Mantenimiento" Header="Mantenimiento" Width="200">
+                    <Fluent:Button LargeIcon=".\res\salida.png" Header="Artículo" Margin="10,5,15,0"/>
+                    <Fluent:Button LargeIcon=".\res\salida.png" Header="Modelo" Margin="5,5,15,0"/>
+                    <Fluent:Button LargeIcon=".\res\salida.png" Header="Usuario" Margin="5,5,5,0"/>
+                </Fluent:RibbonGroupBox>
+                <Fluent:RibbonGroupBox x:Name="Stock" Header="Stock" Width="80">
+                    <Fluent:Button LargeIcon=".\res\perfil.png" Margin="20,5,5,0"/>
+                </Fluent:RibbonGroupBox>
+            </Fluent:RibbonTabItem>
+            <Fluent:RibbonTabItem Header="INVENTARIO">
+                <Fluent:RibbonGroupBox x:Name="Espacios" Header="Espacios" Width="230">
+                    <Fluent:Button LargeIcon=".\res\espacios.png" Header="Espacios" Margin="10,5,15,0"/>
+                    <Fluent:Button LargeIcon=".\res\salida.png" Header="Chequeo" Margin="5,5,15,0"/>
+                    <Fluent:Button LargeIcon=".\res\espacios.png" Header="Inventario" Margin="5,5,15,0"/>
+                </Fluent:RibbonGroupBox>
+            </Fluent:RibbonTabItem>
+            <Fluent:RibbonTabItem Header="INFORMACIÓN">
+                <Fluent:RibbonGroupBox x:Name="Informes" Header="Informes" Width="100">
+                    <Fluent:Button LargeIcon=".\res\informe.png" Header="Informe" Margin="21,5,15,0"/>
+                </Fluent:RibbonGroupBox>
+                <Fluent:RibbonGroupBox x:Name="Graficos" Header="Gráficos" Width="90">
+                    <Fluent:Button LargeIcon=".\res\charts.png" Header="Charts" Margin="20,5,15,0"/>
+                </Fluent:RibbonGroupBox>
+            </Fluent:RibbonTabItem>
+        </Fluent:Ribbon>
+    </Grid>
+</mah:MetroWindow>

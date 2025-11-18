@@ -1,0 +1,57 @@
+﻿<mah:MetroWindow x:Class="Tema_3___Ejercicio_4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:mat="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"      
+        xmlns:local="clr-namespace:Tema_3___Ejercicio_4"
+        xmlns:material="clr-namespace:MaterialDesignThemes.Wpf;assembly=MaterialDesignThemes.Wpf"
+        mc:Ignorable="d"
+        Title="INVENTARIO MATISSE" Height="650" Width="1100"
+        Icon="/res/matisse.png">
+    <!-- Definimos las propiedades del control y las plantillas de las secciones -->
+    <mah:HamburgerMenu Foreground="White" x:Name="hamMenuPrincipal"    DisplayMode="CompactInline" ItemTemplate="{StaticResource MenuItemTemplateImage}" OptionsItemTemplate="{StaticResource MenuItemTemplateIcon}"    Grid.ColumnSpan="2" >
+        <!-- En la sección de ItemsSource definimos las principales opciones -->
+        <mah:HamburgerMenu.ItemsSource>
+            <mah:HamburgerMenuItemCollection>
+                <mah:HamburgerMenuImageItem Label="Personal" ToolTip="Préstamos">
+                    <mah:HamburgerMenuImageItem.Thumbnail>
+                        <BitmapImage UriSource="/res/prestamos.png" />
+                    </mah:HamburgerMenuImageItem.Thumbnail>
+                </mah:HamburgerMenuImageItem>
+                <mah:HamburgerMenuImageItem Label="Busqueda" ToolTip="Búsquedas">
+                    <mah:HamburgerMenuImageItem.Thumbnail>
+                        <BitmapImage UriSource="/res/busqueda.png" />
+                    </mah:HamburgerMenuImageItem.Thumbnail>
+                </mah:HamburgerMenuImageItem>
+                <mah:HamburgerMenuImageItem Label="Busqueda" ToolTip="Artículos">
+                    <mah:HamburgerMenuImageItem.Thumbnail>
+                        <BitmapImage UriSource="/res/articulo.png" />
+                    </mah:HamburgerMenuImageItem.Thumbnail>
+                </mah:HamburgerMenuImageItem>
+                <mah:HamburgerMenuImageItem Label="Busqueda" ToolTip="Administración">
+                    <mah:HamburgerMenuImageItem.Thumbnail>
+                        <BitmapImage UriSource="/res/administracion.png" />
+                    </mah:HamburgerMenuImageItem.Thumbnail>
+                </mah:HamburgerMenuImageItem>
+                <mah:HamburgerMenuImageItem Label="Busqueda" ToolTip="Inventario">
+                    <mah:HamburgerMenuImageItem.Thumbnail>
+                        <BitmapImage UriSource="/res/inventario.png" />
+                    </mah:HamburgerMenuImageItem.Thumbnail>
+                </mah:HamburgerMenuImageItem>
+                <mah:HamburgerMenuImageItem Label="Busqueda" ToolTip="Información">
+                    <mah:HamburgerMenuImageItem.Thumbnail>
+                        <BitmapImage UriSource="/res/informacion.png" />
+                    </mah:HamburgerMenuImageItem.Thumbnail>
+                </mah:HamburgerMenuImageItem>
+            </mah:HamburgerMenuItemCollection>
+        </mah:HamburgerMenu.ItemsSource>
+        <!--  Sección de opciones  -->
+        <mah:HamburgerMenu.OptionsItemsSource>
+            <mah:HamburgerMenuItemCollection>
+                <mah:HamburgerMenuIconItem Icon="{material:PackIcon Kind=Help}" Label="Ayuda"></mah:HamburgerMenuIconItem>
+            </mah:HamburgerMenuItemCollection>
+        </mah:HamburgerMenu.OptionsItemsSource>
+    </mah:HamburgerMenu>
+</mah:MetroWindow>

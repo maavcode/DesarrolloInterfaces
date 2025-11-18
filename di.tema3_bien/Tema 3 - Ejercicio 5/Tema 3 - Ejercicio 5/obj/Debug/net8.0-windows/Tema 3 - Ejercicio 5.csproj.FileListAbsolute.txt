@@ -1,0 +1,61 @@
+C:\Users\windows10\source\repos\Tema 3 - Ejercicio 5\Tema 3 - Ejercicio 5\obj\Debug\net8.0-windows\Tema 3 - Ejercicio 5.csproj.AssemblyReference.cache
+C:\Users\windows10\source\repos\Tema 3 - Ejercicio 5\Tema 3 - Ejercicio 5\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\windows10\source\repos\Tema 3 - Ejercicio 5\Tema 3 - Ejercicio 5\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\windows10\source\repos\Tema 3 - Ejercicio 5\Tema 3 - Ejercicio 5\obj\Debug\net8.0-windows\Tema 3 - Ejercicio 5_MarkupCompile.cache
+C:\Users\windows10\source\repos\Tema 3 - Ejercicio 5\Tema 3 - Ejercicio 5\obj\Debug\net8.0-windows\Tema 3 - Ejercicio 5_MarkupCompile.lref
+C:\Users\windows10\source\repos\Tema 3 - Ejercicio 5\Tema 3 - Ejercicio 5\bin\Debug\net8.0-windows\Tema 3 - Ejercicio 5.exe
+C:\Users\windows10\source\repos\Tema 3 - Ejercicio 5\Tema 3 - Ejercicio 5\bin\Debug\net8.0-windows\Tema 3 - Ejercicio 5.deps.json
+C:\Users\windows10\source\repos\Tema 3 - Ejercicio 5\Tema 3 - Ejercicio 5\bin\Debug\net8.0-windows\Tema 3 - Ejercicio 5.runtimeconfig.json
+C:\Users\windows10\source\repos\Tema 3 - Ejercicio 5\Tema 3 - Ejercicio 5\bin\Debug\net8.0-windows\Tema 3 - Ejercicio 5.dll
+C:\Users\windows10\source\repos\Tema 3 - Ejercicio 5\Tema 3 - Ejercicio 5\bin\Debug\net8.0-windows\Tema 3 - Ejercicio 5.pdb
+C:\Users\windows10\source\repos\Tema 3 - Ejercicio 5\Tema 3 - Ejercicio 5\bin\Debug\net8.0-windows\ControlzEx.dll
+C:\Users\windows10\source\repos\Tema 3 - Ejercicio 5\Tema 3 - Ejercicio 5\bin\Debug\net8.0-windows\MahApps.Metro.dll
+C:\Users\windows10\source\repos\Tema 3 - Ejercicio 5\Tema 3 - Ejercicio 5\bin\Debug\net8.0-windows\MaterialDesignColors.dll
+C:\Users\windows10\source\repos\Tema 3 - Ejercicio 5\Tema 3 - Ejercicio 5\bin\Debug\net8.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\windows10\source\repos\Tema 3 - Ejercicio 5\Tema 3 - Ejercicio 5\bin\Debug\net8.0-windows\MaterialDesignThemes.MahApps.dll
+C:\Users\windows10\source\repos\Tema 3 - Ejercicio 5\Tema 3 - Ejercicio 5\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\windows10\source\repos\Tema 3 - Ejercicio 5\Tema 3 - Ejercicio 5\bin\Debug\net8.0-windows\de\MahApps.Metro.resources.dll
+C:\Users\windows10\source\repos\Tema 3 - Ejercicio 5\Tema 3 - Ejercicio 5\obj\Debug\net8.0-windows\App.baml
+C:\Users\windows10\source\repos\Tema 3 - Ejercicio 5\Tema 3 - Ejercicio 5\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\windows10\source\repos\Tema 3 - Ejercicio 5\Tema 3 - Ejercicio 5\obj\Debug\net8.0-windows\Tema 3 - Ejercicio 5.g.resources
+C:\Users\windows10\source\repos\Tema 3 - Ejercicio 5\Tema 3 - Ejercicio 5\obj\Debug\net8.0-windows\Tema 3 - Ejercicio 5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\windows10\source\repos\Tema 3 - Ejercicio 5\Tema 3 - Ejercicio 5\obj\Debug\net8.0-windows\Tema 3 - Ejercicio 5.AssemblyInfoInputs.cache
+C:\Users\windows10\source\repos\Tema 3 - Ejercicio 5\Tema 3 - Ejercicio 5\obj\Debug\net8.0-windows\Tema 3 - Ejercicio 5.AssemblyInfo.cs
+C:\Users\windows10\source\repos\Tema 3 - Ejercicio 5\Tema 3 - Ejercicio 5\obj\Debug\net8.0-windows\Tema 3 - Ejercicio 5.csproj.CoreCompileInputs.cache
+C:\Users\windows10\source\repos\Tema 3 - Ejercicio 5\Tema 3 - Ejercicio 5\obj\Debug\net8.0-windows\Tema 3 - Ejercicio 5.sourcelink.json
+C:\Users\windows10\source\repos\Tema 3 - Ejercicio 5\Tema 3 - Ejercicio 5\obj\Debug\net8.0-windows\Tema 3 -.2C05DFC1.Up2Date
+C:\Users\windows10\source\repos\Tema 3 - Ejercicio 5\Tema 3 - Ejercicio 5\obj\Debug\net8.0-windows\Tema 3 - Ejercicio 5.dll
+C:\Users\windows10\source\repos\Tema 3 - Ejercicio 5\Tema 3 - Ejercicio 5\obj\Debug\net8.0-windows\refint\Tema 3 - Ejercicio 5.dll
+C:\Users\windows10\source\repos\Tema 3 - Ejercicio 5\Tema 3 - Ejercicio 5\obj\Debug\net8.0-windows\Tema 3 - Ejercicio 5.pdb
+C:\Users\windows10\source\repos\Tema 3 - Ejercicio 5\Tema 3 - Ejercicio 5\obj\Debug\net8.0-windows\Tema 3 - Ejercicio 5.genruntimeconfig.cache
+C:\Users\windows10\source\repos\Tema 3 - Ejercicio 5\Tema 3 - Ejercicio 5\obj\Debug\net8.0-windows\ref\Tema 3 - Ejercicio 5.dll
+C:\Users\windows10\Desktop\di.tema3\Tema 3 - Ejercicio 5\Tema 3 - Ejercicio 5\bin\Debug\net8.0-windows\Tema 3 - Ejercicio 5.exe
+C:\Users\windows10\Desktop\di.tema3\Tema 3 - Ejercicio 5\Tema 3 - Ejercicio 5\bin\Debug\net8.0-windows\Tema 3 - Ejercicio 5.deps.json
+C:\Users\windows10\Desktop\di.tema3\Tema 3 - Ejercicio 5\Tema 3 - Ejercicio 5\bin\Debug\net8.0-windows\Tema 3 - Ejercicio 5.runtimeconfig.json
+C:\Users\windows10\Desktop\di.tema3\Tema 3 - Ejercicio 5\Tema 3 - Ejercicio 5\bin\Debug\net8.0-windows\Tema 3 - Ejercicio 5.dll
+C:\Users\windows10\Desktop\di.tema3\Tema 3 - Ejercicio 5\Tema 3 - Ejercicio 5\bin\Debug\net8.0-windows\Tema 3 - Ejercicio 5.pdb
+C:\Users\windows10\Desktop\di.tema3\Tema 3 - Ejercicio 5\Tema 3 - Ejercicio 5\bin\Debug\net8.0-windows\ControlzEx.dll
+C:\Users\windows10\Desktop\di.tema3\Tema 3 - Ejercicio 5\Tema 3 - Ejercicio 5\bin\Debug\net8.0-windows\MahApps.Metro.dll
+C:\Users\windows10\Desktop\di.tema3\Tema 3 - Ejercicio 5\Tema 3 - Ejercicio 5\bin\Debug\net8.0-windows\MaterialDesignColors.dll
+C:\Users\windows10\Desktop\di.tema3\Tema 3 - Ejercicio 5\Tema 3 - Ejercicio 5\bin\Debug\net8.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\windows10\Desktop\di.tema3\Tema 3 - Ejercicio 5\Tema 3 - Ejercicio 5\bin\Debug\net8.0-windows\MaterialDesignThemes.MahApps.dll
+C:\Users\windows10\Desktop\di.tema3\Tema 3 - Ejercicio 5\Tema 3 - Ejercicio 5\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\windows10\Desktop\di.tema3\Tema 3 - Ejercicio 5\Tema 3 - Ejercicio 5\bin\Debug\net8.0-windows\de\MahApps.Metro.resources.dll
+C:\Users\windows10\Desktop\di.tema3\Tema 3 - Ejercicio 5\Tema 3 - Ejercicio 5\obj\Debug\net8.0-windows\Tema 3 - Ejercicio 5.csproj.AssemblyReference.cache
+C:\Users\windows10\Desktop\di.tema3\Tema 3 - Ejercicio 5\Tema 3 - Ejercicio 5\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\windows10\Desktop\di.tema3\Tema 3 - Ejercicio 5\Tema 3 - Ejercicio 5\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\windows10\Desktop\di.tema3\Tema 3 - Ejercicio 5\Tema 3 - Ejercicio 5\obj\Debug\net8.0-windows\Tema 3 - Ejercicio 5_MarkupCompile.cache
+C:\Users\windows10\Desktop\di.tema3\Tema 3 - Ejercicio 5\Tema 3 - Ejercicio 5\obj\Debug\net8.0-windows\Tema 3 - Ejercicio 5_MarkupCompile.lref
+C:\Users\windows10\Desktop\di.tema3\Tema 3 - Ejercicio 5\Tema 3 - Ejercicio 5\obj\Debug\net8.0-windows\App.baml
+C:\Users\windows10\Desktop\di.tema3\Tema 3 - Ejercicio 5\Tema 3 - Ejercicio 5\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\windows10\Desktop\di.tema3\Tema 3 - Ejercicio 5\Tema 3 - Ejercicio 5\obj\Debug\net8.0-windows\Tema 3 - Ejercicio 5.g.resources
+C:\Users\windows10\Desktop\di.tema3\Tema 3 - Ejercicio 5\Tema 3 - Ejercicio 5\obj\Debug\net8.0-windows\Tema 3 - Ejercicio 5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\windows10\Desktop\di.tema3\Tema 3 - Ejercicio 5\Tema 3 - Ejercicio 5\obj\Debug\net8.0-windows\Tema 3 - Ejercicio 5.AssemblyInfoInputs.cache
+C:\Users\windows10\Desktop\di.tema3\Tema 3 - Ejercicio 5\Tema 3 - Ejercicio 5\obj\Debug\net8.0-windows\Tema 3 - Ejercicio 5.AssemblyInfo.cs
+C:\Users\windows10\Desktop\di.tema3\Tema 3 - Ejercicio 5\Tema 3 - Ejercicio 5\obj\Debug\net8.0-windows\Tema 3 - Ejercicio 5.csproj.CoreCompileInputs.cache
+C:\Users\windows10\Desktop\di.tema3\Tema 3 - Ejercicio 5\Tema 3 - Ejercicio 5\obj\Debug\net8.0-windows\Tema 3 -.2C05DFC1.Up2Date
+C:\Users\windows10\Desktop\di.tema3\Tema 3 - Ejercicio 5\Tema 3 - Ejercicio 5\obj\Debug\net8.0-windows\Tema 3 - Ejercicio 5.dll
+C:\Users\windows10\Desktop\di.tema3\Tema 3 - Ejercicio 5\Tema 3 - Ejercicio 5\obj\Debug\net8.0-windows\refint\Tema 3 - Ejercicio 5.dll
+C:\Users\windows10\Desktop\di.tema3\Tema 3 - Ejercicio 5\Tema 3 - Ejercicio 5\obj\Debug\net8.0-windows\Tema 3 - Ejercicio 5.pdb
+C:\Users\windows10\Desktop\di.tema3\Tema 3 - Ejercicio 5\Tema 3 - Ejercicio 5\obj\Debug\net8.0-windows\Tema 3 - Ejercicio 5.genruntimeconfig.cache
+C:\Users\windows10\Desktop\di.tema3\Tema 3 - Ejercicio 5\Tema 3 - Ejercicio 5\obj\Debug\net8.0-windows\ref\Tema 3 - Ejercicio 5.dll

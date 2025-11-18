@@ -1,0 +1,78 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Iconos\bag.png" />
+    <None Remove="Iconos\bell.png" />
+    <None Remove="Iconos\bolsa.png" />
+    <None Remove="Iconos\camion.png" />
+    <None Remove="Iconos\carta.png" />
+    <None Remove="Iconos\chart.png" />
+    <None Remove="Iconos\chart96.png" />
+    <None Remove="Iconos\choice.png" />
+    <None Remove="Iconos\clock.png" />
+    <None Remove="Iconos\configuracion.png" />
+    <None Remove="Iconos\deposito.png" />
+    <None Remove="Iconos\discos.png" />
+    <None Remove="Iconos\down.png" />
+    <None Remove="Iconos\grafico.png" />
+    <None Remove="Iconos\grupo.png" />
+    <None Remove="Iconos\grupoblanco.png" />
+    <None Remove="Iconos\homeblanco.png" />
+    <None Remove="Iconos\inicio.png" />
+    <None Remove="Iconos\LineChart.jpg" />
+    <None Remove="Iconos\linegraph.png" />
+    <None Remove="Iconos\matisse.png" />
+    <None Remove="Iconos\max.png" />
+    <None Remove="Iconos\min.png" />
+    <None Remove="Iconos\PieChart.jpg" />
+    <None Remove="Iconos\reparto.png" />
+    <None Remove="Iconos\stock.png" />
+    <None Remove="Iconos\transferencia.png" />
+    <None Remove="Iconos\user.png" />
+    <None Remove="Iconos\ventas.png" />
+    <None Remove="Iconos\x.png" />
+    <None Remove="Imagenes\BarChart.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Iconos\bell.png" />
+    <Resource Include="Iconos\bolsa.png" />
+    <Resource Include="Iconos\camion.png" />
+    <Resource Include="Iconos\carta.png" />
+    <Resource Include="Iconos\chart.png" />
+    <Resource Include="Iconos\chart96.png" />
+    <Resource Include="Iconos\choice.png" />
+    <Resource Include="Iconos\clock.png" />
+    <Resource Include="Iconos\configuracion.png" />
+    <Resource Include="Iconos\deposito.png" />
+    <Resource Include="Iconos\discos.png" />
+    <Resource Include="Iconos\down.png" />
+    <Resource Include="Iconos\grafico.png" />
+    <Resource Include="Iconos\grupo.png" />
+    <Resource Include="Iconos\grupoblanco.png" />
+    <Resource Include="Iconos\homeblanco.png" />
+    <Resource Include="Iconos\bag.png" />
+    <Resource Include="Iconos\inicio.png" />
+    <Resource Include="Iconos\linegraph.png" />
+    <Resource Include="Iconos\transferencia.png" />
+    <Resource Include="Imagenes\BarChart.jpg" />
+    <Resource Include="Imagenes\LineChart.jpg" />
+    <Resource Include="Iconos\matisse.png" />
+    <Resource Include="Iconos\max.png" />
+    <Resource Include="Iconos\min.png" />
+    <Resource Include="Imagenes\PieChart.jpg" />
+    <Resource Include="Iconos\reparto.png" />
+    <Resource Include="Iconos\stock.png" />
+    <Resource Include="Iconos\user.png" />
+    <Resource Include="Iconos\ventas.png" />
+    <Resource Include="Iconos\x.png" />
+  </ItemGroup>
+
+</Project>

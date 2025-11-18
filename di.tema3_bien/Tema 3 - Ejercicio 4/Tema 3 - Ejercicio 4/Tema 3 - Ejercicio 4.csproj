@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>Tema_3___Ejercicio_4</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="res\administracion.png" />
+    <None Remove="res\articulo.png" />
+    <None Remove="res\busqueda.png" />
+    <None Remove="res\informacion.png" />
+    <None Remove="res\inventario.png" />
+    <None Remove="res\matisse.png" />
+    <None Remove="res\prestamos.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="res\administracion.png" />
+    <Resource Include="res\articulo.png" />
+    <Resource Include="res\busqueda.png" />
+    <Resource Include="res\informacion.png" />
+    <Resource Include="res\inventario.png" />
+    <Resource Include="res\matisse.png" />
+    <Resource Include="res\prestamos.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MaterialDesignThemes.MahApps" Version="5.3.0" />
+  </ItemGroup>
+
+</Project>

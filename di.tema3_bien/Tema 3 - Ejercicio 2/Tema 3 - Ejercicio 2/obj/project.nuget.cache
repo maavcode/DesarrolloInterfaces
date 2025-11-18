@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "wmZg+lbwULU=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\windows10\\Desktop\\di.tema3\\Tema 3 - Ejercicio 2\\Tema 3 - Ejercicio 2\\Tema 3 - Ejercicio 2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\windows10\\.nuget\\packages\\controlzex\\5.0.1\\controlzex.5.0.1.nupkg.sha512",
+    "C:\\Users\\windows10\\.nuget\\packages\\fluent.ribbon\\9.0.0\\fluent.ribbon.9.0.0.nupkg.sha512",
+    "C:\\Users\\windows10\\.nuget\\packages\\mahapps.metro\\2.4.10\\mahapps.metro.2.4.10.nupkg.sha512",
+    "C:\\Users\\windows10\\.nuget\\packages\\materialdesigncolors\\5.3.0\\materialdesigncolors.5.3.0.nupkg.sha512",
+    "C:\\Users\\windows10\\.nuget\\packages\\materialdesignthemes\\5.3.0\\materialdesignthemes.5.3.0.nupkg.sha512",
+    "C:\\Users\\windows10\\.nuget\\packages\\materialdesignthemes.mahapps\\5.3.0\\materialdesignthemes.mahapps.5.3.0.nupkg.sha512",
+    "C:\\Users\\windows10\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.77\\microsoft.xaml.behaviors.wpf.1.1.77.nupkg.sha512",
+    "C:\\Users\\windows10\\.nuget\\packages\\system.text.json\\5.0.1\\system.text.json.5.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

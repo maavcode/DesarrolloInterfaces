@@ -1,0 +1,57 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>Tema_3___Ejercicio_2</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="matisse.png" />
+    <None Remove="res\addarticulomvvm.png" />
+    <None Remove="res\adduser.png" />
+    <None Remove="res\articulo.png" />
+    <None Remove="res\charts.png" />
+    <None Remove="res\checklist.png" />
+    <None Remove="res\devolucion.png" />
+    <None Remove="res\espacios.png" />
+    <None Remove="res\gesarticulo.png" />
+    <None Remove="res\gesusuario.png" />
+    <None Remove="res\iconmodelo.png" />
+    <None Remove="res\informe.png" />
+    <None Remove="res\inventario.png" />
+    <None Remove="res\listausuarios.png" />
+    <None Remove="res\perfil.png" />
+    <None Remove="res\resetclave.png" />
+    <None Remove="res\salida.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Fluent.Ribbon" Version="9.0.0" />
+    <PackageReference Include="MaterialDesignThemes.MahApps" Version="5.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="res\addarticulomvvm.png" />
+    <Resource Include="res\adduser.png" />
+    <Resource Include="res\articulo.png" />
+    <Resource Include="res\charts.png" />
+    <Resource Include="res\checklist.png" />
+    <Resource Include="res\devolucion.png" />
+    <Resource Include="res\espacios.png" />
+    <Resource Include="res\gesarticulo.png" />
+    <Resource Include="res\gesusuario.png" />
+    <Resource Include="res\iconmodelo.png" />
+    <Resource Include="res\informe.png" />
+    <Resource Include="res\inventario.png" />
+    <Resource Include="res\listausuarios.png" />
+    <Resource Include="res\matisse.png" />
+    <Resource Include="res\perfil.png" />
+    <Resource Include="res\resetclave.png" />
+    <Resource Include="res\salida.png" />
+  </ItemGroup>
+
+</Project>

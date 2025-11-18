@@ -316,11 +316,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\di.tema2.ejercicio4\\di.tema2.ejercicio4\\di.tema2.ejercicio4.csproj",
+      "projectUniqueName": "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\di.tema2\\di.tema2.ejercicio4\\di.tema2.ejercicio4\\di.tema2.ejercicio4.csproj",
       "projectName": "di.tema2.ejercicio4",
-      "projectPath": "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\di.tema2.ejercicio4\\di.tema2.ejercicio4\\di.tema2.ejercicio4.csproj",
+      "projectPath": "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\di.tema2\\di.tema2.ejercicio4\\di.tema2.ejercicio4\\di.tema2.ejercicio4.csproj",
       "packagesPath": "C:\\Users\\windows10\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\di.tema2.ejercicio4\\di.tema2.ejercicio4\\obj\\",
+      "outputPath": "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\di.tema2\\di.tema2.ejercicio4\\di.tema2.ejercicio4\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
