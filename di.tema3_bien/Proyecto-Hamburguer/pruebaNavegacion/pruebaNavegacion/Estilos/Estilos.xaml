@@ -1,0 +1,98 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls">
+    <!-- Estilos HamburgerMenu -->
+    <DataTemplate x:Key="MenuItemTemplate" DataType="{x:Type mah:HamburgerMenuGlyphItem}">
+        <!-- Para mostrar correctamente el contenido utilizamos un Grid con dos columnas -->
+        <Grid Height="48">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="48" />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <!-- En este textblock se muestra el icono. Se utiliza la fuente Segoe -->
+            <TextBlock Grid.Column="0"
+                    FontSize="16"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    FontFamily="Segoe MDL2 Assets"
+                    Foreground="White"
+                    Text="{Binding Glyph}" />
+            <!-- En este segundo textbloc se muestra la etiqueta que vemos al desplegar el menu -->
+            <TextBlock Grid.Column="1"
+                    VerticalAlignment="Center"
+                    FontSize="16"
+                    Foreground="White"
+                    Text="{Binding Label}" />
+        </Grid>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type mah:HamburgerMenuItem}">
+        <Grid x:Name="TheContentGrid">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="48" />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Border Grid.Row="0"
+                    Background="#FF444444">
+                <TextBlock x:Name="Header"
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Center"
+                            FontSize="24"
+                            Foreground="White"
+                            Text="{Binding Label}" />
+            </Border>
+            <ContentControl x:Name="TheContent"
+                            Grid.Row="1"
+                            Focusable="False"
+                            Foreground="{DynamicResource BlackBrush}"
+                            Content="{Binding Tag}" />
+        </Grid>
+    </DataTemplate>
+    <DataTemplate x:Key="MenuItemTemplateIcon" DataType="{x:Type mah:HamburgerMenuIconItem}">
+        <Grid Height="48">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="48" />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0">
+                <Viewbox ToolTip="{Binding Label}" Width="24" Height="24" >
+                    <Viewbox.Child>
+                        <ContentControl Content="{Binding Path=Icon}"></ContentControl>
+                    </Viewbox.Child>
+                </Viewbox>
+            </Grid>
+            <TextBlock Grid.Column="1"
+               Margin="10,0,0,0"
+               VerticalAlignment="Center"
+               FontSize="16"
+               Foreground="White"
+               Text="{Binding Label}" />
+        </Grid>
+    </DataTemplate>
+    <DataTemplate x:Key="MenuItemTemplateImage" DataType="{x:Type mah:HamburgerMenuImageItem}">
+        <Grid x:Name="RootGrid"
+                      Height="48"
+                      Background="Transparent">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="48" />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <ContentControl Grid.Column="0"
+                                    HorizontalAlignment="Center"
+                                    VerticalAlignment="Center"
+                                    Focusable="False"
+                                    Foreground="White" >
+                <Image Source="{Binding Path=Thumbnail}" Height="30" />
+            </ContentControl>
+            <TextBlock Grid.Column="1"
+                               VerticalAlignment="Center"
+                               FontSize="16"
+                               Foreground="White"
+                               Text="{Binding Label}" />
+        </Grid>
+        <DataTemplate.Triggers>
+            <DataTrigger Binding="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type mah:HamburgerMenu}}, Path=IsPaneOpen}" Value="False">
+                <Setter TargetName="RootGrid" Property="ToolTip" Value="{Binding ToolTip, Mode=OneWay}" />
+            </DataTrigger>
+        </DataTemplate.Triggers>
+    </DataTemplate>
+</ResourceDictionary>

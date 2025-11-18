@@ -1,0 +1,102 @@
+﻿<mah:MetroWindow x:Class="pruebaNavegacion.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
+        xmlns:material="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:local="clr-namespace:pruebaNavegacion"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <mah:MetroWindow.Resources>
+        <DataTemplate x:Key="MenuItemTemplateImage" DataType="{x:Type mah:HamburgerMenuImageItem}">
+            <Grid Height="48" Margin="5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="48" />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+
+                <Image Grid.Column="0"
+                       Width="32" Height="32"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center"
+                       Source="{Binding Thumbnail}" />
+
+                <TextBlock Grid.Column="1"
+                           VerticalAlignment="Center"
+                           FontSize="16"
+                           Foreground="White"
+                           Text="{Binding Label}" />
+            </Grid>
+        </DataTemplate>
+        <DataTemplate x:Key="MenuItemTemplateIcon" DataType="{x:Type mah:HamburgerMenuIconItem}">
+            <Grid Height="48" Margin="5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="48" />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <ContentPresenter Grid.Column="0"
+                                  Content="{Binding Icon}"
+                                  HorizontalAlignment="Center"
+                                  VerticalAlignment="Center" />
+
+                <TextBlock Grid.Column="1"
+                           VerticalAlignment="Center"
+                           FontSize="16"
+                           Foreground="White"
+                           Text="{Binding Label}" />
+            </Grid>
+        </DataTemplate>
+
+    </mah:MetroWindow.Resources>
+    <Grid>
+        <mah:HamburgerMenu Foreground="White"
+                           x:Name="hamMenuPrincipal"
+                           DisplayMode="CompactInline"
+                           ItemTemplate="{StaticResource MenuItemTemplateImage}"
+                           OptionsItemTemplate="{StaticResource MenuItemTemplateIcon}"
+                           ItemClick="hamMenuPrincipal_ItemClick"
+                           Grid.ColumnSpan="2">
+            <mah:HamburgerMenu.ItemsSource>
+                <mah:HamburgerMenuItemCollection>
+                    <mah:HamburgerMenuImageItem Label="Prestamos" Tag="Prestamos" ToolTip="Prestamos">
+                        <mah:HamburgerMenuImageItem.Thumbnail>
+                            <BitmapImage UriSource="/reload.png" />
+                        </mah:HamburgerMenuImageItem.Thumbnail>
+                    </mah:HamburgerMenuImageItem>
+                    <mah:HamburgerMenuImageItem Label="Busqueda" Tag="Busqueda" ToolTip="Busqueda">
+                        <mah:HamburgerMenuImageItem.Thumbnail>
+                            <BitmapImage UriSource="/search.png"/>
+                        </mah:HamburgerMenuImageItem.Thumbnail>
+                    </mah:HamburgerMenuImageItem>
+                    <mah:HamburgerMenuImageItem Label="Artículos" Tag="Articulos" ToolTip="Artículos">
+                        <mah:HamburgerMenuImageItem.Thumbnail>
+                            <BitmapImage UriSource="/box.png" />
+                        </mah:HamburgerMenuImageItem.Thumbnail>
+                    </mah:HamburgerMenuImageItem>
+                    <mah:HamburgerMenuImageItem Label="Administración" Tag="Administracion" ToolTip="Administración">
+                        <mah:HamburgerMenuImageItem.Thumbnail>
+                            <BitmapImage UriSource="/herramienta.png" />
+                        </mah:HamburgerMenuImageItem.Thumbnail>
+                    </mah:HamburgerMenuImageItem>
+                    <mah:HamburgerMenuImageItem Label="Inventario" Tag="Inventario" ToolTip="Inventario">
+                        <mah:HamburgerMenuImageItem.Thumbnail>
+                            <BitmapImage UriSource="/list.png" />
+                        </mah:HamburgerMenuImageItem.Thumbnail>
+                    </mah:HamburgerMenuImageItem>
+                    <mah:HamburgerMenuImageItem Label="Información" Tag="Informacion" ToolTip="Información">
+                        <mah:HamburgerMenuImageItem.Thumbnail>
+                            <BitmapImage UriSource="/gra.png" />
+                        </mah:HamburgerMenuImageItem.Thumbnail>
+                    </mah:HamburgerMenuImageItem>
+                </mah:HamburgerMenuItemCollection>
+            </mah:HamburgerMenu.ItemsSource>
+            <!-- Sección de opciones -->
+            <mah:HamburgerMenu.OptionsItemsSource>
+                <mah:HamburgerMenuItemCollection>
+                    <mah:HamburgerMenuIconItem Icon="{material:PackIcon Kind=Help}" Label="Ayuda" />
+                </mah:HamburgerMenuItemCollection>
+            </mah:HamburgerMenu.OptionsItemsSource>
+        </mah:HamburgerMenu>
+    </Grid>
+</mah:MetroWindow>
