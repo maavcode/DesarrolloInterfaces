@@ -1,0 +1,78 @@
+﻿<Fluent:RibbonWindow x:Class="di.proyecto.clase._2025.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:di.proyecto.clase._2025"
+        xmlns:mah="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:mat="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:Fluent="urn:fluent-ribbon"
+                     mc:Ignorable="d"
+                     WindowState="Maximized"
+TitleBarHeight="40"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Fluent:Ribbon>
+            <!--Opción 1: PRESTAMOS -->
+            <Fluent:RibbonTabItem
+                Header="PRESTAMOS"
+                IsSelected="True">
+                <!--Apartado 1 Operaciones-->
+                <Fluent:RibbonGroupBox 
+                    x:Name="ClicpboardOperaciones"
+                    Header="Operaciones"
+                    Margin="5">
+                    <Fluent:Button
+                        LargeIcon="/Recursos/Iconos/salida.png"
+                        Header="Salida"
+                        Margin="0,0,10,0"/>
+                    <Fluent:Button
+                        LargeIcon="/Recursos/Iconos/devolucion.png"
+                        Header="Devolución"/>
+                </Fluent:RibbonGroupBox>
+                <!--Apartado 2 Busquedas-->
+                <Fluent:RibbonGroupBox 
+                     x:Name="ClicpboardBusquedas"
+                     Header="Busquedas">
+                    <TextBlock
+                        Text="Por número de serie"
+                        FontWeight="Bold"
+                        Margin="10"
+                        FontSize="14"/>
+                    <TextBox
+                        BorderBrush="LightGray"
+                        BorderThickness="1"
+                        Margin="5,0"/>
+                </Fluent:RibbonGroupBox>
+                <!--Apartado 3 ModeloArticulo-->
+                <Fluent:RibbonGroupBox 
+                    x:Name="AddListaModeloArticulo"
+                    Header="Modelo Articulo"
+                    Margin="5">
+                    <Fluent:Button
+                        LargeIcon="/Recursos/Iconos/listamodelos.png"
+                        Header="ModeloArticulo"
+                        Foreground="DarkOrange"
+                        Margin="0,0,10,0"
+                        x:Name="btnAddModeloArticulo"
+                        Click="btnAddModeloArticulo_Click"/>
+
+                </Fluent:RibbonGroupBox>
+                <!--Apartado 3 Operaciones-->
+                <Fluent:RibbonGroupBox 
+                    x:Name="AddListaArticulo"
+                    Header="Articulo"
+                    Margin="5">
+                    <Fluent:Button
+                        LargeIcon="/Recursos/Iconos/articulo.png"
+                        Header="Articulo"
+                        Foreground="DarkOrange"
+                        Margin="0,0,10,0"
+                        x:Name="btnAddArticulo"
+                        Click="btnAddArticulo_Click"/>
+
+                </Fluent:RibbonGroupBox>
+            </Fluent:RibbonTabItem>
+        </Fluent:Ribbon>
+    </Grid>
+</Fluent:RibbonWindow>

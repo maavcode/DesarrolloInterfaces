@@ -1,0 +1,557 @@
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 1\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\di.proyecto.clase.2025.exe
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 1\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\di.proyecto.clase.2025.deps.json
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 1\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\di.proyecto.clase.2025.runtimeconfig.json
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 1\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\di.proyecto.clase.2025.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 1\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\di.proyecto.clase.2025.pdb
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 1\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\ControlzEx.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 1\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Fluent.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 1\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\MahApps.Metro.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 1\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\MaterialDesignColors.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 1\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 1\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\MaterialDesignThemes.MahApps.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 1\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 1\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\de\MahApps.Metro.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 1\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\di.proyecto.clase.2025.csproj.AssemblyReference.cache
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 1\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\Frontend(visual)\Dialogo\Login.g.cs
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 1\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 1\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 1\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\di.proyecto.clase.2025_MarkupCompile.cache
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 1\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\di.proyecto.clase.2025_MarkupCompile.lref
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 1\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\App.baml
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 1\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\Frontend(visual)\Dialogo\Login.baml
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 1\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 1\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\di.proyecto.clase.2025.g.resources
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 1\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\di.proyecto.clase.2025.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 1\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\di.proyecto.clase.2025.AssemblyInfoInputs.cache
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 1\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\di.proyecto.clase.2025.AssemblyInfo.cs
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 1\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\di.proyecto.clase.2025.csproj.CoreCompileInputs.cache
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 1\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\di.proye.D5D806F9.Up2Date
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 1\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\di.proyecto.clase.2025.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 1\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\refint\di.proyecto.clase.2025.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 1\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\di.proyecto.clase.2025.pdb
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 1\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\di.proyecto.clase.2025.genruntimeconfig.cache
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 1\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\ref\di.proyecto.clase.2025.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\di.proyecto.clase.2025.exe
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\di.proyecto.clase.2025.deps.json
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\di.proyecto.clase.2025.runtimeconfig.json
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\di.proyecto.clase.2025.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\di.proyecto.clase.2025.pdb
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\ControlzEx.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Fluent.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\MahApps.Metro.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\MaterialDesignColors.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\MaterialDesignThemes.MahApps.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\de\MahApps.Metro.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\di.proyecto.clase.2025.csproj.AssemblyReference.cache
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\Frontend(visual)\Dialogo\Login.g.cs
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\di.proyecto.clase.2025_MarkupCompile.cache
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\di.proyecto.clase.2025_MarkupCompile.lref
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\App.baml
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\Frontend(visual)\Dialogo\Login.baml
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\di.proyecto.clase.2025.g.resources
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\di.proyecto.clase.2025.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\di.proyecto.clase.2025.AssemblyInfoInputs.cache
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\di.proyecto.clase.2025.AssemblyInfo.cs
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\di.proyecto.clase.2025.csproj.CoreCompileInputs.cache
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\di.proye.D5D806F9.Up2Date
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\di.proyecto.clase.2025.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\refint\di.proyecto.clase.2025.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\di.proyecto.clase.2025.pdb
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\di.proyecto.clase.2025.genruntimeconfig.cache
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\ref\di.proyecto.clase.2025.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Castle.Core.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Google.Protobuf.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Humanizer.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Proxies.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyModel.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Mono.TextTemplating.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\MySql.Data.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\MySql.EntityFrameworkCore.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\System.Composition.AttributedModel.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\System.Composition.Convention.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\System.Composition.Hosting.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\System.Composition.Runtime.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\System.Composition.TypedParts.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\ZstdSharp.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\Frontend(visual)\Dialogo\DialogoModeloArticulo.g.cs
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\Frontend(visual)\Dialogo\DialogoModeloArticulo.baml
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\Frontend(visual)\Dialogo\DialogoArticulo.g.cs
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 2\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\Frontend(visual)\Dialogo\DialogoArticulo.baml
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\di.proyecto.clase.2025.exe
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\di.proyecto.clase.2025.deps.json
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\di.proyecto.clase.2025.runtimeconfig.json
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\di.proyecto.clase.2025.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\di.proyecto.clase.2025.pdb
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Castle.Core.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\ControlzEx.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Fluent.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Google.Protobuf.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Humanizer.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\MahApps.Metro.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\MaterialDesignColors.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\MaterialDesignThemes.Wpf.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\MaterialDesignThemes.MahApps.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Workspaces.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Proxies.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyModel.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Mono.TextTemplating.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\MySql.Data.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\MySql.EntityFrameworkCore.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\System.Composition.AttributedModel.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\System.Composition.Convention.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\System.Composition.Hosting.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\System.Composition.Runtime.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\System.Composition.TypedParts.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\ZstdSharp.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\de\MahApps.Metro.resources.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.resources.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.resources.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.resources.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.resources.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.resources.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.resources.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.resources.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.resources.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.resources.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.resources.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\di.proyecto.clase.2025.csproj.AssemblyReference.cache
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\Frontend(visual)\Dialogo\DialogoArticulo.g.cs
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\Frontend(visual)\Dialogo\DialogoModeloArticulo.g.cs
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\Frontend(visual)\Dialogo\Login.g.cs
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\App.g.cs
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\di.proyecto.clase.2025_MarkupCompile.cache
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\di.proyecto.clase.2025_MarkupCompile.lref
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\App.baml
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\Frontend(visual)\Dialogo\DialogoArticulo.baml
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\Frontend(visual)\Dialogo\DialogoModeloArticulo.baml
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\Frontend(visual)\Dialogo\Login.baml
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\MainWindow.baml
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\di.proyecto.clase.2025.g.resources
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\di.proyecto.clase.2025.GeneratedMSBuildEditorConfig.editorconfig
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\di.proyecto.clase.2025.AssemblyInfoInputs.cache
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\di.proyecto.clase.2025.AssemblyInfo.cs
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\di.proyecto.clase.2025.csproj.CoreCompileInputs.cache
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\di.proye.D5D806F9.Up2Date
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\di.proyecto.clase.2025.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\refint\di.proyecto.clase.2025.dll
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\di.proyecto.clase.2025.pdb
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\di.proyecto.clase.2025.genruntimeconfig.cache
+D:\REPASO 2.0\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\ref\di.proyecto.clase.2025.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\di.proyecto.clase.2025.csproj.AssemblyReference.cache
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\Frontend(visual)\Dialogo\DialogoArticulo.g.cs
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\Frontend(visual)\Dialogo\DialogoModeloArticulo.g.cs
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\Frontend(visual)\Dialogo\Login.g.cs
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\di.proyecto.clase.2025_MarkupCompile.cache
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\di.proyecto.clase.2025_MarkupCompile.lref
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\di.proyecto.clase.2025.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\refint\di.proyecto.clase.2025.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\di.proyecto.clase.2025.pdb
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\di.proyecto.clase.2025.exe
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\di.proyecto.clase.2025.deps.json
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\di.proyecto.clase.2025.runtimeconfig.json
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\di.proyecto.clase.2025.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\di.proyecto.clase.2025.pdb
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Castle.Core.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\ControlzEx.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Fluent.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Google.Protobuf.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Humanizer.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\MahApps.Metro.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\MaterialDesignColors.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\MaterialDesignThemes.MahApps.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Proxies.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyModel.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Mono.TextTemplating.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\MySql.Data.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\MySql.EntityFrameworkCore.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\System.Composition.AttributedModel.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\System.Composition.Convention.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\System.Composition.Hosting.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\System.Composition.Runtime.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\System.Composition.TypedParts.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\ZstdSharp.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\de\MahApps.Metro.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\App.baml
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\Frontend(visual)\Dialogo\DialogoArticulo.baml
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\Frontend(visual)\Dialogo\DialogoModeloArticulo.baml
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\Frontend(visual)\Dialogo\Login.baml
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\di.proyecto.clase.2025.g.resources
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\di.proyecto.clase.2025.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\di.proyecto.clase.2025.AssemblyInfoInputs.cache
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\di.proyecto.clase.2025.AssemblyInfo.cs
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\di.proyecto.clase.2025.csproj.CoreCompileInputs.cache
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\di.proye.D5D806F9.Up2Date
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\di.proyecto.clase.2025.genruntimeconfig.cache
+C:\Users\windows10\Desktop\DI\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\ref\di.proyecto.clase.2025.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\di.proyecto.clase.2025.exe
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\di.proyecto.clase.2025.deps.json
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\di.proyecto.clase.2025.runtimeconfig.json
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\di.proyecto.clase.2025.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\di.proyecto.clase.2025.pdb
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Castle.Core.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\ControlzEx.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Fluent.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Google.Protobuf.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Humanizer.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\MahApps.Metro.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\MaterialDesignColors.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\MaterialDesignThemes.Wpf.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\MaterialDesignThemes.MahApps.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Workspaces.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Proxies.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyModel.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\Mono.TextTemplating.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\MySql.Data.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\MySql.EntityFrameworkCore.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\System.Composition.AttributedModel.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\System.Composition.Convention.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\System.Composition.Hosting.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\System.Composition.Runtime.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\System.Composition.TypedParts.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\ZstdSharp.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\de\MahApps.Metro.resources.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.resources.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.resources.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.resources.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.resources.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.resources.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.resources.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.resources.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.resources.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.resources.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.resources.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\di.proyecto.clase.2025.csproj.AssemblyReference.cache
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\Frontend(visual)\Dialogo\DialogoArticulo.g.cs
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\Frontend(visual)\Dialogo\DialogoModeloArticulo.g.cs
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\Frontend(visual)\Dialogo\Login.g.cs
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\App.g.cs
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\di.proyecto.clase.2025_MarkupCompile.cache
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\di.proyecto.clase.2025_MarkupCompile.lref
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\App.baml
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\Frontend(visual)\Dialogo\DialogoArticulo.baml
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\Frontend(visual)\Dialogo\DialogoModeloArticulo.baml
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\Frontend(visual)\Dialogo\Login.baml
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\MainWindow.baml
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\di.proyecto.clase.2025.g.resources
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\di.proyecto.clase.2025.GeneratedMSBuildEditorConfig.editorconfig
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\di.proyecto.clase.2025.AssemblyInfoInputs.cache
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\di.proyecto.clase.2025.AssemblyInfo.cs
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\di.proyecto.clase.2025.csproj.CoreCompileInputs.cache
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\di.proye.D5D806F9.Up2Date
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\di.proyecto.clase.2025.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\refint\di.proyecto.clase.2025.dll
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\di.proyecto.clase.2025.pdb
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\di.proyecto.clase.2025.genruntimeconfig.cache
+D:\2º DAM\DISEÑO INTERFACE\1 EVALUACION\Inma\001_PASOS INTERFAZ\Paso 3\di.proyecto.clase.2025\di.proyecto.clase.2025\obj\Debug\net8.0-windows\ref\di.proyecto.clase.2025.dll

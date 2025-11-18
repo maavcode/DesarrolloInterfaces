@@ -1,0 +1,161 @@
+﻿<mah:MetroWindow x:Class="di.proyecto.clase._2025.Frontend_visual_.Dialogo.DialogoModeloArticulo"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:di.proyecto.clase._2025.Frontend_visual_.Dialogo"
+      xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
+      xmlns:mat="http://materialdesigninxaml.net/winfx/xaml/themes"
+      mc:Ignorable="d" 
+      Height="640"
+      Width="600"
+      d:DesignHeight="640" d:DesignWidth="600"
+      Title="DialogoModeloArticulo"
+      x:Name="diagModeloArticulo"
+      Loaded="diagModeloArticulo_Loaded">
+    
+    <Grid Margin="10">
+        <!--
+        nombre
+        descripcion
+        marca
+        modelo
+        tipo(clave ajena=conbobox)
+        -->
+        <!-- Rectangulo inicial -->
+        <Grid Width="Auto"
+            Height="100"
+            Margin="0,0,0,20"
+            VerticalAlignment="Top">
+            <Rectangle
+             Fill="#454545"/>
+            <TextBlock
+              Text="INSERTAR MODELO ARTICULO"
+              FontSize="30"
+              HorizontalAlignment="Center"
+              VerticalAlignment="Center"
+              Foreground="White"/>
+        </Grid>
+        <Grid>
+            <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        
+        
+        <!--NOMBRE-->
+        <TextBox
+            x:Name="txtNombre"
+            Style="{StaticResource MaterialDesignTextBox}"
+            mat:HintAssist.Hint="Nombre*"
+            FontWeight="Bold"
+            Grid.Row="1"
+            Grid.Column="0"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Center"
+            Width="200"
+            Height="40"
+            Margin="10"
+            Background="LightGray"/>
+        
+        <!--TIPO-->
+        <ComboBox
+            Style="{StaticResource MaterialDesignComboBox}"
+            mat:HintAssist.Hint="Tipo*"
+            FontWeight="Bold"
+            Grid.Row="2"
+            Grid.Column="0"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Center"
+            Width="200"
+            Height="40"
+            Margin="10"
+            BorderBrush="Gray"
+            x:Name="cmbTipoArticulo"
+            DisplayMemberPath="Nombre"/>
+        <!--para que salga solo el nombre-->
+        <!--DESCRIPCION-->
+        <TextBox
+            x:Name="txtDescripcion"
+            Style="{StaticResource MaterialDesignTextBox}"
+            mat:HintAssist.Hint="Descripcion*"
+            FontWeight="Bold"
+            Grid.Row="3"
+            Grid.Column="0"
+            Grid.ColumnSpan="2"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Center"
+            Width="200"
+            Height="40"
+            Margin="10"
+            Background="LightGray"/>
+        
+        <!--MARCA-->
+        <TextBox
+            x:Name="txtMarca"
+            Style="{StaticResource MaterialDesignTextBox}"
+            mat:HintAssist.Hint="Marca*"
+            FontWeight="Bold"
+            Grid.Row="1"
+            Grid.Column="1"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Center"
+            Width="200"
+            Height="40"
+            Margin="10"
+            Background="LightGray"/>
+        
+        <!--MODELO-->
+        <TextBox
+            x:Name="txtModelo"
+            Style="{StaticResource MaterialDesignTextBox}"
+            mat:HintAssist.Hint="Modelo*"
+            FontWeight="Bold"
+            Grid.Row="2"
+            Grid.Column="1"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Center"
+            Width="200"
+            Height="40"
+            Margin="10"
+            Background="LightGray"
+            />
+        
+        <!-- BOTON AÑADIR-->
+        <Button
+            Grid.Row="4"
+            Grid.Column="0"
+            Content="Añadir"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Center"
+            Width="200"
+            Height="40"
+            Margin="10"
+            x:Name="btnAnyadirModeloArticulo"
+            Click="btnAnyadirModeloArticulo_Click"/>
+        
+        <!--BOTON CANCELAR-->
+        <Button
+            Grid.Row="4"
+            Grid.Column="1"
+            Content="Cancelar"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Center"
+            Background="Transparent"
+            BorderBrush="Gray"
+            Foreground="Black"
+            Width="200"
+            Height="40"
+            Margin="10"
+            x:Name="btnCancelarModeloArticulo"
+            Click="btnCancelarModeloArticulo_Click"/>
+    </Grid>
+    </Grid>
+</mah:MetroWindow>
