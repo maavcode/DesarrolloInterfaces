@@ -1,0 +1,153 @@
+﻿<mah:MetroWindow x:Class="D.I.tema3_ejercicio6.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mat="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"  
+        xmlns:material="clr-namespace:MaterialDesignThemes.Wpf;assembly=MaterialDesignThemes.Wpf"          
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:D.I.tema3_ejercicio6"
+        mc:Ignorable="d"
+        Title="Tema3.Ejercicio6" Height="450" Width="800"
+        mah:TitleCharacterCasing="Normal">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Vertical" Background="#444444" Margin="0,0,380,0" Grid.RowSpan="3">
+            <StackPanel Orientation="Horizontal">
+                <material:PackIcon Kind="Speedometer" 
+                                   Width="30" 
+                                   Height="30"
+                                   Foreground="#a8c4c2"
+                                   Background="Transparent"
+                                   Margin="15,8,0,0"/>
+                <TextBlock Text="Dashboard"
+                           Foreground="#a8c4c2"
+                           Margin="10,15,0,0"/>
+            </StackPanel>
+            <Separator/>
+            <TextBlock Text="Your Stage"
+                       Foreground="#a8c4c2"
+                       FontSize="18"
+                       FontWeight="bold"
+                       Margin="20,15,0,15"/>
+            <Button Style="{StaticResource MaterialDesignFlatButton}"
+                    HorizontalContentAlignment="Stretch"
+                    Foreground="#a8c4c2">
+                <StackPanel Orientation="Horizontal">
+                    <material:PackIcon Kind="Book" Width="20" Height="20"/>
+                    <TextBlock Text="Guide" 
+                               Width="100" 
+                               FontSize="16"
+                               VerticalAlignment="Center" 
+                               Margin="5,0,0,0"/>
+                </StackPanel>
+            </Button>
+
+            <Button Style="{StaticResource MaterialDesignFlatButton}"
+                    HorizontalContentAlignment="Stretch"
+                    Foreground="#a8c4c2">
+                <StackPanel Orientation="Horizontal">
+                    <material:PackIcon Kind="Bell" 
+                           Width="20" 
+                           Height="20" 
+                           Margin="0,5,0,0"/>
+                    <TextBlock Text="Notification" 
+                               Width="100" 
+                               FontSize="16"
+                               VerticalAlignment="Center" 
+                               Margin="5,5,0,0"/>
+                </StackPanel>
+            </Button>
+
+            <Button Style="{StaticResource MaterialDesignFlatButton}"
+                    HorizontalContentAlignment="Stretch"
+                    Foreground="#a8c4c2">
+                <StackPanel Orientation="Horizontal">
+                    <material:PackIcon Kind="Toolbox" 
+                                       Width="20" 
+                                       Height="20" 
+                                       Margin="0,5,0,0"/>
+                    <TextBlock Text="Features" 
+                               Width="100" 
+                               FontSize="16"
+                               VerticalAlignment="Center" 
+                               Margin="5,5,0,0"/>
+                </StackPanel>
+            </Button>
+
+            <Button Style="{StaticResource MaterialDesignFlatButton}"
+                    HorizontalContentAlignment="Stretch"
+                    Foreground="#a8c4c2">
+                <StackPanel Orientation="Horizontal">
+                    <material:PackIcon Kind="Map" 
+                                       Width="20" 
+                                       Height="20"
+                                       Margin="0,5,0,0"/>
+                    <TextBlock Text="Map Marker" 
+                               Width="100" 
+                               FontSize="16"
+                               VerticalAlignment="Center" 
+                               Margin="5,0,0,0"/>
+                </StackPanel>
+            </Button>
+
+            <Button Style="{StaticResource MaterialDesignFlatButton}"
+                 HorizontalContentAlignment="Stretch"
+                 Foreground="#a8c4c2">
+                <StackPanel Orientation="Horizontal">
+                    <material:PackIcon Kind="Assistant" 
+                                    Width="20" 
+                                    Height="20"
+                                    Margin="0,5,0,0"/>
+                    <TextBlock Text="Assistant" 
+                            Width="100" 
+                            FontSize="16"
+                            VerticalAlignment="Center" 
+                            Margin="5,0,0,0"/>
+                </StackPanel>
+            </Button>
+            <Separator/>
+
+        </StackPanel>
+        <StackPanel Orientation="Vertical" Margin="154,0,150,127">
+            <StackPanel Orientation="Horizontal" Width="228"  Background="#2abf9f">
+                <material:PackIcon Kind="ChartLine" 
+                       Width="30" 
+                       Height="30"
+                       Foreground="#0c7d61"
+                       Background="Transparent"
+                       Margin="25,5,0,0"/>
+                <TextBlock Text="Tasks"
+                           Foreground="#0c7d61"
+                           Margin="120,13,0,0"
+                           FontWeight="Bold"/>
+            </StackPanel>
+
+            <Button Style="{StaticResource MaterialDesignFlatButton}"
+                    HorizontalContentAlignment="Stretch"
+                    Foreground="#a8c4c2">
+                <StackPanel Orientation="Horizontal" Height="48">
+                    <material:PackIcon Kind="Book" Width="24" Height="24"/>
+                    <TextBlock Text="Inbox" 
+                               Width="100" 
+                               FontSize="24"
+                               VerticalAlignment="Center" 
+                               Margin="5,10,0,0"/>
+                </StackPanel>
+            </Button>
+
+        </StackPanel>
+
+
+
+    </Grid>
+</mah:MetroWindow>

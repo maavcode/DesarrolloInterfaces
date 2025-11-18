@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\windows10\\Desktop\\2\u00BA DAM\\PROYECTO\\TEORIA\\D.I.tema3_ejercicio6\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1AE481F0-8219-4630-93BE-9FFB240AE3F6}|D.I.tema3_ejercicio6\\D.I.tema3_ejercicio6.csproj|c:\\users\\windows10\\desktop\\2\u00BA dam\\proyecto\\teoria\\d.i.tema3_ejercicio6\\d.i.tema3_ejercicio6\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1AE481F0-8219-4630-93BE-9FFB240AE3F6}|D.I.tema3_ejercicio6\\D.I.tema3_ejercicio6.csproj|solutionrelative:d.i.tema3_ejercicio6\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AE481F0-8219-4630-93BE-9FFB240AE3F6}|D.I.tema3_ejercicio6\\D.I.tema3_ejercicio6.csproj|c:\\users\\windows10\\desktop\\2\u00BA dam\\proyecto\\teoria\\d.i.tema3_ejercicio6\\d.i.tema3_ejercicio6\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1AE481F0-8219-4630-93BE-9FFB240AE3F6}|D.I.tema3_ejercicio6\\D.I.tema3_ejercicio6.csproj|solutionrelative:d.i.tema3_ejercicio6\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 286,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\windows10\\Desktop\\2\u00BA DAM\\PROYECTO\\TEORIA\\D.I.tema3_ejercicio6\\D.I.tema3_ejercicio6\\App.xaml",
+              "RelativeDocumentMoniker": "D.I.tema3_ejercicio6\\App.xaml",
+              "ToolTip": "C:\\Users\\windows10\\Desktop\\2\u00BA DAM\\PROYECTO\\TEORIA\\D.I.tema3_ejercicio6\\D.I.tema3_ejercicio6\\App.xaml",
+              "RelativeToolTip": "D.I.tema3_ejercicio6\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-23T06:11:58.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\windows10\\Desktop\\2\u00BA DAM\\PROYECTO\\TEORIA\\D.I.tema3_ejercicio6\\D.I.tema3_ejercicio6\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "D.I.tema3_ejercicio6\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\windows10\\Desktop\\2\u00BA DAM\\PROYECTO\\TEORIA\\D.I.tema3_ejercicio6\\D.I.tema3_ejercicio6\\MainWindow.xaml",
+              "RelativeToolTip": "D.I.tema3_ejercicio6\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-22T08:37:14.284Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
