@@ -1,16 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "GTrSsJM0O6g=",
+  "dgSpecHash": "tlLt/DrQODg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\windows10\\Desktop\\2º DAM\\PROYECTO\\TEORIA\\D.I.tema3_ejercicio6\\D.I.tema3_ejercicio6\\D.I.tema3_ejercicio6.csproj",
+  "projectFilePath": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\D.I.tema3_ejercicio6\\D.I.tema3_ejercicio6\\D.I.tema3_ejercicio6.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\windows10\\.nuget\\packages\\controlzex\\4.4.0\\controlzex.4.4.0.nupkg.sha512",
-    "C:\\Users\\windows10\\.nuget\\packages\\mahapps.metro\\2.4.10\\mahapps.metro.2.4.10.nupkg.sha512",
-    "C:\\Users\\windows10\\.nuget\\packages\\materialdesigncolors\\5.3.0\\materialdesigncolors.5.3.0.nupkg.sha512",
-    "C:\\Users\\windows10\\.nuget\\packages\\materialdesignthemes\\5.3.0\\materialdesignthemes.5.3.0.nupkg.sha512",
-    "C:\\Users\\windows10\\.nuget\\packages\\materialdesignthemes.mahapps\\5.3.0\\materialdesignthemes.mahapps.5.3.0.nupkg.sha512",
-    "C:\\Users\\windows10\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.77\\microsoft.xaml.behaviors.wpf.1.1.77.nupkg.sha512",
-    "C:\\Users\\windows10\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512"
+    "C:\\Users\\PcVIP\\.nuget\\packages\\controlzex\\4.4.0\\controlzex.4.4.0.nupkg.sha512",
+    "C:\\Users\\PcVIP\\.nuget\\packages\\mahapps.metro\\2.4.10\\mahapps.metro.2.4.10.nupkg.sha512",
+    "C:\\Users\\PcVIP\\.nuget\\packages\\materialdesigncolors\\5.3.0\\materialdesigncolors.5.3.0.nupkg.sha512",
+    "C:\\Users\\PcVIP\\.nuget\\packages\\materialdesignthemes\\5.3.0\\materialdesignthemes.5.3.0.nupkg.sha512",
+    "C:\\Users\\PcVIP\\.nuget\\packages\\materialdesignthemes.mahapps\\5.3.0\\materialdesignthemes.mahapps.5.3.0.nupkg.sha512",
+    "C:\\Users\\PcVIP\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.77\\microsoft.xaml.behaviors.wpf.1.1.77.nupkg.sha512",
+    "C:\\Users\\PcVIP\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512"
   ],
   "logs": []
 }

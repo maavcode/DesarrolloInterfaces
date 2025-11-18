@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\windows10\\Desktop\\2º DAM\\PROYECTO\\TEORIA\\D.I.tema3_ejercicio6\\D.I.tema3_ejercicio6\\D.I.tema3_ejercicio6.csproj": {}
+    "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\D.I.tema3_ejercicio6\\D.I.tema3_ejercicio6\\D.I.tema3_ejercicio6.csproj": {}
   },
   "projects": {
-    "C:\\Users\\windows10\\Desktop\\2º DAM\\PROYECTO\\TEORIA\\D.I.tema3_ejercicio6\\D.I.tema3_ejercicio6\\D.I.tema3_ejercicio6.csproj": {
+    "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\D.I.tema3_ejercicio6\\D.I.tema3_ejercicio6\\D.I.tema3_ejercicio6.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\windows10\\Desktop\\2º DAM\\PROYECTO\\TEORIA\\D.I.tema3_ejercicio6\\D.I.tema3_ejercicio6\\D.I.tema3_ejercicio6.csproj",
+        "projectUniqueName": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\D.I.tema3_ejercicio6\\D.I.tema3_ejercicio6\\D.I.tema3_ejercicio6.csproj",
         "projectName": "D.I.tema3_ejercicio6",
-        "projectPath": "C:\\Users\\windows10\\Desktop\\2º DAM\\PROYECTO\\TEORIA\\D.I.tema3_ejercicio6\\D.I.tema3_ejercicio6\\D.I.tema3_ejercicio6.csproj",
-        "packagesPath": "C:\\Users\\windows10\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\windows10\\Desktop\\2º DAM\\PROYECTO\\TEORIA\\D.I.tema3_ejercicio6\\D.I.tema3_ejercicio6\\obj\\",
+        "projectPath": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\D.I.tema3_ejercicio6\\D.I.tema3_ejercicio6\\D.I.tema3_ejercicio6.csproj",
+        "packagesPath": "C:\\Users\\PcVIP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\D.I.tema3_ejercicio6\\D.I.tema3_ejercicio6\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\windows10\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PcVIP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -74,7 +75,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

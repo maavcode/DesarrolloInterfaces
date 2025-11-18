@@ -28,3 +28,34 @@ C:\Users\windows10\Desktop\2º DAM\PROYECTO\TEORIA\D.I.tema3_ejercicio6\D.I.tema
 C:\Users\windows10\Desktop\2º DAM\PROYECTO\TEORIA\D.I.tema3_ejercicio6\D.I.tema3_ejercicio6\obj\Debug\net8.0-windows\D.I.tema3_ejercicio6.csproj.AssemblyReference.cache
 C:\Users\windows10\Desktop\2º DAM\PROYECTO\TEORIA\D.I.tema3_ejercicio6\D.I.tema3_ejercicio6\obj\Debug\net8.0-windows\App.baml
 C:\Users\windows10\Desktop\2º DAM\PROYECTO\TEORIA\D.I.tema3_ejercicio6\D.I.tema3_ejercicio6\obj\Debug\net8.0-windows\D.I.tema.AE087688.Up2Date
+C:\Users\PcVIP\Documents\codigo\myRepos\classProjects\DesarrolloInterfaces\di.tema3_bien\D.I.tema3_ejercicio6\D.I.tema3_ejercicio6\bin\Debug\net8.0-windows\D.I.tema3_ejercicio6.exe
+C:\Users\PcVIP\Documents\codigo\myRepos\classProjects\DesarrolloInterfaces\di.tema3_bien\D.I.tema3_ejercicio6\D.I.tema3_ejercicio6\bin\Debug\net8.0-windows\D.I.tema3_ejercicio6.deps.json
+C:\Users\PcVIP\Documents\codigo\myRepos\classProjects\DesarrolloInterfaces\di.tema3_bien\D.I.tema3_ejercicio6\D.I.tema3_ejercicio6\bin\Debug\net8.0-windows\D.I.tema3_ejercicio6.runtimeconfig.json
+C:\Users\PcVIP\Documents\codigo\myRepos\classProjects\DesarrolloInterfaces\di.tema3_bien\D.I.tema3_ejercicio6\D.I.tema3_ejercicio6\bin\Debug\net8.0-windows\D.I.tema3_ejercicio6.dll
+C:\Users\PcVIP\Documents\codigo\myRepos\classProjects\DesarrolloInterfaces\di.tema3_bien\D.I.tema3_ejercicio6\D.I.tema3_ejercicio6\bin\Debug\net8.0-windows\D.I.tema3_ejercicio6.pdb
+C:\Users\PcVIP\Documents\codigo\myRepos\classProjects\DesarrolloInterfaces\di.tema3_bien\D.I.tema3_ejercicio6\D.I.tema3_ejercicio6\bin\Debug\net8.0-windows\ControlzEx.dll
+C:\Users\PcVIP\Documents\codigo\myRepos\classProjects\DesarrolloInterfaces\di.tema3_bien\D.I.tema3_ejercicio6\D.I.tema3_ejercicio6\bin\Debug\net8.0-windows\MahApps.Metro.dll
+C:\Users\PcVIP\Documents\codigo\myRepos\classProjects\DesarrolloInterfaces\di.tema3_bien\D.I.tema3_ejercicio6\D.I.tema3_ejercicio6\bin\Debug\net8.0-windows\MaterialDesignColors.dll
+C:\Users\PcVIP\Documents\codigo\myRepos\classProjects\DesarrolloInterfaces\di.tema3_bien\D.I.tema3_ejercicio6\D.I.tema3_ejercicio6\bin\Debug\net8.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\PcVIP\Documents\codigo\myRepos\classProjects\DesarrolloInterfaces\di.tema3_bien\D.I.tema3_ejercicio6\D.I.tema3_ejercicio6\bin\Debug\net8.0-windows\MaterialDesignThemes.MahApps.dll
+C:\Users\PcVIP\Documents\codigo\myRepos\classProjects\DesarrolloInterfaces\di.tema3_bien\D.I.tema3_ejercicio6\D.I.tema3_ejercicio6\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\PcVIP\Documents\codigo\myRepos\classProjects\DesarrolloInterfaces\di.tema3_bien\D.I.tema3_ejercicio6\D.I.tema3_ejercicio6\bin\Debug\net8.0-windows\de\MahApps.Metro.resources.dll
+C:\Users\PcVIP\Documents\codigo\myRepos\classProjects\DesarrolloInterfaces\di.tema3_bien\D.I.tema3_ejercicio6\D.I.tema3_ejercicio6\obj\Debug\net8.0-windows\D.I.tema3_ejercicio6.csproj.AssemblyReference.cache
+C:\Users\PcVIP\Documents\codigo\myRepos\classProjects\DesarrolloInterfaces\di.tema3_bien\D.I.tema3_ejercicio6\D.I.tema3_ejercicio6\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\PcVIP\Documents\codigo\myRepos\classProjects\DesarrolloInterfaces\di.tema3_bien\D.I.tema3_ejercicio6\D.I.tema3_ejercicio6\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\PcVIP\Documents\codigo\myRepos\classProjects\DesarrolloInterfaces\di.tema3_bien\D.I.tema3_ejercicio6\D.I.tema3_ejercicio6\obj\Debug\net8.0-windows\D.I.tema3_ejercicio6_MarkupCompile.cache
+C:\Users\PcVIP\Documents\codigo\myRepos\classProjects\DesarrolloInterfaces\di.tema3_bien\D.I.tema3_ejercicio6\D.I.tema3_ejercicio6\obj\Debug\net8.0-windows\D.I.tema3_ejercicio6_MarkupCompile.lref
+C:\Users\PcVIP\Documents\codigo\myRepos\classProjects\DesarrolloInterfaces\di.tema3_bien\D.I.tema3_ejercicio6\D.I.tema3_ejercicio6\obj\Debug\net8.0-windows\App.baml
+C:\Users\PcVIP\Documents\codigo\myRepos\classProjects\DesarrolloInterfaces\di.tema3_bien\D.I.tema3_ejercicio6\D.I.tema3_ejercicio6\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\PcVIP\Documents\codigo\myRepos\classProjects\DesarrolloInterfaces\di.tema3_bien\D.I.tema3_ejercicio6\D.I.tema3_ejercicio6\obj\Debug\net8.0-windows\D.I.tema3_ejercicio6.g.resources
+C:\Users\PcVIP\Documents\codigo\myRepos\classProjects\DesarrolloInterfaces\di.tema3_bien\D.I.tema3_ejercicio6\D.I.tema3_ejercicio6\obj\Debug\net8.0-windows\D.I.tema3_ejercicio6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PcVIP\Documents\codigo\myRepos\classProjects\DesarrolloInterfaces\di.tema3_bien\D.I.tema3_ejercicio6\D.I.tema3_ejercicio6\obj\Debug\net8.0-windows\D.I.tema3_ejercicio6.AssemblyInfoInputs.cache
+C:\Users\PcVIP\Documents\codigo\myRepos\classProjects\DesarrolloInterfaces\di.tema3_bien\D.I.tema3_ejercicio6\D.I.tema3_ejercicio6\obj\Debug\net8.0-windows\D.I.tema3_ejercicio6.AssemblyInfo.cs
+C:\Users\PcVIP\Documents\codigo\myRepos\classProjects\DesarrolloInterfaces\di.tema3_bien\D.I.tema3_ejercicio6\D.I.tema3_ejercicio6\obj\Debug\net8.0-windows\D.I.tema3_ejercicio6.csproj.CoreCompileInputs.cache
+C:\Users\PcVIP\Documents\codigo\myRepos\classProjects\DesarrolloInterfaces\di.tema3_bien\D.I.tema3_ejercicio6\D.I.tema3_ejercicio6\obj\Debug\net8.0-windows\D.I.tema3_ejercicio6.sourcelink.json
+C:\Users\PcVIP\Documents\codigo\myRepos\classProjects\DesarrolloInterfaces\di.tema3_bien\D.I.tema3_ejercicio6\D.I.tema3_ejercicio6\obj\Debug\net8.0-windows\D.I.tema.AE087688.Up2Date
+C:\Users\PcVIP\Documents\codigo\myRepos\classProjects\DesarrolloInterfaces\di.tema3_bien\D.I.tema3_ejercicio6\D.I.tema3_ejercicio6\obj\Debug\net8.0-windows\D.I.tema3_ejercicio6.dll
+C:\Users\PcVIP\Documents\codigo\myRepos\classProjects\DesarrolloInterfaces\di.tema3_bien\D.I.tema3_ejercicio6\D.I.tema3_ejercicio6\obj\Debug\net8.0-windows\refint\D.I.tema3_ejercicio6.dll
+C:\Users\PcVIP\Documents\codigo\myRepos\classProjects\DesarrolloInterfaces\di.tema3_bien\D.I.tema3_ejercicio6\D.I.tema3_ejercicio6\obj\Debug\net8.0-windows\D.I.tema3_ejercicio6.pdb
+C:\Users\PcVIP\Documents\codigo\myRepos\classProjects\DesarrolloInterfaces\di.tema3_bien\D.I.tema3_ejercicio6\D.I.tema3_ejercicio6\obj\Debug\net8.0-windows\D.I.tema3_ejercicio6.genruntimeconfig.cache
+C:\Users\PcVIP\Documents\codigo\myRepos\classProjects\DesarrolloInterfaces\di.tema3_bien\D.I.tema3_ejercicio6\D.I.tema3_ejercicio6\obj\Debug\net8.0-windows\ref\D.I.tema3_ejercicio6.dll
