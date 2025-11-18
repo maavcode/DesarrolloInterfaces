@@ -122,3 +122,15 @@ C:\Users\windows10\Documents\Clase\DesarrolloInterfaces\di.tema3.proyecto\di.tem
 C:\Users\windows10\Documents\Clase\DesarrolloInterfaces\di.tema3.proyecto\di.tema3.proyecto\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
 C:\Users\windows10\Documents\Clase\DesarrolloInterfaces\di.tema3.proyecto\di.tema3.proyecto\obj\Debug\net8.0-windows\di.tema3.proyecto.csproj.AssemblyReference.cache
 C:\Users\windows10\Documents\Clase\DesarrolloInterfaces\di.tema3.proyecto\di.tema3.proyecto\obj\Debug\net8.0-windows\di.tema3.456F9006.Up2Date
+C:\Users\windows10\Documents\Clase\DesarrolloInterfaces\di.tema3.proyecto\di.tema3.proyecto\obj\Debug\net8.0-windows\Frontend\Dialogos\Login.g.cs
+C:\Users\windows10\Documents\Clase\DesarrolloInterfaces\di.tema3.proyecto\di.tema3.proyecto\obj\Debug\net8.0-windows\App.baml
+C:\Users\windows10\Documents\Clase\DesarrolloInterfaces\di.tema3.proyecto\di.tema3.proyecto\obj\Debug\net8.0-windows\Frontend\Dialogos\Login.baml
+C:\Users\windows10\Documents\Clase\DesarrolloInterfaces\di.tema3.proyecto\di.tema3.proyecto\obj\Debug\net8.0-windows\Frontend\ControlUsuario\SalidasControl.baml
+C:\Users\windows10\Documents\Clase\DesarrolloInterfaces\di.tema3.proyecto\di.tema3.proyecto\obj\Debug\net8.0-windows\Frontend\ControlUsuario\SalidasControl.g.cs
+C:\Users\windows10\Documents\Clase\DesarrolloInterfaces\di.tema3.proyecto\di.tema3.proyecto\obj\Debug\net8.0-windows\Frontend\Dialogos\ModeloArticulo.g.cs
+C:\Users\windows10\Documents\Clase\DesarrolloInterfaces\di.tema3.proyecto\di.tema3.proyecto\obj\Debug\net8.0-windows\Frontend\Dialogos\ModeloArticulo.baml
+C:\Users\windows10\Documents\Clase\DesarrolloInterfaces\di.tema3.proyecto\di.tema3.proyecto\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.dll
+C:\Users\windows10\Documents\Clase\DesarrolloInterfaces\di.tema3.proyecto\di.tema3.proyecto\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\windows10\Documents\Clase\DesarrolloInterfaces\di.tema3.proyecto\di.tema3.proyecto\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Configuration.dll
+C:\Users\windows10\Documents\Clase\DesarrolloInterfaces\di.tema3.proyecto\di.tema3.proyecto\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Console.dll
+C:\Users\windows10\Documents\Clase\DesarrolloInterfaces\di.tema3.proyecto\di.tema3.proyecto\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.ConfigurationExtensions.dll

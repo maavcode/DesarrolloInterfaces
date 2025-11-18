@@ -1,14 +1,113 @@
-﻿<Page x:Class="di.tema3.proyecto.Frontend.Dialogos.Page1"
+﻿<Window 
+    x:Class="di.tema3.proyecto.Frontend.Dialogos.Login"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
-      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-      xmlns:local="clr-namespace:di.tema3.proyecto.Frontend.Dialogos"
-      mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
-      Title="Page1">
+       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:di.tema3.proyecto.Frontend.Dialogos"
+        mc:Ignorable="d"
+    x:Name="loginScreen"
+      WindowStyle="None" AllowsTransparency="True"
+     WindowStartupLocation="CenterScreen"
+ ResizeMode="NoResize" 
+      Height="450" Width="800"
+      Title="Login">
 
     <Grid>
-        
+        <Rectangle Margin="-85,-138,-112,374" RenderTransformOrigin="0.5,0.5" >
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-4.886"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+            <Rectangle.Fill>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Color="#db243c" Offset="0.0" />
+                    <GradientStop Color="Orange" Offset="1.0" />
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <!-- Parte superior -->
+        <TextBlock Text="IES MATISSE" Margin="20,30,0,0"
+                   FontSize="24" Foreground="White" FontWeight="Bold"/>
+
+        <Grid Margin="25,130,25,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="7*" />
+                <ColumnDefinition Width="3*" />
+            </Grid.ColumnDefinitions>
+            <!-- Parte izquierda -->
+            <StackPanel Orientation="Vertical" 
+                        Grid.Column="0">
+                <TextBlock Text="INVENTARIO MATISSE"
+                           FontSize="20" FontWeight="Normal"
+                           Foreground="White"
+                           Margin="0,0,0,20"/>
+                <TextBlock Text="Login"
+                           FontSize="16" FontWeight="Normal"
+                           Foreground="White" Margin="0,0,0,20"/>
+
+                <TextBox 
+                         Height="50"
+                         x:Name="TxtUsername"
+                         Style="{StaticResource MaterialDesignOutlinedTextBox}"
+                         materialDesign:TextFieldAssist.TextFieldCornerRadius="0"
+                         materialDesign:HintAssist.HintHorizontalAlignment="Left"
+                         BorderBrush="Gray" 
+                         Margin="0,0,0,20"
+                    Foreground="White">
+                    <materialDesign:HintAssist.Hint>
+                        <TextBlock Text="Nombre de Usuario" Foreground="Gray" />
+                    </materialDesign:HintAssist.Hint>
+                </TextBox>
+
+                <PasswordBox Height="50"
+                             x:Name="TxtPassword"
+                             Style="{StaticResource MaterialDesignOutlinedPasswordBox}"
+                             materialDesign:TextFieldAssist.TextFieldCornerRadius="0"
+                             materialDesign:HintAssist.HintHorizontalAlignment="Left"
+                             BorderBrush="Gray"
+                             Margin="0,0,0,20"
+                             Foreground="White">
+                    <materialDesign:HintAssist.Hint>
+                        <TextBlock Text="Password" Foreground="Gray" />
+                    </materialDesign:HintAssist.Hint>
+                </PasswordBox>
+
+                <Button Content="LOGIN"
+                        Width="90"
+                        Height="40"
+                        HorizontalAlignment="Left"
+                        Background="Transparent"
+                        Foreground="Orange"
+                        Margin="0,0,0,10"
+                        x:Name = "BtnLogin"
+                        Click="BtnLogin_Click"
+                        IsDefault="True">
+                    <Button.BorderBrush>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                            <GradientStop Color="#DD243C" Offset="0"/>
+                            <GradientStop Color="Orange" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Button.BorderBrush>
+                    <Button.BorderThickness>3</Button.BorderThickness>
+                </Button>
+
+                <TextBlock Text="¿OLVIDASTE LA CONTRASEÑA?" Foreground="Orange"
+                           FontSize="11" FontWeight="Bold"/>
+            </StackPanel>
+
+            <!-- Parte derecha -->
+            <Image Source="/logoIESblanco.png" Grid.Column="1"
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="18,97,0,0" Height="119"
+                   />
+        </Grid>
+
+
     </Grid>
-</Page>
+</Window>

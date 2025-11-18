@@ -3,12 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\di.tema3.proyecto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F5DCADBB-1A85-44EC-8097-F15038B64BEB}|di.tema3.proyecto\\di.tema3.proyecto.csproj|c:\\users\\windows10\\documents\\clase\\desarrollointerfaces\\di.tema3.proyecto\\di.tema3.proyecto\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F5DCADBB-1A85-44EC-8097-F15038B64BEB}|di.tema3.proyecto\\di.tema3.proyecto.csproj|solutionrelative:di.tema3.proyecto\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{F5DCADBB-1A85-44EC-8097-F15038B64BEB}|di.tema3.proyecto\\di.tema3.proyecto.csproj|c:\\users\\windows10\\documents\\clase\\desarrollointerfaces\\di.tema3.proyecto\\di.tema3.proyecto\\backend\\servicios\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5DCADBB-1A85-44EC-8097-F15038B64BEB}|di.tema3.proyecto\\di.tema3.proyecto.csproj|solutionrelative:di.tema3.proyecto\\backend\\servicios\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5DCADBB-1A85-44EC-8097-F15038B64BEB}|di.tema3.proyecto\\di.tema3.proyecto.csproj|c:\\users\\windows10\\documents\\clase\\desarrollointerfaces\\di.tema3.proyecto\\di.tema3.proyecto\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5DCADBB-1A85-44EC-8097-F15038B64BEB}|di.tema3.proyecto\\di.tema3.proyecto.csproj|solutionrelative:di.tema3.proyecto\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F5DCADBB-1A85-44EC-8097-F15038B64BEB}|di.tema3.proyecto\\di.tema3.proyecto.csproj|c:\\users\\windows10\\documents\\clase\\desarrollointerfaces\\di.tema3.proyecto\\di.tema3.proyecto\\frontend\\dialogos\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5DCADBB-1A85-44EC-8097-F15038B64BEB}|di.tema3.proyecto\\di.tema3.proyecto.csproj|solutionrelative:di.tema3.proyecto\\frontend\\dialogos\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5DCADBB-1A85-44EC-8097-F15038B64BEB}|di.tema3.proyecto\\di.tema3.proyecto.csproj|c:\\users\\windows10\\documents\\clase\\desarrollointerfaces\\di.tema3.proyecto\\di.tema3.proyecto\\frontend\\dialogos\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F5DCADBB-1A85-44EC-8097-F15038B64BEB}|di.tema3.proyecto\\di.tema3.proyecto.csproj|solutionrelative:di.tema3.proyecto\\frontend\\dialogos\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5DCADBB-1A85-44EC-8097-F15038B64BEB}|di.tema3.proyecto\\di.tema3.proyecto.csproj|c:\\users\\windows10\\documents\\clase\\desarrollointerfaces\\di.tema3.proyecto\\di.tema3.proyecto\\backend\\servicios\\imodeloarticulorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5DCADBB-1A85-44EC-8097-F15038B64BEB}|di.tema3.proyecto\\di.tema3.proyecto.csproj|solutionrelative:di.tema3.proyecto\\backend\\servicios\\imodeloarticulorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5DCADBB-1A85-44EC-8097-F15038B64BEB}|di.tema3.proyecto\\di.tema3.proyecto.csproj|c:\\users\\windows10\\documents\\clase\\desarrollointerfaces\\di.tema3.proyecto\\di.tema3.proyecto\\backend\\servicios\\modeloarticulorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5DCADBB-1A85-44EC-8097-F15038B64BEB}|di.tema3.proyecto\\di.tema3.proyecto.csproj|solutionrelative:di.tema3.proyecto\\backend\\servicios\\modeloarticulorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5DCADBB-1A85-44EC-8097-F15038B64BEB}|di.tema3.proyecto\\di.tema3.proyecto.csproj|c:\\users\\windows10\\documents\\clase\\desarrollointerfaces\\di.tema3.proyecto\\di.tema3.proyecto\\backend\\servicios\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5DCADBB-1A85-44EC-8097-F15038B64BEB}|di.tema3.proyecto\\di.tema3.proyecto.csproj|solutionrelative:di.tema3.proyecto\\backend\\servicios\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5DCADBB-1A85-44EC-8097-F15038B64BEB}|di.tema3.proyecto\\di.tema3.proyecto.csproj|c:\\users\\windows10\\documents\\clase\\desarrollointerfaces\\di.tema3.proyecto\\di.tema3.proyecto\\frontend\\controlusuario\\salidascontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F5DCADBB-1A85-44EC-8097-F15038B64BEB}|di.tema3.proyecto\\di.tema3.proyecto.csproj|solutionrelative:di.tema3.proyecto\\frontend\\controlusuario\\salidascontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5DCADBB-1A85-44EC-8097-F15038B64BEB}|di.tema3.proyecto\\di.tema3.proyecto.csproj|c:\\users\\windows10\\documents\\clase\\desarrollointerfaces\\di.tema3.proyecto\\di.tema3.proyecto\\frontend\\dialogos\\modeloarticulo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F5DCADBB-1A85-44EC-8097-F15038B64BEB}|di.tema3.proyecto\\di.tema3.proyecto.csproj|solutionrelative:di.tema3.proyecto\\frontend\\dialogos\\modeloarticulo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,27 +51,97 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\di.tema3.proyecto\\di.tema3.proyecto\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "di.tema3.proyecto\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\di.tema3.proyecto\\di.tema3.proyecto\\MainWindow.xaml",
-              "RelativeToolTip": "di.tema3.proyecto\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-03T07:11:11.251Z",
+              "Title": "UsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\di.tema3.proyecto\\di.tema3.proyecto\\Backend\\Servicios\\UsuarioRepository.cs",
+              "RelativeDocumentMoniker": "di.tema3.proyecto\\Backend\\Servicios\\UsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\di.tema3.proyecto\\di.tema3.proyecto\\Backend\\Servicios\\UsuarioRepository.cs",
+              "RelativeToolTip": "di.tema3.proyecto\\Backend\\Servicios\\UsuarioRepository.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAtwIYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T07:19:15.855Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\di.tema3.proyecto\\di.tema3.proyecto\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "di.tema3.proyecto\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\di.tema3.proyecto\\di.tema3.proyecto\\MainWindow.xaml.cs",
-              "RelativeToolTip": "di.tema3.proyecto\\MainWindow.xaml.cs",
+              "DocumentIndex": 5,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\di.tema3.proyecto\\di.tema3.proyecto\\Backend\\Servicios\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "di.tema3.proyecto\\Backend\\Servicios\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\di.tema3.proyecto\\di.tema3.proyecto\\Backend\\Servicios\\GenericRepository.cs",
+              "RelativeToolTip": "di.tema3.proyecto\\Backend\\Servicios\\GenericRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T07:11:09.191Z",
+              "WhenOpened": "2025-11-17T07:19:12.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SalidasControl.xaml",
+              "DocumentMoniker": "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\di.tema3.proyecto\\di.tema3.proyecto\\Frontend\\ControlUsuario\\SalidasControl.xaml",
+              "RelativeDocumentMoniker": "di.tema3.proyecto\\Frontend\\ControlUsuario\\SalidasControl.xaml",
+              "ToolTip": "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\di.tema3.proyecto\\di.tema3.proyecto\\Frontend\\ControlUsuario\\SalidasControl.xaml",
+              "RelativeToolTip": "di.tema3.proyecto\\Frontend\\ControlUsuario\\SalidasControl.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-14T07:05:58.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ModeloArticuloRepository.cs",
+              "DocumentMoniker": "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\di.tema3.proyecto\\di.tema3.proyecto\\Backend\\Servicios\\ModeloArticuloRepository.cs",
+              "RelativeDocumentMoniker": "di.tema3.proyecto\\Backend\\Servicios\\ModeloArticuloRepository.cs",
+              "ToolTip": "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\di.tema3.proyecto\\di.tema3.proyecto\\Backend\\Servicios\\ModeloArticuloRepository.cs",
+              "RelativeToolTip": "di.tema3.proyecto\\Backend\\Servicios\\ModeloArticuloRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T08:00:11.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IModeloArticuloRepository.cs",
+              "DocumentMoniker": "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\di.tema3.proyecto\\di.tema3.proyecto\\Backend\\Servicios\\IModeloArticuloRepository.cs",
+              "RelativeDocumentMoniker": "di.tema3.proyecto\\Backend\\Servicios\\IModeloArticuloRepository.cs",
+              "ToolTip": "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\di.tema3.proyecto\\di.tema3.proyecto\\Backend\\Servicios\\IModeloArticuloRepository.cs",
+              "RelativeToolTip": "di.tema3.proyecto\\Backend\\Servicios\\IModeloArticuloRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T07:59:33.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.xaml",
+              "DocumentMoniker": "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\di.tema3.proyecto\\di.tema3.proyecto\\Frontend\\Dialogos\\Login.xaml",
+              "RelativeDocumentMoniker": "di.tema3.proyecto\\Frontend\\Dialogos\\Login.xaml",
+              "ToolTip": "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\di.tema3.proyecto\\di.tema3.proyecto\\Frontend\\Dialogos\\Login.xaml",
+              "RelativeToolTip": "di.tema3.proyecto\\Frontend\\Dialogos\\Login.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-12T07:46:04.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\di.tema3.proyecto\\di.tema3.proyecto\\Frontend\\Dialogos\\Login.xaml.cs",
+              "RelativeDocumentMoniker": "di.tema3.proyecto\\Frontend\\Dialogos\\Login.xaml.cs",
+              "ToolTip": "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\di.tema3.proyecto\\di.tema3.proyecto\\Frontend\\Dialogos\\Login.xaml.cs",
+              "RelativeToolTip": "di.tema3.proyecto\\Frontend\\Dialogos\\Login.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T07:46:02.446Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ModeloArticulo.xaml",
+              "DocumentMoniker": "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\di.tema3.proyecto\\di.tema3.proyecto\\Frontend\\Dialogos\\ModeloArticulo.xaml",
+              "RelativeDocumentMoniker": "di.tema3.proyecto\\Frontend\\Dialogos\\ModeloArticulo.xaml",
+              "ToolTip": "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\di.tema3.proyecto\\di.tema3.proyecto\\Frontend\\Dialogos\\ModeloArticulo.xaml",
+              "RelativeToolTip": "di.tema3.proyecto\\Frontend\\Dialogos\\ModeloArticulo.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-12T07:44:39.591Z"
             }
           ]
         }
