@@ -1,0 +1,60 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>di.examen._1EV._2025</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Recursos\Iconos\admon.png" />
+    <None Remove="Recursos\Iconos\cerrar.png" />
+    <None Remove="Recursos\Iconos\cliente.png" />
+    <None Remove="Recursos\Iconos\dashboard.png" />
+    <None Remove="Recursos\Iconos\empleado.png" />
+    <None Remove="Recursos\Iconos\maximizar.png" />
+    <None Remove="Recursos\Iconos\minimizar.png" />
+    <None Remove="Recursos\Iconos\oficina.png" />
+    <None Remove="Recursos\Iconos\pedidos.png" />
+    <None Remove="Recursos\Iconos\producto.png" />
+    <None Remove="Recursos\Iconos\salir.png" />
+    <None Remove="Recursos\Imagenes\grafico.jpg" />
+    <None Remove="Recursos\Imagenes\jardineria.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Backend\Modelos\" />
+    <Folder Include="Frontend\ControlUsuario\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.20" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.20">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="8.0.20" />
+    <PackageReference Include="MySql.EntityFrameworkCore" Version="10.0.0-rc" />
+    <PackageReference Include="NLog" Version="6.0.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Recursos\Iconos\admon.png" />
+    <Resource Include="Recursos\Iconos\cerrar.png" />
+    <Resource Include="Recursos\Iconos\cliente.png" />
+    <Resource Include="Recursos\Iconos\dashboard.png" />
+    <Resource Include="Recursos\Iconos\empleado.png" />
+    <Resource Include="Recursos\Iconos\maximizar.png" />
+    <Resource Include="Recursos\Iconos\minimizar.png" />
+    <Resource Include="Recursos\Iconos\oficina.png" />
+    <Resource Include="Recursos\Iconos\pedidos.png" />
+    <Resource Include="Recursos\Iconos\producto.png" />
+    <Resource Include="Recursos\Iconos\salir.png" />
+    <Resource Include="Recursos\Imagenes\grafico.jpg" />
+    <Resource Include="Recursos\Imagenes\jardineria.png" />
+  </ItemGroup>
+
+</Project>

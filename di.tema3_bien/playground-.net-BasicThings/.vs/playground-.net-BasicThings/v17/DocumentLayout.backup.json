@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1D3D366F-8934-42EF-B68C-A1732F22B90F}|playground-.net-BasicThings\\playground-.net-BasicThings.csproj|c:\\users\\pcvip\\documents\\codigo\\myrepos\\classprojects\\desarrollointerfaces\\di.tema3_bien\\playground-.net-basicthings\\playground-.net-basicthings\\backend\\servicios\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D3D366F-8934-42EF-B68C-A1732F22B90F}|playground-.net-BasicThings\\playground-.net-BasicThings.csproj|solutionrelative:playground-.net-basicthings\\backend\\servicios\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1D3D366F-8934-42EF-B68C-A1732F22B90F}|playground-.net-BasicThings\\playground-.net-BasicThings.csproj|c:\\users\\pcvip\\documents\\codigo\\myrepos\\classprojects\\desarrollointerfaces\\di.tema3_bien\\playground-.net-basicthings\\playground-.net-basicthings\\frontend\\dialogos\\nuevoarticulo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1D3D366F-8934-42EF-B68C-A1732F22B90F}|playground-.net-BasicThings\\playground-.net-BasicThings.csproj|solutionrelative:playground-.net-basicthings\\frontend\\dialogos\\nuevoarticulo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D3D366F-8934-42EF-B68C-A1732F22B90F}|playground-.net-BasicThings\\playground-.net-BasicThings.csproj|c:\\users\\pcvip\\documents\\codigo\\myrepos\\classprojects\\desarrollointerfaces\\di.tema3_bien\\playground-.net-basicthings\\playground-.net-basicthings\\frontend\\dialogos\\nuevoarticulo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1D3D366F-8934-42EF-B68C-A1732F22B90F}|playground-.net-BasicThings\\playground-.net-BasicThings.csproj|solutionrelative:playground-.net-basicthings\\frontend\\dialogos\\nuevoarticulo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D3D366F-8934-42EF-B68C-A1732F22B90F}|playground-.net-BasicThings\\playground-.net-BasicThings.csproj|c:\\users\\pcvip\\documents\\codigo\\myrepos\\classprojects\\desarrollointerfaces\\di.tema3_bien\\playground-.net-basicthings\\playground-.net-basicthings\\backend\\servicios\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D3D366F-8934-42EF-B68C-A1732F22B90F}|playground-.net-BasicThings\\playground-.net-BasicThings.csproj|solutionrelative:playground-.net-basicthings\\backend\\servicios\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1D3D366F-8934-42EF-B68C-A1732F22B90F}|playground-.net-BasicThings\\playground-.net-BasicThings.csproj|c:\\users\\pcvip\\documents\\codigo\\myrepos\\classprojects\\desarrollointerfaces\\di.tema3_bien\\playground-.net-basicthings\\playground-.net-basicthings\\backend\\servicios\\articulorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -69,10 +73,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{1D3D366F-8934-42EF-B68C-A1732F22B90F}|playground-.net-BasicThings\\playground-.net-BasicThings.csproj|c:\\users\\pcvip\\documents\\codigo\\myrepos\\classprojects\\desarrollointerfaces\\di.tema3_bien\\playground-.net-basicthings\\playground-.net-basicthings\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1D3D366F-8934-42EF-B68C-A1732F22B90F}|playground-.net-BasicThings\\playground-.net-BasicThings.csproj|solutionrelative:playground-.net-basicthings\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D3D366F-8934-42EF-B68C-A1732F22B90F}|playground-.net-BasicThings\\playground-.net-BasicThings.csproj|c:\\users\\pcvip\\documents\\codigo\\myrepos\\classprojects\\desarrollointerfaces\\di.tema3_bien\\playground-.net-basicthings\\playground-.net-basicthings\\frontend\\dialogos\\nuevoarticulo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1D3D366F-8934-42EF-B68C-A1732F22B90F}|playground-.net-BasicThings\\playground-.net-BasicThings.csproj|solutionrelative:playground-.net-basicthings\\frontend\\dialogos\\nuevoarticulo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1D3D366F-8934-42EF-B68C-A1732F22B90F}|playground-.net-BasicThings\\playground-.net-BasicThings.csproj|c:\\users\\pcvip\\documents\\codigo\\myrepos\\classprojects\\desarrollointerfaces\\di.tema3_bien\\playground-.net-basicthings\\playground-.net-basicthings\\backend\\servicios\\tipoarticulorespository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -141,11 +141,11 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Login.xaml.cs",
               "DocumentMoniker": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\Frontend\\Dialogos\\Login.xaml.cs",
               "RelativeDocumentMoniker": "playground-.net-BasicThings\\Frontend\\Dialogos\\Login.xaml.cs",
@@ -166,20 +166,93 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "NuevoArticulo.xaml.cs",
               "DocumentMoniker": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\Frontend\\Dialogos\\NuevoArticulo.xaml.cs",
               "RelativeDocumentMoniker": "playground-.net-BasicThings\\Frontend\\Dialogos\\NuevoArticulo.xaml.cs",
               "ToolTip": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\Frontend\\Dialogos\\NuevoArticulo.xaml.cs",
               "RelativeToolTip": "playground-.net-BasicThings\\Frontend\\Dialogos\\NuevoArticulo.xaml.cs",
-              "ViewState": "AgIAAGQAAAAAAAAAAAAAwHMAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAuwGkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-18T19:08:58.768Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
+              "Title": "NuevoArticuloUserControl.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\Frontend\\UserControls\\NuevoArticuloUserControl.xaml.cs",
+              "RelativeDocumentMoniker": "playground-.net-BasicThings\\Frontend\\UserControls\\NuevoArticuloUserControl.xaml.cs",
+              "ToolTip": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\Frontend\\UserControls\\NuevoArticuloUserControl.xaml.cs",
+              "RelativeToolTip": "playground-.net-BasicThings\\Frontend\\UserControls\\NuevoArticuloUserControl.xaml.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAYwCAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T17:27:33.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "playground-.net-BasicThings\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\MainWindow.xaml.cs",
+              "RelativeToolTip": "playground-.net-BasicThings\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwCAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T17:16:58.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EspacioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\Backend\\Servicios\\EspacioRepository.cs",
+              "RelativeDocumentMoniker": "playground-.net-BasicThings\\Backend\\Servicios\\EspacioRepository.cs",
+              "ToolTip": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\Backend\\Servicios\\EspacioRepository.cs",
+              "RelativeToolTip": "playground-.net-BasicThings\\Backend\\Servicios\\EspacioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T19:13:26.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ArticuloRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\Backend\\Servicios\\ArticuloRepository.cs",
+              "RelativeDocumentMoniker": "playground-.net-BasicThings\\Backend\\Servicios\\ArticuloRepository.cs",
+              "ToolTip": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\Backend\\Servicios\\ArticuloRepository.cs",
+              "RelativeToolTip": "playground-.net-BasicThings\\Backend\\Servicios\\ArticuloRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T19:36:55.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\Backend\\Servicios\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "playground-.net-BasicThings\\Backend\\Servicios\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\Backend\\Servicios\\GenericRepository.cs",
+              "RelativeToolTip": "playground-.net-BasicThings\\Backend\\Servicios\\GenericRepository.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAowIcAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T18:55:32.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NuevoArticulo.xaml",
+              "DocumentMoniker": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\Frontend\\Dialogos\\NuevoArticulo.xaml",
+              "RelativeDocumentMoniker": "playground-.net-BasicThings\\Frontend\\Dialogos\\NuevoArticulo.xaml",
+              "ToolTip": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\Frontend\\Dialogos\\NuevoArticulo.xaml",
+              "RelativeToolTip": "playground-.net-BasicThings\\Frontend\\Dialogos\\NuevoArticulo.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-18T19:06:25.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "DepartamentoRepository.cs",
               "DocumentMoniker": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\Backend\\Servicios\\DepartamentoRepository.cs",
               "RelativeDocumentMoniker": "playground-.net-BasicThings\\Backend\\Servicios\\DepartamentoRepository.cs",
@@ -191,72 +264,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "NuevoArticuloUserControl.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\Frontend\\UserControls\\NuevoArticuloUserControl.xaml.cs",
-              "RelativeDocumentMoniker": "playground-.net-BasicThings\\Frontend\\UserControls\\NuevoArticuloUserControl.xaml.cs",
-              "ToolTip": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\Frontend\\UserControls\\NuevoArticuloUserControl.xaml.cs",
-              "RelativeToolTip": "playground-.net-BasicThings\\Frontend\\UserControls\\NuevoArticuloUserControl.xaml.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAYwCAAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T17:27:33.216Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "playground-.net-BasicThings\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\MainWindow.xaml.cs",
-              "RelativeToolTip": "playground-.net-BasicThings\\MainWindow.xaml.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwCAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T17:16:58.421Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EspacioRepository.cs",
-              "DocumentMoniker": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\Backend\\Servicios\\EspacioRepository.cs",
-              "RelativeDocumentMoniker": "playground-.net-BasicThings\\Backend\\Servicios\\EspacioRepository.cs",
-              "ToolTip": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\Backend\\Servicios\\EspacioRepository.cs",
-              "RelativeToolTip": "playground-.net-BasicThings\\Backend\\Servicios\\EspacioRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T19:13:26.78Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ArticuloRepository.cs",
-              "DocumentMoniker": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\Backend\\Servicios\\ArticuloRepository.cs",
-              "RelativeDocumentMoniker": "playground-.net-BasicThings\\Backend\\Servicios\\ArticuloRepository.cs",
-              "ToolTip": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\Backend\\Servicios\\ArticuloRepository.cs",
-              "RelativeToolTip": "playground-.net-BasicThings\\Backend\\Servicios\\ArticuloRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T19:36:55.448Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GenericRepository.cs",
-              "DocumentMoniker": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\Backend\\Servicios\\GenericRepository.cs",
-              "RelativeDocumentMoniker": "playground-.net-BasicThings\\Backend\\Servicios\\GenericRepository.cs",
-              "ToolTip": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\Backend\\Servicios\\GenericRepository.cs",
-              "RelativeToolTip": "playground-.net-BasicThings\\Backend\\Servicios\\GenericRepository.cs",
-              "ViewState": "AgIAAHMAAAAAAAAAAAAwwIcAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T18:55:32.45Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "NuevoModeloArticulo.xaml.cs",
               "DocumentMoniker": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\Frontend\\Dialogos\\NuevoModeloArticulo.xaml.cs",
               "RelativeDocumentMoniker": "playground-.net-BasicThings\\Frontend\\Dialogos\\NuevoModeloArticulo.xaml.cs",
@@ -264,12 +272,11 @@
               "RelativeToolTip": "playground-.net-BasicThings\\Frontend\\Dialogos\\NuevoModeloArticulo.xaml.cs",
               "ViewState": "AgIAACgAAAAAAAAAAAAYwEgAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T18:07:53.823Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-18T18:07:53.823Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "ModeloArticuloRepository.cs",
               "DocumentMoniker": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\Backend\\Servicios\\ModeloArticuloRepository.cs",
               "RelativeDocumentMoniker": "playground-.net-BasicThings\\Backend\\Servicios\\ModeloArticuloRepository.cs",
@@ -281,7 +288,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "UsuarioRepository.cs",
               "DocumentMoniker": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\Backend\\Servicios\\UsuarioRepository.cs",
               "RelativeDocumentMoniker": "playground-.net-BasicThings\\Backend\\Servicios\\UsuarioRepository.cs",
@@ -293,7 +300,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Articulo.cs",
               "DocumentMoniker": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\Backend\\Modelos\\Articulo.cs",
               "RelativeDocumentMoniker": "playground-.net-BasicThings\\Backend\\Modelos\\Articulo.cs",
@@ -305,7 +312,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "DiinventarioexamenContext.cs",
               "DocumentMoniker": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\Backend\\DbContext\\DiinventarioexamenContext.cs",
               "RelativeDocumentMoniker": "playground-.net-BasicThings\\Backend\\DbContext\\DiinventarioexamenContext.cs",
@@ -317,7 +324,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "playground-.net-BasicThings.csproj",
               "DocumentMoniker": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\playground-.net-BasicThings.csproj",
               "RelativeDocumentMoniker": "playground-.net-BasicThings\\playground-.net-BasicThings.csproj",
@@ -329,7 +336,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "playground-.net-BasicThings",
               "DocumentMoniker": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\playground-.net-BasicThings.csproj",
               "RelativeDocumentMoniker": "playground-.net-BasicThings\\playground-.net-BasicThings.csproj",
@@ -340,7 +347,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "NuevoModeloArticuloUserControl.xaml.cs",
               "DocumentMoniker": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\Frontend\\UserControls\\NuevoModeloArticuloUserControl.xaml.cs",
               "RelativeDocumentMoniker": "playground-.net-BasicThings\\Frontend\\UserControls\\NuevoModeloArticuloUserControl.xaml.cs",
@@ -352,7 +359,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\App.xaml.cs",
               "RelativeDocumentMoniker": "playground-.net-BasicThings\\App.xaml.cs",
@@ -361,17 +368,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-17T17:41:21.563Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "NuevoArticulo.xaml",
-              "DocumentMoniker": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\Frontend\\Dialogos\\NuevoArticulo.xaml",
-              "RelativeDocumentMoniker": "playground-.net-BasicThings\\Frontend\\Dialogos\\NuevoArticulo.xaml",
-              "ToolTip": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\Frontend\\Dialogos\\NuevoArticulo.xaml",
-              "RelativeToolTip": "playground-.net-BasicThings\\Frontend\\Dialogos\\NuevoArticulo.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-18T19:06:25.293Z"
             },
             {
               "$type": "Document",
@@ -466,8 +462,7 @@
               "ToolTip": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\Frontend\\Dialogos\\NuevoModeloArticulo.xaml",
               "RelativeToolTip": "playground-.net-BasicThings\\Frontend\\Dialogos\\NuevoModeloArticulo.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-18T18:07:01.244Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-18T18:07:01.244Z"
             },
             {
               "$type": "Document",
@@ -534,7 +529,8 @@
               "ToolTip": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\App.xaml",
               "RelativeToolTip": "playground-.net-BasicThings\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-17T22:39:54.805Z"
+              "WhenOpened": "2025-11-17T22:39:54.805Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

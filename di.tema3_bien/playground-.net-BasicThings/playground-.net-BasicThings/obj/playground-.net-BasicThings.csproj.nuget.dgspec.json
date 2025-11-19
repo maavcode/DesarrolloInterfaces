@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\playground-.net-BasicThings.csproj": {}
+    "C:\\Users\\windows10\\Desktop\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\playground-.net-BasicThings.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\playground-.net-BasicThings.csproj": {
+    "C:\\Users\\windows10\\Desktop\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\playground-.net-BasicThings.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\playground-.net-BasicThings.csproj",
+        "projectUniqueName": "C:\\Users\\windows10\\Desktop\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\playground-.net-BasicThings.csproj",
         "projectName": "playground-.net-BasicThings",
-        "projectPath": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\playground-.net-BasicThings.csproj",
-        "packagesPath": "C:\\Users\\PcVIP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PcVIP\\Documents\\codigo\\myRepos\\classProjects\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\obj\\",
+        "projectPath": "C:\\Users\\windows10\\Desktop\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\playground-.net-BasicThings.csproj",
+        "packagesPath": "C:\\Users\\windows10\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\windows10\\Desktop\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\PcVIP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\windows10\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -107,7 +106,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

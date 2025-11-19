@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\di.tema2\\di.tema2.ejercicio8\\di.tema2.ejercicio8\\di.tema2.ejercicio8.csproj": {}
+    "C:\\Users\\windows10\\Desktop\\DesarrolloInterfaces\\di.tema2\\di.tema2.ejercicio8\\di.tema2.ejercicio8\\di.tema2.ejercicio8.csproj": {}
   },
   "projects": {
-    "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\di.tema2\\di.tema2.ejercicio8\\di.tema2.ejercicio8\\di.tema2.ejercicio8.csproj": {
+    "C:\\Users\\windows10\\Desktop\\DesarrolloInterfaces\\di.tema2\\di.tema2.ejercicio8\\di.tema2.ejercicio8\\di.tema2.ejercicio8.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\di.tema2\\di.tema2.ejercicio8\\di.tema2.ejercicio8\\di.tema2.ejercicio8.csproj",
+        "projectUniqueName": "C:\\Users\\windows10\\Desktop\\DesarrolloInterfaces\\di.tema2\\di.tema2.ejercicio8\\di.tema2.ejercicio8\\di.tema2.ejercicio8.csproj",
         "projectName": "di.tema2.ejercicio8",
-        "projectPath": "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\di.tema2\\di.tema2.ejercicio8\\di.tema2.ejercicio8\\di.tema2.ejercicio8.csproj",
+        "projectPath": "C:\\Users\\windows10\\Desktop\\DesarrolloInterfaces\\di.tema2\\di.tema2.ejercicio8\\di.tema2.ejercicio8\\di.tema2.ejercicio8.csproj",
         "packagesPath": "C:\\Users\\windows10\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\di.tema2\\di.tema2.ejercicio8\\di.tema2.ejercicio8\\obj\\",
+        "outputPath": "C:\\Users\\windows10\\Desktop\\DesarrolloInterfaces\\di.tema2\\di.tema2.ejercicio8\\di.tema2.ejercicio8\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

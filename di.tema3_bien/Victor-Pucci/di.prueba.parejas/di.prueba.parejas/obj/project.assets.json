@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\windows10\\Desktop\\di.tema3\\Victor-Pucci\\di.prueba.parejas\\di.prueba.parejas\\di.prueba.parejas.csproj",
+      "projectUniqueName": "C:\\Users\\windows10\\Desktop\\DesarrolloInterfaces\\di.tema3_bien\\Victor-Pucci\\di.prueba.parejas\\di.prueba.parejas\\di.prueba.parejas.csproj",
       "projectName": "di.prueba.parejas",
-      "projectPath": "C:\\Users\\windows10\\Desktop\\di.tema3\\Victor-Pucci\\di.prueba.parejas\\di.prueba.parejas\\di.prueba.parejas.csproj",
+      "projectPath": "C:\\Users\\windows10\\Desktop\\DesarrolloInterfaces\\di.tema3_bien\\Victor-Pucci\\di.prueba.parejas\\di.prueba.parejas\\di.prueba.parejas.csproj",
       "packagesPath": "C:\\Users\\windows10\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\windows10\\Desktop\\di.tema3\\Victor-Pucci\\di.prueba.parejas\\di.prueba.parejas\\obj\\",
+      "outputPath": "C:\\Users\\windows10\\Desktop\\DesarrolloInterfaces\\di.tema3_bien\\Victor-Pucci\\di.prueba.parejas\\di.prueba.parejas\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("di.prueba.parejas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+103da5874d88870856151771e3ee4f0b3ca36bd3")]
 [assembly: System.Reflection.AssemblyProductAttribute("di.prueba.parejas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("di.prueba.parejas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
