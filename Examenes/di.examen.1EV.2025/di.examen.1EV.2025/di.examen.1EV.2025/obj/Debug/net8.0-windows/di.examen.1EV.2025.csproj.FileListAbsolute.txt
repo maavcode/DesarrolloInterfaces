@@ -353,3 +353,15 @@ C:\Users\windows10\Downloads\di.examen.1EV.2025\di.examen.1EV.2025\di.examen.1EV
 C:\Users\windows10\Downloads\di.examen.1EV.2025\di.examen.1EV.2025\di.examen.1EV.2025\obj\Debug\net8.0-windows\ref\di.examen.1EV.2025.dll
 C:\Users\windows10\Downloads\di.examen.1EV.2025\di.examen.1EV.2025\di.examen.1EV.2025\obj\Debug\net8.0-windows\Frontend\Dialogos\NuevoEmpleado.g.cs
 C:\Users\windows10\Downloads\di.examen.1EV.2025\di.examen.1EV.2025\di.examen.1EV.2025\obj\Debug\net8.0-windows\Frontend\Dialogos\NuevoEmpleado.baml
+C:\Users\windows10\Desktop\DesarrolloInterfaces\Examenes\di.examen.1EV.2025\di.examen.1EV.2025\di.examen.1EV.2025\obj\Debug\net8.0-windows\di.examen.1EV.2025.csproj.AssemblyReference.cache
+C:\Users\windows10\Desktop\DesarrolloInterfaces\Examenes\di.examen.1EV.2025\di.examen.1EV.2025\di.examen.1EV.2025\obj\Debug\net8.0-windows\di.examen.1EV.2025\App.g.cs
+C:\Users\windows10\Desktop\DesarrolloInterfaces\Examenes\di.examen.1EV.2025\di.examen.1EV.2025\di.examen.1EV.2025\obj\Debug\net8.0-windows\di.examen.1EV.2025\Frontend\Dialogos\NuevoEmpleado.g.cs
+C:\Users\windows10\Desktop\DesarrolloInterfaces\Examenes\di.examen.1EV.2025\di.examen.1EV.2025\di.examen.1EV.2025\obj\Debug\net8.0-windows\di.examen.1EV.2025\MainWindow.g.cs
+C:\Users\windows10\Desktop\DesarrolloInterfaces\Examenes\di.examen.1EV.2025\di.examen.1EV.2025\di.examen.1EV.2025\obj\Debug\net8.0-windows\Frontend\Dialogos\NuevoEmpleado.g.cs
+C:\Users\windows10\Desktop\DesarrolloInterfaces\Examenes\di.examen.1EV.2025\di.examen.1EV.2025\di.examen.1EV.2025\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\windows10\Desktop\DesarrolloInterfaces\Examenes\di.examen.1EV.2025\di.examen.1EV.2025\di.examen.1EV.2025\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\windows10\Desktop\DesarrolloInterfaces\Examenes\di.examen.1EV.2025\di.examen.1EV.2025\di.examen.1EV.2025\obj\Debug\net8.0-windows\di.examen.1EV.2025_MarkupCompile.cache
+C:\Users\windows10\Desktop\DesarrolloInterfaces\Examenes\di.examen.1EV.2025\di.examen.1EV.2025\di.examen.1EV.2025\obj\Debug\net8.0-windows\di.examen.1EV.2025_MarkupCompile.lref
+C:\Users\windows10\Desktop\DesarrolloInterfaces\Examenes\di.examen.1EV.2025\di.examen.1EV.2025\di.examen.1EV.2025\obj\Debug\net8.0-windows\di.examen.1EV.2025.dll
+C:\Users\windows10\Desktop\DesarrolloInterfaces\Examenes\di.examen.1EV.2025\di.examen.1EV.2025\di.examen.1EV.2025\obj\Debug\net8.0-windows\refint\di.examen.1EV.2025.dll
+C:\Users\windows10\Desktop\DesarrolloInterfaces\Examenes\di.examen.1EV.2025\di.examen.1EV.2025\di.examen.1EV.2025\obj\Debug\net8.0-windows\di.examen.1EV.2025.pdb
