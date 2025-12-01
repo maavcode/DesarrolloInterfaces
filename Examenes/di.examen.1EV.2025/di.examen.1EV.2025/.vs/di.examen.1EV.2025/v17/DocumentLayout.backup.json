@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\windows10\\Desktop\\DesarrolloInterfaces\\Examenes\\di.examen.1EV.2025\\di.examen.1EV.2025\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FD0BF328-3055-4B57-8E63-5931999B74AB}|di.examen.1EV.2025\\di.examen.1EV.2025.csproj|c:\\users\\windows10\\desktop\\desarrollointerfaces\\examenes\\di.examen.1ev.2025\\di.examen.1ev.2025\\di.examen.1ev.2025\\di.examen.1ev.2025\\backend\\modelos\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD0BF328-3055-4B57-8E63-5931999B74AB}|di.examen.1EV.2025\\di.examen.1EV.2025.csproj|solutionrelative:di.examen.1ev.2025\\di.examen.1ev.2025\\backend\\modelos\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FD0BF328-3055-4B57-8E63-5931999B74AB}|di.examen.1EV.2025\\di.examen.1EV.2025.csproj|c:\\users\\windows10\\desktop\\desarrollointerfaces\\examenes\\di.examen.1ev.2025\\di.examen.1ev.2025\\di.examen.1ev.2025\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD0BF328-3055-4B57-8E63-5931999B74AB}|di.examen.1EV.2025\\di.examen.1EV.2025.csproj|solutionrelative:di.examen.1ev.2025\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -34,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,7 +46,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\windows10\\Desktop\\DesarrolloInterfaces\\Examenes\\di.examen.1EV.2025\\di.examen.1EV.2025\\di.examen.1EV.2025\\di.examen.1EV.2025\\Backend\\Modelos\\Cliente.cs",
+              "RelativeDocumentMoniker": "di.examen.1EV.2025\\di.examen.1EV.2025\\Backend\\Modelos\\Cliente.cs",
+              "ToolTip": "C:\\Users\\windows10\\Desktop\\DesarrolloInterfaces\\Examenes\\di.examen.1EV.2025\\di.examen.1EV.2025\\di.examen.1EV.2025\\di.examen.1EV.2025\\Backend\\Modelos\\Cliente.cs",
+              "RelativeToolTip": "di.examen.1EV.2025\\di.examen.1EV.2025\\Backend\\Modelos\\Cliente.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAYwDAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T07:34:23.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\windows10\\Desktop\\DesarrolloInterfaces\\Examenes\\di.examen.1EV.2025\\di.examen.1EV.2025\\di.examen.1EV.2025\\App.xaml.cs",
               "RelativeDocumentMoniker": "di.examen.1EV.2025\\App.xaml.cs",
@@ -54,7 +71,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\windows10\\Desktop\\DesarrolloInterfaces\\Examenes\\di.examen.1EV.2025\\di.examen.1EV.2025\\di.examen.1EV.2025\\App.xaml",
               "RelativeDocumentMoniker": "di.examen.1EV.2025\\App.xaml",
@@ -65,7 +82,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\windows10\\Desktop\\DesarrolloInterfaces\\Examenes\\di.examen.1EV.2025\\di.examen.1EV.2025\\di.examen.1EV.2025\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "di.examen.1EV.2025\\MainWindow.xaml.cs",
@@ -73,12 +90,11 @@
               "RelativeToolTip": "di.examen.1EV.2025\\MainWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T16:19:23.539Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-17T16:19:23.539Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\windows10\\Desktop\\DesarrolloInterfaces\\Examenes\\di.examen.1EV.2025\\di.examen.1EV.2025\\di.examen.1EV.2025\\MainWindow.xaml",
               "RelativeDocumentMoniker": "di.examen.1EV.2025\\MainWindow.xaml",
@@ -89,7 +105,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "NuevoEmpleado.xaml.cs",
               "DocumentMoniker": "C:\\Users\\windows10\\Desktop\\DesarrolloInterfaces\\Examenes\\di.examen.1EV.2025\\di.examen.1EV.2025\\di.examen.1EV.2025\\Frontend\\Dialogos\\NuevoEmpleado.xaml.cs",
               "RelativeDocumentMoniker": "di.examen.1EV.2025\\Frontend\\Dialogos\\NuevoEmpleado.xaml.cs",
@@ -101,7 +117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "NuevoEmpleado.xaml",
               "DocumentMoniker": "C:\\Users\\windows10\\Desktop\\DesarrolloInterfaces\\Examenes\\di.examen.1EV.2025\\di.examen.1EV.2025\\di.examen.1EV.2025\\Frontend\\Dialogos\\NuevoEmpleado.xaml",
               "RelativeDocumentMoniker": "di.examen.1EV.2025\\Frontend\\Dialogos\\NuevoEmpleado.xaml",

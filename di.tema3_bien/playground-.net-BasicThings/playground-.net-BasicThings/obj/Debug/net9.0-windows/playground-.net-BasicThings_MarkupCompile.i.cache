@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET9_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 C:\Users\windows10\Desktop\DesarrolloInterfaces\di.tema3_bien\playground-.net-BasicThings\playground-.net-BasicThings\App.xaml
-61840970237
+8658670440
 
-40-1535546061
+43912112258
 233-1714482901
-Frontend\Dialogos\Login.xaml;Frontend\Dialogos\NuevoArticulo.xaml;Frontend\Dialogos\NuevoModeloArticulo.xaml;Frontend\UserControls\NuevoArticuloUserControl.xaml;Frontend\UserControls\NuevoModeloArticuloUserControl.xaml;MainWindow.xaml;
+Frontend\Dialogos\Login.xaml;Frontend\Dialogos\NuevoArticulo.xaml;Frontend\Dialogos\NuevoModeloArticulo.xaml;Frontend\Mensajes\MensajeDialogo.xaml;Frontend\Mensajes\VentanaMensaje.xaml;Frontend\UserControls\NuevoArticuloUserControl.xaml;Frontend\UserControls\NuevoModeloArticuloUserControl.xaml;MainWindow.xaml;
 
-True
+False
 

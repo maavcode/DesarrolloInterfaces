@@ -26,7 +26,7 @@ namespace playground_.net_BasicThings.Frontend.Dialogos
     /// </summary>
     public partial class NuevoArticulo : MetroWindow
     {
-        private DiinventarioexamenContext _context;
+        private DiinventarioexamenContext _diinventarrioContext;
 
         private ArticuloRepository _articuloRepository;
         private ModeloArticuloRepository _modeloArticuloRepository;
@@ -37,40 +37,28 @@ namespace playground_.net_BasicThings.Frontend.Dialogos
         // Factory para crear loggers
         private readonly ILoggerFactory _loggerFactory;
 
-        public NuevoArticulo()
+        public NuevoArticulo(
+            DiinventarioexamenContext diinventarioexamenContext,
+            UsuarioRepository usuarioRepository,
+            ArticuloRepository articuloRepository, 
+            ModeloArticuloRepository modeloArticuloRepository, 
+            DepartamentoRepository departamentoRepository,
+            EspacioRepository espacioRepository,
+            ILoggerFactory loggerFactory)
         {
-            _loggerFactory = new LoggerFactory();
             InitializeComponent();
+
+            _diinventarrioContext = diinventarioexamenContext;
+            _usuarioRepository = usuarioRepository;
+            _articuloRepository = articuloRepository;
+            _modeloArticuloRepository = modeloArticuloRepository;
+            _departamentoRepository = departamentoRepository;
+            _espacioRepository = espacioRepository; // note: use existing field name
+            _loggerFactory = loggerFactory;
         }
 
         private async void DiagArticulo_Loaded(object sender, RoutedEventArgs e)
         {
-            _context = new DiinventarioexamenContext();
-
-            _articuloRepository = new ArticuloRepository(
-                _context,
-                _loggerFactory.CreateLogger<GenericRepository<Articulo>>()
-                );
-
-            _modeloArticuloRepository = new ModeloArticuloRepository(
-                _context,
-                _loggerFactory.CreateLogger<GenericRepository<Modeloarticulo>>()
-                );
-
-            _usuarioRepository = new UsuarioRepository(
-                _context,
-                _loggerFactory.CreateLogger<GenericRepository<Usuario>>()
-                );
-
-            _departamentoRepository = new DepartamentoRepository(
-                _context,
-                _loggerFactory.CreateLogger<GenericRepository<Departamento>>()
-                );
-
-            _espacioRepository = new EspacioRepository(
-                _context,
-                _loggerFactory.CreateLogger<GenericRepository<Espacio>>()
-                );
 
             // Cargar combos con datos de la base
             cmbModelo.ItemsSource = await _modeloArticuloRepository.GetAllAsync();
@@ -114,7 +102,7 @@ namespace playground_.net_BasicThings.Frontend.Dialogos
             {
                 articulo.Idarticulo = ObtenerSiguienteId(); // ASIGNAR ID DE ARTICULO
                 await _articuloRepository.AddAsync(articulo);
-                _context.SaveChanges();
+                _diinventarrioContext.SaveChanges();
 
             }
             catch (Exception ex)
@@ -130,7 +118,7 @@ namespace playground_.net_BasicThings.Frontend.Dialogos
 
 
             // Obtener el máximo ID actual y sumar 1
-            var maxId = _context.Articulos.Max(a => (int?)a.Idarticulo) ?? 0;
+            var maxId = _diinventarrioContext.Articulos.Max(a => (int?)a.Idarticulo) ?? 0;
             return maxId + 1;
         }
 

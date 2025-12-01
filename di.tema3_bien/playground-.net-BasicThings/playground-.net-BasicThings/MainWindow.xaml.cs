@@ -19,9 +19,14 @@ namespace playground_.net_BasicThings
     /// </summary>
     public partial class MainWindow : MetroWindow
     {
-        public MainWindow()
+        private UserControl? _currentControl;
+        private NuevoArticuloUserControl _nuevoArticuloUserControl;
+        private NuevoModeloArticuloUserControl _nuevoModeloArticuloUserControl;
+        public MainWindow(NuevoArticuloUserControl nuevoArticuloUserControl, NuevoModeloArticuloUserControl nuevoModeloArticuloUserControl)
         {
             InitializeComponent();
+            _nuevoArticuloUserControl = nuevoArticuloUserControl;
+            _nuevoModeloArticuloUserControl = nuevoModeloArticuloUserControl;
         }
 
         private void BtnSalir_Click(object sender, RoutedEventArgs e)
@@ -43,17 +48,17 @@ namespace playground_.net_BasicThings
             MainContent.Children.Clear();
 
             // 4. Declaramos el control que vamos a cargar
-            UserControl? control = selected switch
+            _currentControl = selected switch
             {
-                "Nuevo Articulo" => new NuevoArticuloUserControl(),
-                "Nuevo Modelo Articulo" => new NuevoModeloArticuloUserControl(),
+                "Nuevo Articulo" => _nuevoArticuloUserControl, // Inyectar cada user control y solo ponerlo aqui sin el new
+                "Nuevo Modelo Articulo" => _nuevoModeloArticuloUserControl,
                 // Aqui los nuevos userControl
-                _ => null
+                _ => null // Luego el HOME
             };
 
             // 5. Insertamos el nuevo control
-            if (control != null)
-                MainContent.Children.Add(control);
+            if (_currentControl != null)
+                MainContent.Children.Add(_currentControl);
         }
     }
 }

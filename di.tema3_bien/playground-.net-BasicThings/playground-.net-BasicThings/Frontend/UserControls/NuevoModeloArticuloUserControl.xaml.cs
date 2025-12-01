@@ -1,4 +1,5 @@
-﻿using playground_.net_BasicThings.Frontend.Dialogos;
+﻿using Microsoft.Extensions.DependencyInjection;
+using playground_.net_BasicThings.Frontend.Dialogos;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,15 +22,19 @@ namespace playground_.net_BasicThings.Frontend.UserControls
     /// </summary>
     public partial class NuevoModeloArticuloUserControl : UserControl
     {
-        public NuevoModeloArticuloUserControl()
+        private NuevoModeloArticulo _nuevoModeloArticulo;
+        private IServiceProvider _serviceProvider;
+        public NuevoModeloArticuloUserControl(NuevoModeloArticulo nuevoModeloArticulo, IServiceProvider serviceProvider)
         {
             InitializeComponent();
+            _nuevoModeloArticulo = nuevoModeloArticulo;
+            _serviceProvider = serviceProvider;
         }
 
         private void onNuevoModeloArticuloPulsado(object sender, RoutedEventArgs e)
         {
-            var dialogo = new NuevoModeloArticulo(); // CREO EL DIALOGO
-            dialogo.ShowDialog(); // SHOWDIALOG() HACE QUE EL DIALOGO PRINCIPAL ESTE BLOQUEADO
+            _nuevoModeloArticulo = _serviceProvider.GetRequiredService<NuevoModeloArticulo>();
+            _nuevoModeloArticulo.ShowDialog(); // SHOWDIALOG() HACE QUE EL DIALOGO PRINCIPAL ESTE BLOQUEADO
         }
     }
 }

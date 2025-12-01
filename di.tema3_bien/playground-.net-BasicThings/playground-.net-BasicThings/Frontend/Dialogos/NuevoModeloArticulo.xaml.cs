@@ -23,24 +23,28 @@ namespace playground_.net_BasicThings.Frontend.Dialogos
     /// </summary>
     public partial class NuevoModeloArticulo : MetroWindow
     {
-        private DiinventarioexamenContext _context; // SIEMPRE NECESARIO, RECOGE TODAS LAS TABLAS
+        private DiinventarioexamenContext _diinventarioexamenContext; // SIEMPRE NECESARIO, RECOGE TODAS LAS TABLAS
         private ModeloArticuloRepository _modeloArticuloRepository; // NECESARIO YA QUE VAMOS A TOCAR EL MODELO DE ARTICULO
         private TipoArticuloRepository _tipoArticuloRepository; // NECESARIO PORQUE VAMOS A USAR EL TIPO DE ARTICULO
 
         private readonly ILoggerFactory _loggerFactory;
 
-        public NuevoModeloArticulo()
+        public NuevoModeloArticulo(
+            ModeloArticuloRepository modeloArticuloRepository, 
+            TipoArticuloRepository tipoArticuloRepository, 
+            ILoggerFactory loggerFactory,
+            DiinventarioexamenContext diinventarioexamenContext)
         {
-            _loggerFactory = new LoggerFactory();
             InitializeComponent();
+            _diinventarioexamenContext = diinventarioexamenContext;
+            _modeloArticuloRepository = modeloArticuloRepository;
+            _tipoArticuloRepository = tipoArticuloRepository;
+            _loggerFactory = loggerFactory;
+            
         }
         
         private async void diagModeloArticulo_Loaded(object sender, RoutedEventArgs e) // CUANDO SE ABRE EL DIALOGO, HACE LO SIGUIENTE:
         {
-            _context = new DiinventarioexamenContext();// INSTANCIA TODAS LAS TABLAS
-            _modeloArticuloRepository = new ModeloArticuloRepository(_context, _loggerFactory.CreateLogger<GenericRepository<Modeloarticulo>>()); // INSTANCIA EL MODELO, PIDE EL CONTEXTO (PARA VER LA TABLA) Y UN NULO
-            _tipoArticuloRepository = new TipoArticuloRepository(_context, _loggerFactory.CreateLogger<GenericRepository<Tipoarticulo>>()); // INSTANCIA EL TIPO ARTICULO, PIDE EL CONTEXTO (PARA VER LA TABLA) Y UN NULO
-                                                                                  //se modificará mas adelante
 
             List<Tipoarticulo> tipos = await _tipoArticuloRepository.GetAllAsync(); // CARGAMOS LOS TIPOS DE ARTICULO EN UNA LISTA QUE ESTARA EN EL COMBOBOX
             cmbTipoArticulo.ItemsSource = tipos; // CARGAMOS LA LISTA DE TIPOS EN EL COMBO BOX
@@ -71,7 +75,7 @@ namespace playground_.net_BasicThings.Frontend.Dialogos
             try
             {
                 await _modeloArticuloRepository.AddAsync(modeloarticulo); // AÑADE EL MODELO DE  ARTICULO NUEVO
-                _context.SaveChanges(); // GUARDA LOS CAMBIOS
+                _diinventarioexamenContext.SaveChanges(); // GUARDA LOS CAMBIOS
             }
             catch (Exception ex)
             {
