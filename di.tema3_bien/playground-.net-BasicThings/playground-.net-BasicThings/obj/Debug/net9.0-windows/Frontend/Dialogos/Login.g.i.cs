@@ -84,7 +84,7 @@ namespace playground_.net_BasicThings.Frontend.Dialogos {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/playground-.net-BasicThings;component/frontend/dialogos/login.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/playground-.net-BasicThings;V1.0.0.0;component/frontend/dialogos/login.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Frontend\Dialogos\Login.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("playground-.net-BasicThings")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b2d7450f6c7449727d939240b2679c58d6e0ea7f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+355fe034139a7847f35bac3a0d62faee497a5200")]
 [assembly: System.Reflection.AssemblyProductAttribute("playground-.net-BasicThings")]
 [assembly: System.Reflection.AssemblyTitleAttribute("playground-.net-BasicThings")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

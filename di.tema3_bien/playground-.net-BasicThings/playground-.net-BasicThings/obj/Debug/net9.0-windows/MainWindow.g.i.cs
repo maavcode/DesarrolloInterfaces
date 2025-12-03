@@ -100,7 +100,7 @@ namespace playground_.net_BasicThings {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/playground-.net-BasicThings;component/mainwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/playground-.net-BasicThings;V1.0.0.0;component/mainwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\MainWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

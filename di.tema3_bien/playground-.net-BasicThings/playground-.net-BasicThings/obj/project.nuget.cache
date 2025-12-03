@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8Zvvg1SmeX4=",
+  "dgSpecHash": "F+8sAMZTXbU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\windows10\\Desktop\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\playground-.net-BasicThings.csproj",
+  "projectFilePath": "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\playground-.net-BasicThings.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\windows10\\.nuget\\packages\\bouncycastle.cryptography\\2.6.2\\bouncycastle.cryptography.2.6.2.nupkg.sha512",
     "C:\\Users\\windows10\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
