@@ -85,6 +85,9 @@
             HorizontalAlignment="Left"
             Margin="20,45,0,0"
             BorderBrush="Gray"
+            ItemsSource="{Binding listaTiposArticulos}"
+            SelectedItem="{Binding modeloArticulo.TipoNavigation,ValidatesOnDataErrors=True,
+            NotifyOnValidationError=True}"
             DisplayMemberPath="Nombre"
             Foreground="Black"/>
 

@@ -4,6 +4,7 @@ using System;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Navigation;
 
 namespace playground_.net_BasicThings.MVVM.Base
 {
@@ -13,9 +14,15 @@ namespace playground_.net_BasicThings.MVVM.Base
         /// Botón del formulario que queremos que se active/desactive en función
         /// de si hay errores en la validación de los campos
         /// </summary>
-        public bool HasErrors => errorCount > 0;
+        public bool HasErrors
+        {
+            get => _hasErrors;
+            set => SetProperty(ref _hasErrors, value);
+        }
 
-        
+        private bool _hasErrors;
+
+
         /// <summary>
         /// Variable que llev la cuenta de los errores que hay en el formulario
         /// </summary>
@@ -66,7 +73,13 @@ namespace playground_.net_BasicThings.MVVM.Base
                         throw new Exception("Acción desconocida");
                     }
             }
+            UpdatehasErrors();
             //btnGuardar.IsEnabled = errorCount == 0;
+        }
+
+        private void UpdatehasErrors()
+        {
+            HasErrors = errorCount > 0;
         }
         // Métodos CRUD genéricos asíncronos con manejo de excepciones
         /// <summary>

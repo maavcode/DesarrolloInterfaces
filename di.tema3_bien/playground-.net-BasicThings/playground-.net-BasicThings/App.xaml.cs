@@ -4,6 +4,7 @@ using playground_.net_BasicThings.Backend.Modelos;
 using playground_.net_BasicThings.Backend.Servicios;
 using playground_.net_BasicThings.Frontend.Dialogos;
 using playground_.net_BasicThings.Frontend.UserControls;
+using playground_.net_BasicThings.MVVM;
 using System.Configuration;
 using System.Data;
 using System.Windows;
@@ -64,6 +65,9 @@ namespace playground_.net_BasicThings
             services.AddTransient<NuevoModeloArticulo>();
             services.AddTransient<NuevoArticuloUserControl>();
             services.AddTransient<NuevoArticulo>();
+
+            services.AddTransient<MVArticulo>();
+
         }
 
         protected override void OnStartup(StartupEventArgs e)

@@ -15,6 +15,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using MahApps.Metro.Controls;
 using Microsoft.Extensions.Logging;
+using playground_.net_BasicThings.MVVM;
 
 namespace playground_.net_BasicThings.Frontend.Dialogos
 {
@@ -22,36 +23,31 @@ namespace playground_.net_BasicThings.Frontend.Dialogos
     /// Lógica de interacción para NuevoModeloArticulo.xaml
     /// </summary>
     public partial class NuevoModeloArticulo : MetroWindow
-    {
-        private DiinventarioexamenContext _diinventarioexamenContext; // SIEMPRE NECESARIO, RECOGE TODAS LAS TABLAS
-        private ModeloArticuloRepository _modeloArticuloRepository; // NECESARIO YA QUE VAMOS A TOCAR EL MODELO DE ARTICULO
-        private TipoArticuloRepository _tipoArticuloRepository; // NECESARIO PORQUE VAMOS A USAR EL TIPO DE ARTICULO
+    {   
 
         private readonly ILoggerFactory _loggerFactory;
-
-        public NuevoModeloArticulo(
-            ModeloArticuloRepository modeloArticuloRepository, 
-            TipoArticuloRepository tipoArticuloRepository, 
-            ILoggerFactory loggerFactory,
-            DiinventarioexamenContext diinventarioexamenContext)
+        // DECLARACION DEL MVARTICULO
+        private MVArticulo _mVArticulo;
+        public NuevoModeloArticulo(MVArticulo mvArticulo)
         {
             InitializeComponent();
-            _diinventarioexamenContext = diinventarioexamenContext;
-            _modeloArticuloRepository = modeloArticuloRepository;
-            _tipoArticuloRepository = tipoArticuloRepository;
-            _loggerFactory = loggerFactory;
-            
+            _mVArticulo = mvArticulo;
+
         }
         
         private async void diagModeloArticulo_Loaded(object sender, RoutedEventArgs e) // CUANDO SE ABRE EL DIALOGO, HACE LO SIGUIENTE:
         {
+            // INICIALIZA EL MVARTICULO (CARGA LOS TIPOS DE ARTICULO)
+            await _mVArticulo.Inicializa();
 
-            List<Tipoarticulo> tipos = await _tipoArticuloRepository.GetAllAsync(); // CARGAMOS LOS TIPOS DE ARTICULO EN UNA LISTA QUE ESTARA EN EL COMBOBOX
-            cmbTipoArticulo.ItemsSource = tipos; // CARGAMOS LA LISTA DE TIPOS EN EL COMBO BOX
+            // MANEJA LOS ERRORES DE VALIDACION
+            this.AddHandler(Validation.ErrorEvent, new RoutedEventHandler(_mVArticulo.OnErrorEvent));
+
+            //Esta línea enlaza la interfaz con el MV | SI NO SE PONE DATACONTEXT NO FUNCIONARÁ EL ITEMSOURC
+            DataContext = _mVArticulo;
         }
 
-
-
+        /* YA NO ES NECESARIO PORQUE SE USA EL MVARTICULO
         private void RecogeDatos(Modeloarticulo modeloarticulo) // RECOGE LOS DATOS INSERTADOS EN EL DIALOGO
         {
             modeloarticulo.Nombre = txtNombre.Text; // RECOGE EL DATO DE NOMBRE
@@ -64,22 +60,31 @@ namespace playground_.net_BasicThings.Frontend.Dialogos
             }
 
         }
-
-
+        */
 
         //Botones por activar
         private async void BtnAnyadirModeloArticulo_Click(object sender, RoutedEventArgs e) // AÑADE UN MODELO DE ARTICULO
         {
-            Modeloarticulo modeloarticulo = new Modeloarticulo(); // CREA EL NUEVO MODELO
-            RecogeDatos(modeloarticulo); // RELLENA  EL  NUEVO MODELO CON LOS DATOS RECOGIDOS
             try
             {
-                await _modeloArticuloRepository.AddAsync(modeloarticulo); // AÑADE EL MODELO DE  ARTICULO NUEVO
-                _diinventarioexamenContext.SaveChanges(); // GUARDA LOS CAMBIOS
-            }
-            catch (Exception ex)
+                // AÑADE EL MODELO DE  ARTICULO NUEVO
+                bool guardado = await _mVArticulo.GuardarModeloArticuloAsync();
+
+                if (guardado)
+                {
+                    MessageBox.Show("Modelo de artículo guardado correctamente",
+                                    "Éxito", MessageBoxButton.OK, MessageBoxImage.Information);
+                    DialogResult = true; 
+                }
+                else
+                {
+                    MessageBox.Show("Error al guardar el modelo de artículo",
+                                    "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                }
+            } catch (Exception ex)
             {
-                MessageBox.Show("Error al guardar " + ex.Message, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show("Error inesperado: " + ex.Message,
+                               "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 

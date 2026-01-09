@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using playground_.net_BasicThings.Backend.Modelos;
 using playground_.net_BasicThings.Backend.Servicios;
+using playground_.net_BasicThings.MVVM;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -37,24 +38,11 @@ namespace playground_.net_BasicThings.Frontend.Dialogos
         // Factory para crear loggers
         private readonly ILoggerFactory _loggerFactory;
 
-        public NuevoArticulo(
-            DiinventarioexamenContext diinventarioexamenContext,
-            UsuarioRepository usuarioRepository,
-            ArticuloRepository articuloRepository, 
-            ModeloArticuloRepository modeloArticuloRepository, 
-            DepartamentoRepository departamentoRepository,
-            EspacioRepository espacioRepository,
-            ILoggerFactory loggerFactory)
+        private MVArticulo _mvArticulo;
+        public NuevoArticulo(MVArticulo mVArticulo)
         {
             InitializeComponent();
-
-            _diinventarrioContext = diinventarioexamenContext;
-            _usuarioRepository = usuarioRepository;
-            _articuloRepository = articuloRepository;
-            _modeloArticuloRepository = modeloArticuloRepository;
-            _departamentoRepository = departamentoRepository;
-            _espacioRepository = espacioRepository; // note: use existing field name
-            _loggerFactory = loggerFactory;
+            _mvArticulo = mVArticulo;
         }
 
         private async void DiagArticulo_Loaded(object sender, RoutedEventArgs e)
