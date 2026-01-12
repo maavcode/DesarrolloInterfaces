@@ -38,8 +38,8 @@ namespace playground_.net_BasicThings.Frontend.Dialogos
         // Factory para crear loggers
         private readonly ILoggerFactory _loggerFactory;
 
-        private MVArticulo _mvArticulo;
-        public NuevoArticulo(MVArticulo mVArticulo)
+        private MVArticuloJero _mvArticulo;
+        public NuevoArticulo(MVArticuloJero mVArticulo)
         {
             InitializeComponent();
             _mvArticulo = mVArticulo;

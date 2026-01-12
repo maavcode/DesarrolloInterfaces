@@ -27,24 +27,24 @@ namespace playground_.net_BasicThings.Frontend.Dialogos
 
         private readonly ILoggerFactory _loggerFactory;
         // DECLARACION DEL MVARTICULO
-        private MVArticulo _mVArticulo;
-        public NuevoModeloArticulo(MVArticulo mvArticulo)
+        private MVModeloArticulo _mvModeloArticulo;
+        public NuevoModeloArticulo(MVModeloArticulo mvModeloArticulo)
         {
             InitializeComponent();
-            _mVArticulo = mvArticulo;
+            _mvModeloArticulo = mvModeloArticulo;
 
         }
         
         private async void diagModeloArticulo_Loaded(object sender, RoutedEventArgs e) // CUANDO SE ABRE EL DIALOGO, HACE LO SIGUIENTE:
         {
             // INICIALIZA EL MVARTICULO (CARGA LOS TIPOS DE ARTICULO)
-            await _mVArticulo.Inicializa();
+            await _mvModeloArticulo.Inicializa();
 
             // MANEJA LOS ERRORES DE VALIDACION
-            this.AddHandler(Validation.ErrorEvent, new RoutedEventHandler(_mVArticulo.OnErrorEvent));
+            this.AddHandler(Validation.ErrorEvent, new RoutedEventHandler(_mvModeloArticulo.OnErrorEvent));
 
             //Esta línea enlaza la interfaz con el MV | SI NO SE PONE DATACONTEXT NO FUNCIONARÁ EL ITEMSOURC
-            DataContext = _mVArticulo;
+            DataContext = _mvModeloArticulo;
         }
 
         /* YA NO ES NECESARIO PORQUE SE USA EL MVARTICULO
@@ -68,7 +68,7 @@ namespace playground_.net_BasicThings.Frontend.Dialogos
             try
             {
                 // AÑADE EL MODELO DE  ARTICULO NUEVO
-                bool guardado = await _mVArticulo.GuardarModeloArticuloAsync();
+                bool guardado = await _mvModeloArticulo.GuardarModeloArticuloAsync();
 
                 if (guardado)
                 {

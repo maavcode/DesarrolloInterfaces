@@ -30,6 +30,8 @@ namespace playground_.net_BasicThings.Frontend.Dialogos
             InitializeComponent();
             _usuarioRepository = usuarioRepository;
             _ventanaPrincipal = ventanaPrincipal;
+
+            nombreUsuario.Focus();
         }
 
         private async void onBotonLoginPulsado(object sender, RoutedEventArgs e) // Estos parametros existen para hacer saber al programa que existe el evento y que es un evento
@@ -41,7 +43,7 @@ namespace playground_.net_BasicThings.Frontend.Dialogos
                 if (isAuthenticated) {
                     // Como el usuario y la clave son correctos:
                     // Enseña el nuevo dialogo
-                    _ventanaPrincipal.Show();
+                    _ventanaPrincipal.ShowDialog();
                     // Esconde el dialogo Login
                     this.Close();
                 }

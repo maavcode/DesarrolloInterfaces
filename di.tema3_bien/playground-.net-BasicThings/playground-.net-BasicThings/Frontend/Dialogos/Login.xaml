@@ -36,7 +36,7 @@
                      Style="{StaticResource MaterialDesignFloatingHintTextBox}" 
                      materialDesign:HintAssist.Hint="Nombre de Usuario" FontWeight="Black"
                      Margin="0,0,0,30" x:Name="nombreUsuario"/>
-            
+
             <PasswordBox Width="200" 
                          Style="{StaticResource MaterialDesignFloatingHintPasswordBox}"
                          materialDesign:HintAssist.Hint="Clave de Acceso" FontWeight="Black"

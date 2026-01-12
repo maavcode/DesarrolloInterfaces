@@ -7,6 +7,8 @@
         xmlns:mat="http://materialdesigninxaml.net/winfx/xaml/themes"
         xmlns:materialDesignIcons="http://materialdesigninxaml.net/winfx/xaml/shared"
 
+        WindowStartupLocation="CenterScreen"        
+                 
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:playground_.net_BasicThings.Frontend.Dialogos"
         mc:Ignorable="d"
@@ -49,7 +51,9 @@
                  Margin="20,45,0,0"
                  FontWeight="Bold"
                  FontSize="13"
-                 Foreground="Black"/>
+                 Foreground="Black"
+                 Text="{Binding modeloArticulo.Nombre,ValidatesOnDataErrors=True, NotifyOnValidationError=True, UpdateSourceTrigger=PropertyChanged}"
+                 />
 
         <!-- MODELO -->
         <TextBox x:Name="txtModelo"
@@ -72,7 +76,8 @@
                  Margin="20,45,0,0"
                  FontWeight="Bold"
                  FontSize="13"
-                 Foreground="Black"/>
+                 Foreground="Black"
+                 Text="{Binding modeloArticulo.Marca,ValidatesOnDataErrors=True, NotifyOnValidationError=True, UpdateSourceTrigger=PropertyChanged}"/>
 
         <!-- TIPO -->
         <ComboBox
@@ -85,7 +90,7 @@
             HorizontalAlignment="Left"
             Margin="20,45,0,0"
             BorderBrush="Gray"
-            ItemsSource="{Binding listaTiposArticulos}"
+            ItemsSource="{Binding listaTipoArticulos}"
             SelectedItem="{Binding modeloArticulo.TipoNavigation,ValidatesOnDataErrors=True,
             NotifyOnValidationError=True}"
             DisplayMemberPath="Nombre"
@@ -120,7 +125,8 @@
                     Foreground="White"
                     Background="#dd243c"
                     Width="120"
-                    Margin="20,0"/>
+                    Margin="20,0"
+                    IsEnabled="{Binding HasErrors}"/>
 
         </StackPanel>
 

@@ -79,7 +79,7 @@ namespace playground_.net_BasicThings.MVVM.Base
 
         private void UpdatehasErrors()
         {
-            HasErrors = errorCount > 0;
+            HasErrors = errorCount == 0;
         }
         // Métodos CRUD genéricos asíncronos con manejo de excepciones
         /// <summary>

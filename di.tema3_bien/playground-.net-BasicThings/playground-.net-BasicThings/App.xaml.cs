@@ -66,7 +66,8 @@ namespace playground_.net_BasicThings
             services.AddTransient<NuevoArticuloUserControl>();
             services.AddTransient<NuevoArticulo>();
 
-            services.AddTransient<MVArticulo>();
+            services.AddTransient<MVArticuloJero>();
+            services.AddTransient<MVModeloArticulo>();
 
         }
 
@@ -74,7 +75,7 @@ namespace playground_.net_BasicThings
         {
             // Se genera la ventana de Login
             var loginWindow = _serviceProvider.GetService<Login>();
-            loginWindow.Show();
+            loginWindow.ShowDialog();
             base.OnStartup(e);
         }
     }

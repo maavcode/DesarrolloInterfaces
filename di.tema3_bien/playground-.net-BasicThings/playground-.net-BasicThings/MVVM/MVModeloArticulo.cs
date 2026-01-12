@@ -1,4 +1,5 @@
-﻿using playground_.net_BasicThings.Backend.Modelos;
+﻿using di.proyecto.clase._2025.Backend.Servicios_Repositorio_;
+using playground_.net_BasicThings.Backend.Modelos;
 using playground_.net_BasicThings.Backend.Servicios;
 using playground_.net_BasicThings.Frontend.Mensajes;
 using playground_.net_BasicThings.MVVM.Base;
@@ -10,62 +11,53 @@ using System.Threading.Tasks;
 
 namespace playground_.net_BasicThings.MVVM
 {
-
-
-
     public class MVModeloArticulo : MVBase
     {
         #region Campos y propiedades privadas
-        /// <summary>
-        /// Objeto que guarda el modelo de artículo actual
-        /// Está vinculado a la vista para mostrar y editar los datos del artículo
-        /// </summary>
+        // Propiedad que guarda el modelo de artículo actual y propiedad que guarda el repositorio del mismo
         private Modeloarticulo _modeloArticulo;
-        /// <summary>
-        /// Repositorio para gestionar las operaciones de datos relacionadas con los modelos de artículo
-        /// </summary>
         private ModeloArticuloRepository _modeloArticuloRepository;
-        /// <summary>
-        /// Repositorio para gestionar las operaciones de datos relacionadas con los tipos de artículo
-        /// </summary>
-        private TipoArticuloRepository _tipoArticuloRepository;
-        /// <summary>
-        /// lista de tipos de artículos disponibles
-        /// </summary>
+        // Propiedad que guarda el repositorio de tipos de artículo y la lista de tipos de artículo
         private List<Tipoarticulo> _listaTipoArticulos;
+        private TipoArticuloRepository _tipoArticuloRepository;
         #endregion
+
         #region Getters y Setters
-        public List<Tipoarticulo> listaTiposArticulos => _listaTipoArticulos;
         public Modeloarticulo modeloArticulo
         {
             get => _modeloArticulo;
             set => SetProperty(ref _modeloArticulo, value);
         }
+        public List<Tipoarticulo> listaTipoArticulos => _listaTipoArticulos;
         #endregion
-        // Aquí puedes añadir propiedades y métodos específicos para el ViewModel de Artículo
-        public MVModeloArticulo(ModeloArticuloRepository modeloArticuloRepository,
-                          TipoArticuloRepository tipoArticuloRepository)
+
+        // Constructor que recibe el modelo de artículo y el repositorio como parámetros
+        public MVModeloArticulo( 
+            ModeloArticuloRepository modeloArticuloRepository,
+            TipoArticuloRepository tipoArticuloRepository
+            )
         {
+            // Cada vez que ejecute el dalogo es uno diferente, el repositorio no
+            _modeloArticulo = new Modeloarticulo();
             _modeloArticuloRepository = modeloArticuloRepository;
             _tipoArticuloRepository = tipoArticuloRepository;
-            _modeloArticulo = new Modeloarticulo();
         }
 
-        // Carga los datos necesarios para la gestión de modelos de artículos
+        // Método para inicializar los datos necesarios para el ViewModel
         public async Task Inicializa()
         {
-            // Cargar los tipos de artículos desde la base de datos
             try
             {
                 _listaTipoArticulos = await GetAllAsync<Tipoarticulo>(_tipoArticuloRepository);
             }
             catch (Exception ex)
             {
-                MensajeError.Mostrar("GESTIÓN ARTÍCULOS", "Error al cargar los tipos de artículos\n" +
+                MensajeError.Mostrar("GESTIÓN MODELOS ARTÍCULO", "Error al cargar los tipos de modelo de artículos\n" +
                     "No puedo conectar con la base de datos", 0);
             }
         }
 
+        // Método para guardar el modelo de artículo en la base de datos
         public async Task<bool> GuardarModeloArticuloAsync()
         {
             bool correcto = true;
