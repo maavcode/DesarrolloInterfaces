@@ -23,6 +23,7 @@ public partial class Articulo : ValidatableViewModel
 
     [Column("numserie")]
     [StringLength(45)]
+    [Required(ErrorMessage = "El numero de serie es obligatorio")]
     public string? Numserie { get; set; }
 
     [Column("estado")]
@@ -48,18 +49,21 @@ public partial class Articulo : ValidatableViewModel
     public int? Usuariobaja { get; set; }
 
     [Column("modelo")]
+    [Required(ErrorMessage = "El modelo es obligatorio")]
     public int Modelo { get; set; }
 
     /// <summary>
     /// departamento al que pertenece o del que depende
     /// </summary>
     [Column("departamento")]
+    [Required(ErrorMessage = "El departamento es obligatorio")]
     public int? Departamento { get; set; }
 
     /// <summary>
     /// espacio en que se encuentra
     /// </summary>
     [Column("espacio")]
+    [Required(ErrorMessage = "El espacio es obligatorio")]
     public int Espacio { get; set; }
 
     /// <summary>
