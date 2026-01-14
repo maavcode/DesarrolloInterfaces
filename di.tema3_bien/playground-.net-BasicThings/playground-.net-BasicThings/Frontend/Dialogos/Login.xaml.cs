@@ -42,10 +42,13 @@ namespace playground_.net_BasicThings.Frontend.Dialogos
                 bool isAuthenticated = await _usuarioRepository.LoginAsync(nombreUsuario.Text, claveUsuario.Password);
                 if (isAuthenticated) {
                     // Como el usuario y la clave son correctos:
-                    // Enseña el nuevo dialogo
-                    _ventanaPrincipal.ShowDialog();
                     // Esconde el dialogo Login
                     this.Close();
+                    // Enseña el nuevo dialogo
+                    Application.Current.MainWindow = _ventanaPrincipal;
+                    Application.Current.ShutdownMode = ShutdownMode.OnMainWindowClose; // o OnLastWindowClose según prefieras
+                    _ventanaPrincipal.Show();
+                    
                 }
                 else // Si algun campo es incorrecto
                 {

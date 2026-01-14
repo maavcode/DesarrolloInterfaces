@@ -27,19 +27,10 @@ namespace playground_.net_BasicThings.Frontend.Dialogos
     /// </summary>
     public partial class NuevoArticulo : MetroWindow
     {
-        private DiinventarioexamenContext _diinventarrioContext;
-
-        private ArticuloRepository _articuloRepository;
-        private ModeloArticuloRepository _modeloArticuloRepository;
-        private UsuarioRepository _usuarioRepository;
-        private DepartamentoRepository _departamentoRepository;
-        private EspacioRepository _espacioRepository;
-
-        // Factory para crear loggers
         private readonly ILoggerFactory _loggerFactory;
-
-        private MVArticuloJero _mvArticulo;
-        public NuevoArticulo(MVArticuloJero mVArticulo)
+        // DECLARACION MVARTICULO
+        private MVArticulo _mvArticulo;
+        public NuevoArticulo(MVArticulo mVArticulo)
         {
             InitializeComponent();
             _mvArticulo = mVArticulo;
@@ -47,17 +38,14 @@ namespace playground_.net_BasicThings.Frontend.Dialogos
 
         private async void DiagArticulo_Loaded(object sender, RoutedEventArgs e)
         {
-
-            // Cargar combos con datos de la base
-            cmbModelo.ItemsSource = await _modeloArticuloRepository.GetAllAsync();
-            cmbUsuario.ItemsSource = await _usuarioRepository.GetAllAsync();
-            cmbDepartamento.ItemsSource = await _departamentoRepository.GetAllAsync();
-            cmbEspacio.ItemsSource = await _espacioRepository.GetAllAsync();
-
-            // Estado: valores fijos o tabla auxiliar
-            cmbEstado.ItemsSource = new List<string> { "Nuevo", "Usado", "Dañado" };
+            // INICIALIZA EL MVARTICULO (CARGA LOS TIPOS DE ARTICULO)
+            await _mvArticulo.Inicializa();
+            // MANEJA LOS ERRORES DE VALIDACION
+            this.AddHandler(Validation.ErrorEvent, new RoutedEventHandler(_mvArticulo.OnErrorEvent));
+            //Esta línea enlaza la interfaz con el MV | SI NO SE PONE DATACONTEXT NO FUNCIONARÁ EL ITEMSOURC
+            DataContext = _mvArticulo;
         }
-
+        /* NO HACE FALTA CON EL MVVM PERO LO DEJO COMO EJEMPLO 
         private void RecogeDatos(Articulo articulo)
         {
 
@@ -81,25 +69,34 @@ namespace playground_.net_BasicThings.Frontend.Dialogos
                 articulo.Estado = cmbEstado.SelectedItem.ToString();
         }
          /*                                                      */
+        // BOTON GUARDAR ARTICULO
         private async void BtnGuardarArticulo_Click(object sender, RoutedEventArgs e)
         {
-            Articulo articulo = new Articulo();
-            RecogeDatos(articulo);
-            
             try
             {
-                articulo.Idarticulo = ObtenerSiguienteId(); // ASIGNAR ID DE ARTICULO
-                await _articuloRepository.AddAsync(articulo);
-                _diinventarrioContext.SaveChanges();
+                // AÑADE EL MODELO DE  ARTICULO NUEVO
+                bool guardado = await _mvArticulo.GuardarArticuloAsync();
 
+                if (guardado)
+                {
+                    MessageBox.Show("Modelo de artículo guardado correctamente",
+                                    "Éxito", MessageBoxButton.OK, MessageBoxImage.Information);
+                    DialogResult = true;
+                }
+                else
+                {
+                    MessageBox.Show("Error al guardar el modelo de artículo",
+                                    "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                }
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Error al guardar " + ex.Message, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show("Error inesperado: " + ex.Message,
+                               "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
 
         }
-
+        /*
         // ESTOOOO PARA GENERAR EL SIGUIENTE ID DE ARTICULO
         private int ObtenerSiguienteId()
         {
@@ -111,7 +108,6 @@ namespace playground_.net_BasicThings.Frontend.Dialogos
         }
 
         /*                                                             */
-
         private void BtnCancelarArticulo_Click(object sender, RoutedEventArgs e)
         {
             DialogResult = false;

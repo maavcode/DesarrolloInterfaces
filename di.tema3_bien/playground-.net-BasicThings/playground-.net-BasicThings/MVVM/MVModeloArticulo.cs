@@ -14,12 +14,15 @@ namespace playground_.net_BasicThings.MVVM
     public class MVModeloArticulo : MVBase
     {
         #region Campos y propiedades privadas
-        // Propiedad que guarda el modelo de artículo actual y propiedad que guarda el repositorio del mismo
+        // Propiedad que guarda el modelo de artículo actual, la propiedad que guarda el repositorio del mismo y la lista de modelos de artículo
         private Modeloarticulo _modeloArticulo;
         private ModeloArticuloRepository _modeloArticuloRepository;
+        private List<Modeloarticulo> _listaModelosArticulo;
         // Propiedad que guarda el repositorio de tipos de artículo y la lista de tipos de artículo
         private List<Tipoarticulo> _listaTipoArticulos;
         private TipoArticuloRepository _tipoArticuloRepository;
+
+
         #endregion
 
         #region Getters y Setters
@@ -29,6 +32,8 @@ namespace playground_.net_BasicThings.MVVM
             set => SetProperty(ref _modeloArticulo, value);
         }
         public List<Tipoarticulo> listaTipoArticulos => _listaTipoArticulos;
+        public List<Modeloarticulo> listaModelosArticulo => _listaModelosArticulo;
+
         #endregion
 
         // Constructor que recibe el modelo de artículo y el repositorio como parámetros
@@ -49,6 +54,7 @@ namespace playground_.net_BasicThings.MVVM
             try
             {
                 _listaTipoArticulos = await GetAllAsync<Tipoarticulo>(_tipoArticuloRepository);
+                _listaModelosArticulo = await GetAllAsync<Modeloarticulo>(_modeloArticuloRepository);
             }
             catch (Exception ex)
             {

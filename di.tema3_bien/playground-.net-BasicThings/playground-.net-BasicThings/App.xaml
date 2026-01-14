@@ -10,10 +10,10 @@
                 <!-- MahApps -->
                 <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml" />
                 <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Fonts.xaml" />
-                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Themes/Dark.Red.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Themes/Light.Red.xaml" />
 
                 <!-- Material Design -->
-                <materialDesign:BundledTheme BaseTheme="Dark" 
+                <materialDesign:BundledTheme BaseTheme="Light" 
                                              PrimaryColor="Red"
                                              SecondaryColor="Indigo" />
 

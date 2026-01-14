@@ -146,6 +146,7 @@
                             <ListViewItem Content="Nuevo Articulo" Padding="20 5" />
                             <ListViewItem Content="Nuevo Modelo Articulo" Padding="20 5" />
                             <ListViewItem Content="Tipo de Articulos" Padding="20 5" />
+                            <ListViewItem Content="Lista de Modelos de Articulo" Padding="20 5" />
                         </ListView>
                     </Expander>
                 </Grid>

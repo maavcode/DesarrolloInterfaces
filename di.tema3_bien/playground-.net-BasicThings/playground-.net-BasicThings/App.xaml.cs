@@ -61,13 +61,18 @@ namespace playground_.net_BasicThings
             services.AddScoped<EspacioRepository>();
             // Registramos las interfaces de usuario
             services.AddTransient<Login>();
+
             services.AddTransient<NuevoModeloArticuloUserControl>();
             services.AddTransient<NuevoModeloArticulo>();
+
             services.AddTransient<NuevoArticuloUserControl>();
             services.AddTransient<NuevoArticulo>();
 
+            services.AddTransient<ListaModelosArticuloUserControl>();
+
             services.AddTransient<MVArticuloJero>();
             services.AddTransient<MVModeloArticulo>();
+            services.AddTransient<MVArticulo>();
 
         }
 

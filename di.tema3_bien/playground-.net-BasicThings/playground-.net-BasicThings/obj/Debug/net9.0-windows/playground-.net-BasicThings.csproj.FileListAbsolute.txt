@@ -553,3 +553,5 @@ C:\Users\windows10\Documents\Clase\DesarrolloInterfaces\di.tema3_bien\playground
 C:\Users\windows10\Documents\Clase\DesarrolloInterfaces\di.tema3_bien\playground-.net-BasicThings\playground-.net-BasicThings\obj\Debug\net9.0-windows\playground-.net-BasicThings.pdb
 C:\Users\windows10\Documents\Clase\DesarrolloInterfaces\di.tema3_bien\playground-.net-BasicThings\playground-.net-BasicThings\obj\Debug\net9.0-windows\playground-.net-BasicThings.genruntimeconfig.cache
 C:\Users\windows10\Documents\Clase\DesarrolloInterfaces\di.tema3_bien\playground-.net-BasicThings\playground-.net-BasicThings\obj\Debug\net9.0-windows\ref\playground-.net-BasicThings.dll
+C:\Users\windows10\Documents\Clase\DesarrolloInterfaces\di.tema3_bien\playground-.net-BasicThings\playground-.net-BasicThings\obj\Debug\net9.0-windows\Frontend\UserControls\ListaModelosArticuloUserControl.g.cs
+C:\Users\windows10\Documents\Clase\DesarrolloInterfaces\di.tema3_bien\playground-.net-BasicThings\playground-.net-BasicThings\obj\Debug\net9.0-windows\Frontend\UserControls\ListaModelosArticuloUserControl.baml

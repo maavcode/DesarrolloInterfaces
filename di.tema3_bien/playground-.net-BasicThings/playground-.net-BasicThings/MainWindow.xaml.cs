@@ -22,11 +22,17 @@ namespace playground_.net_BasicThings
         private UserControl? _currentControl;
         private NuevoArticuloUserControl _nuevoArticuloUserControl;
         private NuevoModeloArticuloUserControl _nuevoModeloArticuloUserControl;
-        public MainWindow(NuevoArticuloUserControl nuevoArticuloUserControl, NuevoModeloArticuloUserControl nuevoModeloArticuloUserControl)
+        private ListaModelosArticuloUserControl _listaModelosArticuloUserControl;
+        public MainWindow(
+            NuevoArticuloUserControl nuevoArticuloUserControl, 
+            NuevoModeloArticuloUserControl nuevoModeloArticuloUserControl,
+            ListaModelosArticuloUserControl listaModelosArticulos
+            )
         {
             InitializeComponent();
             _nuevoArticuloUserControl = nuevoArticuloUserControl;
             _nuevoModeloArticuloUserControl = nuevoModeloArticuloUserControl;
+            _listaModelosArticuloUserControl = listaModelosArticulos;
         }
 
         private void BtnSalir_Click(object sender, RoutedEventArgs e)
@@ -52,6 +58,7 @@ namespace playground_.net_BasicThings
             {
                 "Nuevo Articulo" => _nuevoArticuloUserControl, // Inyectar cada user control y solo ponerlo aqui sin el new
                 "Nuevo Modelo Articulo" => _nuevoModeloArticuloUserControl,
+                "Lista de Modelos de Articulo" => _listaModelosArticuloUserControl,
                 // Aqui los nuevos userControl
                 _ => null // Luego el HOME
             };

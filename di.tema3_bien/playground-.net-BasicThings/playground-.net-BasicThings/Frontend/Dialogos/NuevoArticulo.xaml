@@ -70,14 +70,20 @@
                       FontWeight="Bold"
                       mat:HintAssist.Hint="Selecciona un modelo*"
                       Style="{StaticResource MaterialDesignComboBox}"
-                      DisplayMemberPath="Nombre"/>
+                      DisplayMemberPath="Nombre"
+                      ItemsSource="{Binding listaModelosArticulos}"
+                      SelectedItem="{Binding articulo.TipoNavigation,ValidatesOnDataErrors=True,
+                      NotifyOnValidationError=True}"/>
 
                 <!-- Estado -->
                 <ComboBox x:Name="cmbEstado"
                       Width="230"
                       Height="40"
                       mat:HintAssist.Hint="Selecciona un estado"
-                      Style="{StaticResource MaterialDesignComboBox}"/>
+                      Style="{StaticResource MaterialDesignComboBox}"
+                      ItemsSource="{Binding listaEstados}"
+                      SelectedItem="{Binding articulo.TipoNavigation,ValidatesOnDataErrors=True,
+                      NotifyOnValidationError=True}"/>
             </StackPanel>
 
             <!-- Parte derecha -->
@@ -100,7 +106,10 @@
                       Height="40"
                       mat:HintAssist.Hint="Selecciona un usuario"
                       Style="{StaticResource MaterialDesignComboBox}"
-                      DisplayMemberPath="Nombre"/>
+                      DisplayMemberPath="Nombre"
+                      ItemsSource="{Binding listaUsuarios}"
+                      SelectedItem="{Binding articulo.TipoNavigation,ValidatesOnDataErrors=True,
+                      NotifyOnValidationError=True}"/>
 
 
             </StackPanel>
@@ -149,7 +158,10 @@
                       FontWeight="Bold"
                       mat:HintAssist.Hint="Selecciona un departamento*"
                       Style="{StaticResource MaterialDesignComboBox}"
-                      DisplayMemberPath="Nombre"/>
+                      DisplayMemberPath="Nombre"
+                      ItemsSource="{Binding listaDepartamentos}"
+SelectedItem="{Binding articulo.TipoNavigation,ValidatesOnDataErrors=True,
+NotifyOnValidationError=True}"/>
 
             </StackPanel>
 
@@ -167,7 +179,10 @@
                       FontWeight="Bold"
                       mat:HintAssist.Hint="Selecciona un espacio*"
                       Style="{StaticResource MaterialDesignComboBox}"
-                      DisplayMemberPath="Nombre"/>
+                      DisplayMemberPath="Nombre"
+                          ItemsSource="{Binding listaEspacios}"
+SelectedItem="{Binding articulo.TipoNavigation,ValidatesOnDataErrors=True,
+NotifyOnValidationError=True}"/>
 
             </StackPanel>
             <!-- Campo de texto con límite de 45 caracteres -->

@@ -11,6 +11,9 @@
     <Compile Update="Frontend\Dialogos\NuevoModeloArticulo.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Frontend\UserControls\ListaModelosArticuloUserControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Frontend\UserControls\NuevoArticuloUserControl.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
