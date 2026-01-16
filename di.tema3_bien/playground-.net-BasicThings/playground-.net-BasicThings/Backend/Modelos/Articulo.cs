@@ -49,21 +49,18 @@ public partial class Articulo : ValidatableViewModel
     public int? Usuariobaja { get; set; }
 
     [Column("modelo")]
-    [Required(ErrorMessage = "El modelo es obligatorio")]
     public int Modelo { get; set; }
 
     /// <summary>
     /// departamento al que pertenece o del que depende
     /// </summary>
     [Column("departamento")]
-    [Required(ErrorMessage = "El departamento es obligatorio")]
     public int? Departamento { get; set; }
 
     /// <summary>
     /// espacio en que se encuentra
     /// </summary>
     [Column("espacio")]
-    [Required(ErrorMessage = "El espacio es obligatorio")]
     public int Espacio { get; set; }
 
     /// <summary>
@@ -81,10 +78,12 @@ public partial class Articulo : ValidatableViewModel
 
     [ForeignKey("Departamento")]
     [InverseProperty("Articulos")]
+    [Required(ErrorMessage = "El departamento es obligatorio")]
     public virtual Departamento? DepartamentoNavigation { get; set; }
 
     [ForeignKey("Espacio")]
     [InverseProperty("Articulos")]
+    [Required(ErrorMessage = "El espacio es obligatorio")]
     public virtual Espacio EspacioNavigation { get; set; } = null!;
 
     [InverseProperty("DentrodeNavigation")]
@@ -92,6 +91,7 @@ public partial class Articulo : ValidatableViewModel
 
     [ForeignKey("Modelo")]
     [InverseProperty("Articulos")]
+    [Required(ErrorMessage = "El modelo es obligatorio")]
     public virtual Modeloarticulo ModeloNavigation { get; set; } = null!;
 
     [InverseProperty("ArticuloNavigation")]

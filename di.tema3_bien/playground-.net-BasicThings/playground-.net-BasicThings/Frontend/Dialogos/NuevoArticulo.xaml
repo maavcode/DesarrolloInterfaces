@@ -72,7 +72,7 @@
                       Style="{StaticResource MaterialDesignComboBox}"
                       DisplayMemberPath="Nombre"
                       ItemsSource="{Binding listaModelosArticulos}"
-                      SelectedItem="{Binding articulo.TipoNavigation,ValidatesOnDataErrors=True,
+                      SelectedItem="{Binding articulo.ModeloNavigation,ValidatesOnDataErrors=True,
                       NotifyOnValidationError=True}"/>
 
                 <!-- Estado -->
@@ -82,8 +82,7 @@
                       mat:HintAssist.Hint="Selecciona un estado"
                       Style="{StaticResource MaterialDesignComboBox}"
                       ItemsSource="{Binding listaEstados}"
-                      SelectedItem="{Binding articulo.TipoNavigation,ValidatesOnDataErrors=True,
-                      NotifyOnValidationError=True}"/>
+                      SelectedItem="{Binding articulo.Estado}"/>
             </StackPanel>
 
             <!-- Parte derecha -->
@@ -98,7 +97,8 @@
                         Width="230"
                         Height="40"
                         mat:HintAssist.Hint="Selecciona una fecha"
-                        Style="{StaticResource MaterialDesignDatePicker}"/>
+                        Style="{StaticResource MaterialDesignDatePicker}"
+                            SelectedDate="{Binding articulo.Fechaalta}"/>
 
                 <!-- Usuario -->
                 <ComboBox x:Name="cmbUsuario"
@@ -108,8 +108,7 @@
                       Style="{StaticResource MaterialDesignComboBox}"
                       DisplayMemberPath="Nombre"
                       ItemsSource="{Binding listaUsuarios}"
-                      SelectedItem="{Binding articulo.TipoNavigation,ValidatesOnDataErrors=True,
-                      NotifyOnValidationError=True}"/>
+                      SelectedItem="{Binding articulo.UsuarioAltaNavigation}"/>
 
 
             </StackPanel>
@@ -120,7 +119,8 @@
                  mat:HintAssist.Hint="Numero de Serie* (Debe ser único)"
                  mat:HintAssist.IsFloating="True"
                  VerticalAlignment="Top"
-                 Margin="31,303,31,0"/>
+                 Margin="31,303,31,0"
+                 Text="{Binding articulo.Numserie ,ValidatesOnDataErrors=True, NotifyOnValidationError=True, UpdateSourceTrigger=PropertyChanged}"/>
 
         </Grid>
         <!-- Segunda parte del formulario-->
@@ -160,7 +160,7 @@
                       Style="{StaticResource MaterialDesignComboBox}"
                       DisplayMemberPath="Nombre"
                       ItemsSource="{Binding listaDepartamentos}"
-SelectedItem="{Binding articulo.TipoNavigation,ValidatesOnDataErrors=True,
+SelectedItem="{Binding articulo.DepartamentoNavigation,ValidatesOnDataErrors=True,
 NotifyOnValidationError=True}"/>
 
             </StackPanel>
@@ -181,17 +181,18 @@ NotifyOnValidationError=True}"/>
                       Style="{StaticResource MaterialDesignComboBox}"
                       DisplayMemberPath="Nombre"
                           ItemsSource="{Binding listaEspacios}"
-SelectedItem="{Binding articulo.TipoNavigation,ValidatesOnDataErrors=True,
+SelectedItem="{Binding articulo.EspacioNavigation,ValidatesOnDataErrors=True,
 NotifyOnValidationError=True}"/>
 
             </StackPanel>
             <!-- Campo de texto con límite de 45 caracteres -->
 
             <!-- Observaciones -->
-            <TextBlock Text="Observaciones"
+            <TextBlock 
                    Margin="31,270,31,0"
                    VerticalAlignment="Top"
-                   HorizontalAlignment="Left"/>
+                   HorizontalAlignment="Left"
+                       Text="{Binding articulo.Observaciones}"/>
             <TextBox x:Name="txtObservaciones"
                  mat:HintAssist.IsFloating="False"
                  VerticalAlignment="Top"

@@ -1,3 +1,4 @@
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using playground_.net_BasicThings.Backend.Modelos;
 
@@ -12,5 +13,14 @@ namespace playground_.net_BasicThings.Backend.Servicios
         public ArticuloRepository(DiinventarioexamenContext context, ILogger<GenericRepository<Articulo>> logger)
         : base(context, logger)
         { }
+
+        public async Task<int> GetUltimoIdAsync()
+        {
+            var max = await _dbSet
+                .Select(a => (int?)a.Idarticulo)
+                .MaxAsync();
+
+            return max ?? 0;
+        }
     }
 }

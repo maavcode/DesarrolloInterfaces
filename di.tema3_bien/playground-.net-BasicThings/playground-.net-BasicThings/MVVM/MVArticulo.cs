@@ -105,6 +105,8 @@ namespace playground_.net_BasicThings.MVVM
             {
                 if (articulo.Idarticulo == 0)
                 {
+                    var ultimoId = await _articuloRepository.GetUltimoIdAsync();
+                    articulo.Idarticulo = ultimoId + 1;
                     await _articuloRepository.AddAsync(articulo);
                 }
                 else
