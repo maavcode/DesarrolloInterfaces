@@ -69,6 +69,7 @@ namespace playground_.net_BasicThings
             services.AddTransient<NuevoArticulo>();
 
             services.AddTransient<ListaModelosArticuloUserControl>();
+            services.AddTransient<ListaArticuloUserControl>();
 
             services.AddTransient<MVArticuloJero>();
             services.AddTransient<MVModeloArticulo>();

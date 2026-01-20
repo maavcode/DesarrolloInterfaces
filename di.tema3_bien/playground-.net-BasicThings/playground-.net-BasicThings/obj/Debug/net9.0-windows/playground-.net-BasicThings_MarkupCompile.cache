@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET9_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 C:\Users\windows10\Documents\Clase\DesarrolloInterfaces\di.tema3_bien\playground-.net-BasicThings\playground-.net-BasicThings\App.xaml
-9412885223
+101714034368
 
-48-631624623
+49638596190
 233-1714482901
-Frontend\Dialogos\Login.xaml;Frontend\Dialogos\NuevoArticulo.xaml;Frontend\Dialogos\NuevoModeloArticulo.xaml;Frontend\Mensajes\MensajeDialogo.xaml;Frontend\Mensajes\VentanaMensaje.xaml;Frontend\UserControls\ListaModelosArticuloUserControl.xaml;Frontend\UserControls\NuevoArticuloUserControl.xaml;Frontend\UserControls\NuevoModeloArticuloUserControl.xaml;MainWindow.xaml;
+Frontend\Dialogos\Login.xaml;Frontend\Dialogos\NuevoArticulo.xaml;Frontend\Dialogos\NuevoModeloArticulo.xaml;Frontend\Mensajes\MensajeDialogo.xaml;Frontend\Mensajes\VentanaMensaje.xaml;Frontend\UserControls\ListaArticuloUserControl.xaml;Frontend\UserControls\ListaModelosArticuloUserControl.xaml;Frontend\UserControls\NuevoArticuloUserControl.xaml;Frontend\UserControls\NuevoModeloArticuloUserControl.xaml;MainWindow.xaml;
 
 False
 

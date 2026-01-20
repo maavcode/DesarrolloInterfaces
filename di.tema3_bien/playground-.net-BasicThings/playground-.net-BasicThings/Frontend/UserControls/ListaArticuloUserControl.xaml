@@ -1,0 +1,34 @@
+﻿<UserControl x:Class="playground_.net_BasicThings.Frontend.UserControls.ListaArticuloUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:playground_.net_BasicThings.Frontend.UserControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800"
+             Loaded="DiagListaArticulos_Loaded">
+    <Grid>
+        <DockPanel>
+            <Grid DockPanel.Dock="Top">
+                <TextBlock Text="Lista Modelos Articulos"/>
+            </Grid>
+            <Grid>
+                <DataGrid 
+                ItemsSource="{Binding listaArticulos}"
+                AutoGenerateColumns="False"
+                CanUserAddRows="False"
+                ColumnWidth="*">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Articulo" Binding="{Binding ArticuloNavigation}" Width="*"/>
+                        <DataGridTextColumn Header="Numero de seria" Binding="{Binding Numserie}" Width="*"/>
+                        <DataGridTextColumn Header="Estado" Binding="{Binding Estado}" Width="*"/>
+                        <DataGridTextColumn Header="Fecha alta" Binding="{Binding Fechaalta}" Width="2*"/>
+                        <DataGridTextColumn Header="Usuario" Binding="{Binding UsuarioaltaNavigation.Nombre}"/>
+                        
+                    </DataGrid.Columns>
+                </DataGrid>
+                <DatePicker />
+            </Grid>
+        </DockPanel>
+    </Grid>
+</UserControl>
