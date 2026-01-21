@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace playground_.net_BasicThings.Backend.Modelos;
 
-public partial class Salidum
+public partial class Salida
 {
     public int Idsalida { get; set; }
 

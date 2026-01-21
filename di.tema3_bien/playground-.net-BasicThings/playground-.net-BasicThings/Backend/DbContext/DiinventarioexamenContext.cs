@@ -34,7 +34,7 @@ public partial class DiinventarioexamenContext : DbContext
 
     public virtual DbSet<Rol> Rols { get; set; }
 
-    public virtual DbSet<Salidum> Salida { get; set; }
+    public virtual DbSet<Salida> Salida { get; set; }
 
     public virtual DbSet<Tipoarticulo> Tipoarticulos { get; set; }
 
@@ -354,7 +354,7 @@ public partial class DiinventarioexamenContext : DbContext
                 .HasColumnName("nombre");
         });
 
-        modelBuilder.Entity<Salidum>(entity =>
+        modelBuilder.Entity<Salida>(entity =>
         {
             entity.HasKey(e => e.Idsalida).HasName("PRIMARY");
 

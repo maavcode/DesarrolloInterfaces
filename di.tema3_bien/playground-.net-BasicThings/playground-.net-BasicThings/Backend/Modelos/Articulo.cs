@@ -95,7 +95,7 @@ public partial class Articulo : ValidatableViewModel
     public virtual Modeloarticulo ModeloNavigation { get; set; } = null!;
 
     [InverseProperty("ArticuloNavigation")]
-    public virtual ICollection<Salidum> Salida { get; set; } = new List<Salidum>();
+    public virtual ICollection<Salida> Salida { get; set; } = new List<Salida>();
 
     [ForeignKey("Usuarioalta")]
     [InverseProperty("ArticuloUsuarioaltaNavigations")]

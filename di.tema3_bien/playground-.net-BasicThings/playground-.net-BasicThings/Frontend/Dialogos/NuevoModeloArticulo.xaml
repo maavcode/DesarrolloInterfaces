@@ -52,7 +52,7 @@
                  FontWeight="Bold"
                  FontSize="13"
                  Foreground="Black"
-                 Text="{Binding modeloArticulo.Nombre,ValidatesOnDataErrors=True, NotifyOnValidationError=True, UpdateSourceTrigger=PropertyChanged}"
+                 Text="{Binding modeloArticulo.Nombre, ValidatesOnDataErrors=True, NotifyOnValidationError=True, UpdateSourceTrigger=PropertyChanged}"
                  />
 
         <!-- MODELO -->
@@ -105,7 +105,8 @@
                  HorizontalAlignment="Left"
                  Margin="20,45,0,0"
                  FontSize="13"
-                 Foreground="Black"/>
+                 Foreground="Black"
+                 />
 
         <!-- BOTONES -->
         <StackPanel Grid.Row="5" Grid.ColumnSpan="2"

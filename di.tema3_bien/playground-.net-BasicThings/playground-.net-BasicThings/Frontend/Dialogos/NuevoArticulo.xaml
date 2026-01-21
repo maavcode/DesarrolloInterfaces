@@ -225,7 +225,8 @@ NotifyOnValidationError=True}"/>
             Content="Guardar"
             x:Name="btnGuardarArticulo"
             Click="BtnGuardarArticulo_Click"
-            Style="{StaticResource MaterialDesignFlatButton}" />
+            Style="{StaticResource MaterialDesignFlatButton}" 
+            IsEnabled="{Binding HasErrors}"/>
         </StackPanel>
     </Grid>
 </mah:MetroWindow>

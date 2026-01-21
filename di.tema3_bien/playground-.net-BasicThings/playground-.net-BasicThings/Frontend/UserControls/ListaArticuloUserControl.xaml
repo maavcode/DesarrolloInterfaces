@@ -10,24 +10,111 @@
     <Grid>
         <DockPanel>
             <Grid DockPanel.Dock="Top">
-                <TextBlock Text="Lista Modelos Articulos"/>
+                <TextBlock
+                Text="LISTADO DE ARTÍCULOS"
+                FontSize="30"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Foreground="Black"/>
             </Grid>
             <Grid>
-                <DataGrid 
-                ItemsSource="{Binding listaArticulos}"
-                AutoGenerateColumns="False"
-                CanUserAddRows="False"
-                ColumnWidth="*">
+                <DataGrid ItemsSource="{Binding listaArticulos}"
+                      AutoGenerateColumns="False"
+                      CanUserAddRows="False"
+                      ColumnWidth="*">
+                    <!--CanUserAddRows:para evitar que aparezca linea en blanco al final-->
                     <DataGrid.Columns>
-                        <DataGridTextColumn Header="Articulo" Binding="{Binding ArticuloNavigation}" Width="*"/>
-                        <DataGridTextColumn Header="Numero de seria" Binding="{Binding Numserie}" Width="*"/>
-                        <DataGridTextColumn Header="Estado" Binding="{Binding Estado}" Width="*"/>
-                        <DataGridTextColumn Header="Fecha alta" Binding="{Binding Fechaalta}" Width="2*"/>
-                        <DataGridTextColumn Header="Usuario" Binding="{Binding UsuarioaltaNavigation.Nombre}"/>
-                        
+                        <DataGridTextColumn Header="NÚMERO DE SERIE"
+                                        Binding="{Binding Numserie}"/>
+                        <DataGridTextColumn Header="ESTADO"
+                                        Binding="{Binding Estado}"/>
+                        <DataGridTemplateColumn Header="FECHA ALTA">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <DatePicker SelectedDate="{Binding Fechaalta}"
+                                            IsEnabled="False"
+                                            BorderThickness="0"
+                                            Background="Transparent"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                        <DataGridTemplateColumn Header="NOMBRE - APELLIDO">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <StackPanel Orientation="Horizontal">
+                                        <TextBlock Text="{Binding UsuarioaltaNavigation.Nombre}"/>
+                                        <TextBlock Text=" "/>
+                                        <TextBlock Text="{Binding UsuarioaltaNavigation.Apellido1}"/>
+                                        <TextBlock Text=" "/>
+                                        <TextBlock Text="{Binding UsuarioaltaNavigation.Apellido2}"/>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                        <DataGridTextColumn Header="NOMBRE MODELO"
+                                        Binding="{Binding ModeloNavigation.Nombre}"/>
+                        <DataGridTextColumn Header="ESPACIO"
+                                        Binding="{Binding EspacioNavigation.Nombre}"/>
+                        <DataGridTemplateColumn Header="DPTO/PRÉSTAMOS">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="Auto"/>
+                                            <ColumnDefinition Width="Auto"/>
+                                        </Grid.ColumnDefinitions>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="Auto"/>
+                                            <RowDefinition Height="*"/>
+                                        </Grid.RowDefinitions>
+                                        <TextBlock Grid.Row="0" Grid.Column="0" Text="Dpto:" FontWeight="Bold"/>
+                                        <TextBlock Grid.Row="0" Grid.Column="1" Text="{Binding DepartamentoNavigation.Nombre}"/>
+                                        <TextBlock Grid.Row="1" Grid.Column="0" Text="Préstamos:" FontWeight="Bold"/>
+                                        <TextBlock Grid.Row="1" Grid.Column="1" Text="{Binding Salida.Count}"/>
+                                    </Grid>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+
+                        </DataGridTemplateColumn>
                     </DataGrid.Columns>
+                    <DataGrid.RowDetailsTemplate>
+                        <DataTemplate>
+                            <DockPanel>
+                                <Grid>
+                                    <TextBlock Text="LISTADO DE PRESTAMOS DEL ARTICULO"
+                                               FontSize="14" FontWeight="Bold"/>
+                                </Grid>
+                                <Grid>
+                                    <ListBox ItemsSource="{Binding Salida}">
+                                        <ListBox.ItemTemplate>
+                                        <DataTemplate>
+                                            <StackPanel Orientation="Horizontal" Margin="5">
+                                                <TextBlock Text="Préstamo ID: " FontWeight="Bold"/>
+                                                <TextBlock Text="{Binding Idsalida}" Margin="0,0,10,0"/>
+                                                <TextBlock Text="Usuario: " FontWeight="Bold"/>
+                                                <TextBlock>
+                                                    <TextBlock.Text>
+                                                        <MultiBinding StringFormat="{}{0} {1} {2}">
+                                                            <Binding Path="UsuarioNavigation.Nombre"/>
+                                                            <Binding Path="UsuarioNavigation.Apellido1"/>
+                                                            <Binding Path="UsuarioNavigation.Apellido2"/>
+                                                        </MultiBinding>
+                                                    </TextBlock.Text>
+                                                </TextBlock>
+                                                <TextBlock Text=" - Fecha Préstamo: " FontWeight="Bold" Margin="10,0,0,0"/>
+                                                <TextBlock Text="{Binding Fechasalida, StringFormat=d}"/>
+                                                <TextBlock Text=" - Fecha Devolución: " FontWeight="Bold" Margin="10,0,0,0"/>
+                                                <TextBlock Text="{Binding Fechadevolucion, StringFormat=d}"/>
+                                            </StackPanel>
+                                        </DataTemplate>
+                                        </ListBox.ItemTemplate>
+                                    </ListBox>
+                                </Grid>
+                            </DockPanel>
+                        </DataTemplate>
+                    </DataGrid.RowDetailsTemplate>
                 </DataGrid>
-                <DatePicker />
+
             </Grid>
         </DockPanel>
     </Grid>
