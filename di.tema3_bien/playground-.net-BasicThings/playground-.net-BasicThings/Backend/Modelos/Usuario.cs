@@ -2,65 +2,111 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.EntityFrameworkCore;
+using playground_.net_BasicThings.MVVM.Base;
 
 namespace playground_.net_BasicThings.Backend.Modelos;
 
+[Table("usuario")]
+[Index("Departamento", Name = "fk_departamentos_usuario_idx")]
+[Index("Grupo", Name = "fk_grupos_usuario_idx")]
+[Index("Grupo", Name = "fk_grupos_usuario_idx1")]
+[Index("Rol", Name = "fk_roles_usuario_idx")]
+[Index("Tipo", Name = "fk_tipos_usuario_idx")]
+[Index("Username", Name = "username_UNIQUE", IsUnique = true)]
 public partial class Usuario
 {
     [Key]
     [Column("idusuario")]
     public int Idusuario { get; set; }
 
-    [Column("")]
-    [Required(ErrorMessage = "El tipo del modelo es obligatorio")]
+    /// <summary>
+    /// Usuarios de la aplicacion
+    /// 
+    /// </summary>
+    [Column("username")]
+    [StringLength(20)]
+    [Required(ErrorMessage = "El campo 'username' es obligatorio")]
     public string Username { get; set; } = null!;
-    [Column("")]
-    [Required(ErrorMessage = "La Contraseña es obligatoria")]
+
+    [Column("password")]
+    [StringLength(200)]
+    [Required(ErrorMessage = "El campo 'password' es obligatorio")]
+
     public string Password { get; set; } = null!;
-    [Column("")]
+
+    [Column("tipo")]
     public int Tipo { get; set; }
-    [Column("")]
+
+    [Column("rol")]
     public int Rol { get; set; }
-    [Column("")]
+
+    [Column("grupo")]
+    [StringLength(10)]
     public string? Grupo { get; set; }
-    [Column("")]
+
+    [Column("departamento")]
     public int? Departamento { get; set; }
-    [Column("")]
+
+    [Column("nombre")]
+    [StringLength(45)]
     public string? Nombre { get; set; }
-    [Column("")]
+
+    [Column("apellido1")]
+    [StringLength(45)]
     public string? Apellido1 { get; set; }
-    [Column("")]
+
+    [Column("apellido2")]
+    [StringLength(45)]
     public string? Apellido2 { get; set; }
-    [Column("")]
+
+    [Column("domicilio")]
+    [StringLength(45)]
     public string? Domicilio { get; set; }
-    [Column("")]
+
+    [Column("poblacion")]
+    [StringLength(45)]
     public string? Poblacion { get; set; }
-    [Column("")]
+
+    [Column("codpostal")]
+    [StringLength(10)]
     public string? Codpostal { get; set; }
-    [Column("")]
+
+    [Column("email")]
+    [StringLength(100)]
     public string? Email { get; set; }
-    [Column("")]
+
+    [Column("telefono")]
+    [StringLength(20)]
     public string? Telefono { get; set; }
-    [InverseProperty("")]
+
+    [InverseProperty("UsuarioaltaNavigation")]
     public virtual ICollection<Articulo> ArticuloUsuarioaltaNavigations { get; set; } = new List<Articulo>();
-    [InverseProperty("")]
+
+    [InverseProperty("UsuariobajaNavigation")]
     public virtual ICollection<Articulo> ArticuloUsuariobajaNavigations { get; set; } = new List<Articulo>();
-    [InverseProperty("")]
+
+    [ForeignKey("Departamento")]
+    [InverseProperty("Usuarios")]
     public virtual Departamento? DepartamentoNavigation { get; set; }
-    [InverseProperty("")]
+
+    [InverseProperty("UsuarioNavigation")]
     public virtual ICollection<Ficherousuario> Ficherousuarios { get; set; } = new List<Ficherousuario>();
-    [ForeignKey("")]
-    [InverseProperty("")]
+
+    [ForeignKey("Grupo")]
+    [InverseProperty("Usuarios")]
     public virtual Grupo? GrupoNavigation { get; set; }
-    [ForeignKey("")]
-    [InverseProperty("")]
+
+    [ForeignKey("Rol")]
+    [InverseProperty("Usuarios")]
     [Required(ErrorMessage = "El rol es obligatorio")]
     public virtual Rol RolNavigation { get; set; } = null!;
-    [ForeignKey("")]
-    [InverseProperty("")]
+
+    [InverseProperty("UsuarioNavigation")]
     public virtual ICollection<Salida> Salida { get; set; } = new List<Salida>();
-    [ForeignKey("")]
-    [InverseProperty("")]
-    [Required(ErrorMessage = "El tipo de usuario es obligatorio")]
+
+    [ForeignKey("Tipo")]
+    [InverseProperty("Usuarios")]
+    [Required(ErrorMessage = "El tipo es obligatorio")]
     public virtual Tipousuario TipoNavigation { get; set; } = null!;
 }

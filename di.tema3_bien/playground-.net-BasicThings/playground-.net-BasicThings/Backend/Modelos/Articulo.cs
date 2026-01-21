@@ -1,10 +1,9 @@
-﻿using Microsoft.EntityFrameworkCore;
-using playground_.net_BasicThings.MVVM.Base;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Xml.Linq;
+using Microsoft.EntityFrameworkCore;
+using playground_.net_BasicThings.MVVM.Base;
 
 namespace playground_.net_BasicThings.Backend.Modelos;
 
@@ -23,7 +22,6 @@ public partial class Articulo : ValidatableViewModel
 
     [Column("numserie")]
     [StringLength(45)]
-    [Required(ErrorMessage = "El numero de serie es obligatorio")]
     public string? Numserie { get; set; }
 
     [Column("estado")]
@@ -78,7 +76,6 @@ public partial class Articulo : ValidatableViewModel
 
     [ForeignKey("Departamento")]
     [InverseProperty("Articulos")]
-    [Required(ErrorMessage = "El departamento es obligatorio")]
     public virtual Departamento? DepartamentoNavigation { get; set; }
 
     [ForeignKey("Espacio")]

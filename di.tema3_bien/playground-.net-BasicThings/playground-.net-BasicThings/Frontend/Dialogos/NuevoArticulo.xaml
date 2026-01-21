@@ -115,12 +115,10 @@
             <!-- Número de serie -->
             <TextBox x:Name="SerieTextBox"
                  MaxLength="45"
-                 FontWeight="Bold"
-                 mat:HintAssist.Hint="Numero de Serie* (Debe ser único)"
+                 mat:HintAssist.Hint="Numero de Serie"
                  mat:HintAssist.IsFloating="True"
                  VerticalAlignment="Top"
-                 Margin="31,303,31,0"
-                 Text="{Binding articulo.Numserie ,ValidatesOnDataErrors=True, NotifyOnValidationError=True, UpdateSourceTrigger=PropertyChanged}"/>
+                 Margin="31,303,31,0" />
 
         </Grid>
         <!-- Segunda parte del formulario-->
@@ -155,13 +153,11 @@
                 <ComboBox x:Name="cmbDepartamento"
                       Width="230"
                       Height="40"
-                      FontWeight="Bold"
-                      mat:HintAssist.Hint="Selecciona un departamento*"
+                      mat:HintAssist.Hint="Selecciona un departamento"
                       Style="{StaticResource MaterialDesignComboBox}"
                       DisplayMemberPath="Nombre"
                       ItemsSource="{Binding listaDepartamentos}"
-SelectedItem="{Binding articulo.DepartamentoNavigation,ValidatesOnDataErrors=True,
-NotifyOnValidationError=True}"/>
+                      SelectedItem="{Binding articulo.DepartamentoNavigation}"/>
 
             </StackPanel>
 

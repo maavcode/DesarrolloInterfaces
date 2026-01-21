@@ -1,10 +1,9 @@
-﻿using Microsoft.EntityFrameworkCore;
-using playground_.net_BasicThings.MVVM.Base;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Xml.Linq;
+using Microsoft.EntityFrameworkCore;
+using playground_.net_BasicThings.MVVM.Base;
 
 namespace playground_.net_BasicThings.Backend.Modelos;
 
@@ -21,7 +20,7 @@ public partial class Modeloarticulo : ValidatableViewModel
 
     [Column("nombre")]
     [StringLength(45)]
-    [Required(ErrorMessage = "El nombre del modelo es obligatorio")]
+    [Required(ErrorMessage = "El nombre es obligatorio")]
     public string? Nombre { get; set; }
 
     [Column("descripcion", TypeName = "mediumtext")]
@@ -29,7 +28,7 @@ public partial class Modeloarticulo : ValidatableViewModel
 
     [Column("marca")]
     [StringLength(255)]
-    [Required(ErrorMessage = "La marca del modelo es obligatorio")]
+    [Required(ErrorMessage = "La marca es obligatoria")]
     public string? Marca { get; set; }
 
     [Column("modelo")]
@@ -47,7 +46,6 @@ public partial class Modeloarticulo : ValidatableViewModel
 
     [ForeignKey("Tipo")]
     [InverseProperty("Modeloarticulos")]
-    [Required(ErrorMessage = "El tipo del modelo es obligatorio")]
+    [Required(ErrorMessage = "El tipo es obligatorio")]
     public virtual Tipoarticulo? TipoNavigation { get; set; }
-
 }

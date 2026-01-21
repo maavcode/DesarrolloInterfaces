@@ -40,10 +40,13 @@ namespace playground_.net_BasicThings.Frontend.Dialogos
         {
             // INICIALIZA EL MVARTICULO (CARGA LOS TIPOS DE ARTICULO)
             await _mvArticulo.Inicializa();
-            //Esta línea enlaza la interfaz con el MV | SI NO SE PONE DATACONTEXT NO FUNCIONARÁ EL ITEMSOURC
-            DataContext = _mvArticulo;
+
             // MANEJA LOS ERRORES DE VALIDACION
             this.AddHandler(Validation.ErrorEvent, new RoutedEventHandler(_mvArticulo.OnErrorEvent));
+
+            //Esta línea enlaza la interfaz con el MV | SI NO SE PONE DATACONTEXT NO FUNCIONARÁ EL ITEMSOURC
+            DataContext = _mvArticulo;
+            
             
         }
         /* NO HACE FALTA CON EL MVVM PERO LO DEJO COMO EJEMPLO 
