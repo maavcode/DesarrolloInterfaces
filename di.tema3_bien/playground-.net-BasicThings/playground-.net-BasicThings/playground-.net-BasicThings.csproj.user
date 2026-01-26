@@ -11,6 +11,9 @@
     <Compile Update="Frontend\Dialogos\NuevoModeloArticulo.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Frontend\Dialogos\NuevoUsuario.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Frontend\UserControls\ListaArticuloUserControl.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -21,6 +24,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Frontend\UserControls\NuevoModeloArticuloUserControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Frontend\UserControls\NuevoUsuarioUserControl.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

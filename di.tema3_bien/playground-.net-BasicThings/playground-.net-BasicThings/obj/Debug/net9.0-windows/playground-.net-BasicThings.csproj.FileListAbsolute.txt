@@ -557,3 +557,7 @@ C:\Users\windows10\Documents\Clase\DesarrolloInterfaces\di.tema3_bien\playground
 C:\Users\windows10\Documents\Clase\DesarrolloInterfaces\di.tema3_bien\playground-.net-BasicThings\playground-.net-BasicThings\obj\Debug\net9.0-windows\Frontend\UserControls\ListaModelosArticuloUserControl.baml
 C:\Users\windows10\Documents\Clase\DesarrolloInterfaces\di.tema3_bien\playground-.net-BasicThings\playground-.net-BasicThings\obj\Debug\net9.0-windows\Frontend\UserControls\ListaArticuloUserControl.g.cs
 C:\Users\windows10\Documents\Clase\DesarrolloInterfaces\di.tema3_bien\playground-.net-BasicThings\playground-.net-BasicThings\obj\Debug\net9.0-windows\Frontend\UserControls\ListaArticuloUserControl.baml
+C:\Users\windows10\Documents\Clase\DesarrolloInterfaces\di.tema3_bien\playground-.net-BasicThings\playground-.net-BasicThings\obj\Debug\net9.0-windows\Frontend\Dialogos\NuevoUsuario.g.cs
+C:\Users\windows10\Documents\Clase\DesarrolloInterfaces\di.tema3_bien\playground-.net-BasicThings\playground-.net-BasicThings\obj\Debug\net9.0-windows\Frontend\UserControls\NuevoUsuarioUserControl.g.cs
+C:\Users\windows10\Documents\Clase\DesarrolloInterfaces\di.tema3_bien\playground-.net-BasicThings\playground-.net-BasicThings\obj\Debug\net9.0-windows\Frontend\Dialogos\NuevoUsuario.baml
+C:\Users\windows10\Documents\Clase\DesarrolloInterfaces\di.tema3_bien\playground-.net-BasicThings\playground-.net-BasicThings\obj\Debug\net9.0-windows\Frontend\UserControls\NuevoUsuarioUserControl.baml

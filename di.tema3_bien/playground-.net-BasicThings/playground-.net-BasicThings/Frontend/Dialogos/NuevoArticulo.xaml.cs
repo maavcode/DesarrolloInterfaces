@@ -84,7 +84,7 @@ namespace playground_.net_BasicThings.Frontend.Dialogos
 
                 if (guardado)
                 {
-                    MessageBox.Show("Modelo de artículo guardado correctamente",
+                    MessageBox.Show("Usuario guardado correctamente",
                                     "Éxito", MessageBoxButton.OK, MessageBoxImage.Information);
                     DialogResult = true;
                 }

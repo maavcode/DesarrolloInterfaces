@@ -59,6 +59,21 @@ namespace playground_.net_BasicThings
             services.AddScoped<TipoArticuloRepository>();
             services.AddScoped<DepartamentoRepository>();
             services.AddScoped<EspacioRepository>();
+
+            // Registramos los servicios específicos
+
+            services.AddScoped<UsuarioRepository>();
+            services.AddScoped<ArticuloRepository>();
+            services.AddScoped<ModeloArticuloRepository>();
+            services.AddScoped<TipoArticuloRepository>();
+            services.AddScoped<DepartamentoRepository>();
+            services.AddScoped<EspacioRepository>();
+            services.AddScoped<GenericRepository<Tipousuario>>();
+            services.AddScoped<GenericRepository<Rol>>();
+            services.AddScoped<GenericRepository<Permiso>>();
+            services.AddScoped<GenericRepository<Permisosrol>>();
+            services.AddScoped<GenericRepository<Grupo>>();
+
             // Registramos las interfaces de usuario
             services.AddTransient<Login>();
 
@@ -68,12 +83,16 @@ namespace playground_.net_BasicThings
             services.AddTransient<NuevoArticuloUserControl>();
             services.AddTransient<NuevoArticulo>();
 
+            services.AddTransient<NuevoUsuarioUserControl>();
+            services.AddTransient<NuevoUsuario>();
+
             services.AddTransient<ListaModelosArticuloUserControl>();
             services.AddTransient<ListaArticuloUserControl>();
 
             services.AddTransient<MVArticuloJero>();
             services.AddTransient<MVModeloArticulo>();
             services.AddTransient<MVArticulo>();
+            services.AddTransient<MVUsuario>();
 
         }
 

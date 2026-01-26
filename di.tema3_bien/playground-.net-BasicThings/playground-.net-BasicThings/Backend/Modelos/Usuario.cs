@@ -14,7 +14,7 @@ namespace playground_.net_BasicThings.Backend.Modelos;
 [Index("Rol", Name = "fk_roles_usuario_idx")]
 [Index("Tipo", Name = "fk_tipos_usuario_idx")]
 [Index("Username", Name = "username_UNIQUE", IsUnique = true)]
-public partial class Usuario
+public partial class Usuario: ValidatableViewModel
 {
     [Key]
     [Column("idusuario")]

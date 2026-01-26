@@ -156,8 +156,7 @@ namespace playground_.net_BasicThings.Frontend.Dialogos {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/playground-.net-BasicThings;V1.0.0.0;component/frontend/dialogos/nuevoarticulo.x" +
-                    "aml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/playground-.net-BasicThings;component/frontend/dialogos/nuevoarticulo.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Frontend\Dialogos\NuevoArticulo.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
