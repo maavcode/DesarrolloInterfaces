@@ -8,6 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Data;
 
 namespace playground_.net_BasicThings.MVVM
 {
@@ -32,7 +33,10 @@ namespace playground_.net_BasicThings.MVVM
             set => SetProperty(ref _modeloArticulo, value);
         }
         public List<Tipoarticulo> listaTipoArticulos => _listaTipoArticulos;
-        public List<Modeloarticulo> listaModelosArticulo => _listaModelosArticulo;
+        // public List<Modeloarticulo> listaModelosArticulo => _listaModelosArticulo;
+
+        // NECESARIO PARA ENLAZAR CON EL COMBOBOX EN LA VISTA
+        public ListCollectionView listaModelosArticulo { get; set; }
 
         #endregion
 
@@ -43,7 +47,7 @@ namespace playground_.net_BasicThings.MVVM
             )
         {
             // Cada vez que ejecute el dalogo es uno diferente, el repositorio no
-            _modeloArticulo = new Modeloarticulo();
+            // _modeloArticulo = new Modeloarticulo(); Ya no es necesario
             _modeloArticuloRepository = modeloArticuloRepository;
             _tipoArticuloRepository = tipoArticuloRepository;
         }
@@ -55,6 +59,8 @@ namespace playground_.net_BasicThings.MVVM
             {
                 _listaTipoArticulos = await GetAllAsync<Tipoarticulo>(_tipoArticuloRepository);
                 _listaModelosArticulo = await GetAllAsync<Modeloarticulo>(_modeloArticuloRepository);
+                // NECESARIO PARA ENLAZAR CON EL COMBOBOX EN LA VISTA
+                listaModelosArticulo = new ListCollectionView(_listaModelosArticulo);
             }
             catch (Exception ex)
             {

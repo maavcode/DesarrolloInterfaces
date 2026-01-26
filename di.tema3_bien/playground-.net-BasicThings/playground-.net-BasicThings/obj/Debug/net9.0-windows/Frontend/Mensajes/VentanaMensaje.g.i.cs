@@ -100,8 +100,7 @@ namespace playground_.net_BasicThings.Frontend.Mensajes {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/playground-.net-BasicThings;V1.0.0.0;component/frontend/mensajes/ventanamensaje." +
-                    "xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/playground-.net-BasicThings;component/frontend/mensajes/ventanamensaje.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Frontend\Mensajes\VentanaMensaje.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

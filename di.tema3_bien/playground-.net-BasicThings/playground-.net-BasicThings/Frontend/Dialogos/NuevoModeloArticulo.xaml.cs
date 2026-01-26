@@ -35,7 +35,8 @@ namespace playground_.net_BasicThings.Frontend.Dialogos
             _mvModeloArticulo = mvModeloArticulo;
 
         }
-        
+
+        /* YA NO ES NECESARIO
         private async void diagModeloArticulo_Loaded(object sender, RoutedEventArgs e) // CUANDO SE ABRE EL DIALOGO, HACE LO SIGUIENTE:
         {
             // INICIALIZA EL MVARTICULO (CARGA LOS TIPOS DE ARTICULO)
@@ -45,6 +46,24 @@ namespace playground_.net_BasicThings.Frontend.Dialogos
             this.AddHandler(Validation.ErrorEvent, new RoutedEventHandler(_mvModeloArticulo.OnErrorEvent));
 
 
+            //Esta línea enlaza la interfaz con el MV | SI NO SE PONE DATACONTEXT NO FUNCIONARÁ EL ITEMSOURC
+            DataContext = _mvModeloArticulo;
+        }
+        */
+
+        public async Task Inicializa(
+            Modeloarticulo modeloarticulo
+            )
+        {
+            // INICIALIZA EL MVARTICULO (CARGA LOS TIPOS DE ARTICULO)
+            await _mvModeloArticulo.Inicializa();
+            // ENLAZA EL MODELOARTICULO PASADO COMO PARAMETRO AL MVARTICULO
+            _mvModeloArticulo.modeloArticulo = modeloarticulo;
+            // MANEJA LOS ERRORES DE VALIDACION
+            this.AddHandler(
+                Validation.ErrorEvent,
+                new RoutedEventHandler(_mvModeloArticulo.OnErrorEvent)
+                );
             //Esta línea enlaza la interfaz con el MV | SI NO SE PONE DATACONTEXT NO FUNCIONARÁ EL ITEMSOURC
             DataContext = _mvModeloArticulo;
         }
@@ -64,7 +83,7 @@ namespace playground_.net_BasicThings.Frontend.Dialogos
         }
         */
 
-        //Botones por activar
+            //Botones por activar
         private async void BtnAnyadirModeloArticulo_Click(object sender, RoutedEventArgs e) // AÑADE UN MODELO DE ARTICULO
         {
             try

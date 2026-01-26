@@ -14,18 +14,33 @@
                 <TextBlock Text="Lista Modelos Articulos"/>
             </Grid>
             <Grid>
+                <!-- Contenido -->
                 <DataGrid 
+                    SelectedItem="{Binding modeloArticulo}"
                     ItemsSource="{Binding listaModelosArticulo}"
                     AutoGenerateColumns="False"
                     CanUserAddRows="False"
                     ColumnWidth="*">
                     <DataGrid.Columns>
                         <DataGridTextColumn Header="Nombre" Binding="{Binding Nombre}" Width="*"/>
-                        
                         <DataGridTextColumn Header="Modelo" Binding="{Binding Modelo}" Width="*"/>
                         <DataGridTextColumn Header="Marca" Binding="{Binding Marca}" Width="*"/>
                         <DataGridTextColumn Header="Descripción" Binding="{Binding Descripcion}" Width="2*"/>
-                     </DataGrid.Columns>
+                    </DataGrid.Columns>
+                    
+                    <!-- Click Derecho opciones -->
+                    <DataGrid.ContextMenu>
+                        <ContextMenu>
+                            <MenuItem 
+                                Header="Editar modelo articulo"
+                                x:Name="editarModeloArticulo"
+                                Click="editarModeloArticulo_Click"/>
+                            <MenuItem 
+                                Header="Eliminar modelo articulo"
+                                x:Name="eliminarModeloArticulo"
+                                Click="eliminarModeloArticulo_Click"/>
+                        </ContextMenu>
+                    </DataGrid.ContextMenu>
                 </DataGrid>
             </Grid>
         </DockPanel>

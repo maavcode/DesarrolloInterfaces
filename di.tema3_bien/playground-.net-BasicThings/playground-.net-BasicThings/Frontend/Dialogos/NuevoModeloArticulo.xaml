@@ -13,8 +13,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:playground_.net_BasicThings.Frontend.Dialogos"
         mc:Ignorable="d"
-        Title="NuevoModeloArticulo" Height="450" Width="800"
-        Loaded="diagModeloArticulo_Loaded"><!-- IMPORTANTE EL LOADED -->
+        Title="NuevoModeloArticulo" Height="450" Width="800">
     <Grid Background="White">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="5*"/>
@@ -128,7 +127,7 @@
                     Background="#dd243c"
                     Width="120"
                     Margin="20,0"
-                    IsEnabled="{Binding HasErrors}"/>
+                    IsEnabled="{Binding HasErrors, Converter={StaticResource InverseBooleanConverter}}"/>
 
         </StackPanel>
 
