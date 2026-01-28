@@ -65,5 +65,20 @@ namespace playground_.net_BasicThings.Frontend.UserControls
         {
 
         }
+
+        private void cmbTipoArtipulo_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            _mvModeloArticulo.Filtrar();
+        }
+
+        private void txtNombreModelo_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            _mvModeloArticulo.Filtrar();
+        }
+
+        private void btnLimpiarFiltros_Click(object sender, RoutedEventArgs e)
+        {
+            _mvModeloArticulo.LimpiarFiltros();
+        }
     }
 }

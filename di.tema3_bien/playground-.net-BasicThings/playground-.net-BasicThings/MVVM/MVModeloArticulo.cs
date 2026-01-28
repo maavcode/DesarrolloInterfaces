@@ -22,7 +22,18 @@ namespace playground_.net_BasicThings.MVVM
         // Propiedad que guarda el repositorio de tipos de artículo y la lista de tipos de artículo
         private List<Tipoarticulo> _listaTipoArticulos;
         private TipoArticuloRepository _tipoArticuloRepository;
+        // Lista de criterios de filtrado para los modelos de artículo
+        private List<Predicate<Modeloarticulo>> _criterios;
+        //
+        private Tipoarticulo _tipoArticuloSeleccionado;
+        //
+        private Predicate<Modeloarticulo> _criterioTipoArticulo;
+        //
+        private Predicate<object> _predicadoFiltros;
 
+        private String _textoNombre;
+
+        private Predicate<Modeloarticulo> _criterioNombreTipo;
 
         #endregion
 
@@ -37,6 +48,17 @@ namespace playground_.net_BasicThings.MVVM
 
         // NECESARIO PARA ENLAZAR CON EL COMBOBOX EN LA VISTA
         public ListCollectionView listaModelosArticulo { get; set; }
+
+        public Tipoarticulo tipoarticuloSeleccionado {
+            get => _tipoArticuloSeleccionado;
+            set => SetProperty(ref _tipoArticuloSeleccionado, value);
+        }
+
+        public String textoNombre
+        {
+            get => _textoNombre;
+            set => SetProperty(ref _textoNombre, value);
+        }
 
         #endregion
 
@@ -57,10 +79,12 @@ namespace playground_.net_BasicThings.MVVM
         {
             try
             {
-                _listaTipoArticulos = await GetAllAsync<Tipoarticulo>(_tipoArticuloRepository);
-                _listaModelosArticulo = await GetAllAsync<Modeloarticulo>(_modeloArticuloRepository);
-                // NECESARIO PARA ENLAZAR CON EL COMBOBOX EN LA VISTA
-                listaModelosArticulo = new ListCollectionView(_listaModelosArticulo);
+                // Inicializa las listas
+                await InicializaListas();
+                // Inicializa los criterios de filtrado
+                InicializaCriterios();
+                //
+                _predicadoFiltros = new Predicate<object>(FiltroCriterios);
             }
             catch (Exception ex)
             {
@@ -68,6 +92,55 @@ namespace playground_.net_BasicThings.MVVM
                     "No puedo conectar con la base de datos", 0);
             }
         }
+        #region Metodos privados
+        private void InicializaCriterios()
+        {
+            // Instancia el criterio de filtrado por tipo de artículo
+            _criterioTipoArticulo = new Predicate<Modeloarticulo>(m => m.TipoNavigation != null
+                                    && m.TipoNavigation.Equals(_tipoArticuloSeleccionado));
+
+            _criterioNombreTipo = new Predicate<Modeloarticulo>(m => !string.IsNullOrEmpty(_textoNombre) 
+                                    && m.Nombre!.ToLower().StartsWith(_textoNombre.ToLower()));
+
+        }
+
+        private void AddCriterios()
+        {
+            // Borramos la lista de criterios
+            _criterios.Clear();
+            // Añadimos los criterios segun los filtros seleccionados
+            if (tipoarticuloSeleccionado != null)
+            {
+                _criterios.Add(_criterioTipoArticulo);
+            }
+            if (!string.IsNullOrEmpty(textoNombre)){
+                _criterios.Add(_criterioNombreTipo);
+            }
+        }
+        private bool FiltroCriterios(object item)
+        {
+            bool correcto = true;
+            // 
+            Modeloarticulo modelo = (Modeloarticulo)item;
+            // 
+            if (_criterios != null) // Si no hay criterio no filtra
+            {
+                // Coge el objeto modeloArticulo y comprueba si el tipoArticulo es el seleccionado
+                correcto = _criterios.TrueForAll(x => x(modelo));
+            }
+            return correcto;
+        }
+
+        private async Task  InicializaListas()
+        {
+            _listaTipoArticulos = await GetAllAsync<Tipoarticulo>(_tipoArticuloRepository);
+            _listaModelosArticulo = await GetAllAsync<Modeloarticulo>(_modeloArticuloRepository);
+            // NECESARIO PARA ENLAZAR CON EL COMBOBOX EN LA VISTA
+            listaModelosArticulo = new ListCollectionView(_listaModelosArticulo);
+            // Inicializamos la lista de criterios de filtrado
+            _criterios = new List<Predicate<Modeloarticulo>>();
+        }
+        #endregion
 
         // Método para guardar el modelo de artículo en la base de datos
         public async Task<bool> GuardarModeloArticuloAsync()
@@ -92,6 +165,23 @@ namespace playground_.net_BasicThings.MVVM
                 correcto = false;
             }
             return correcto;
+        }
+
+        public void Filtrar()
+        {
+            // Actualizamos los criterios de filtrado
+            AddCriterios();
+            // Lanzamos el proceso de filtrado
+            listaModelosArticulo.Filter = _predicadoFiltros;
+        }
+
+        public void LimpiarFiltros()
+        {
+            // Reseteamos los criterios de filtrado
+            tipoarticuloSeleccionado = null;
+            textoNombre = string.Empty;
+            // Reseteamos el filtro de la lista
+            listaModelosArticulo.Filter = null;
         }
     }
 }
