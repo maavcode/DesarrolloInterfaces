@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "P4LPWrZoeAk=",
+  "dgSpecHash": "qSDfhBCQqGs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\windows10\\Desktop\\DesarrolloInterfaces\\Examenes\\di.examen.1EV.2025\\di.examen.1EV.2025\\di.examen.1EV.2025\\di.examen.1EV.2025.csproj",
+  "projectFilePath": "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\Examenes\\di.examen.1EV.2025\\di.examen.1EV.2025\\di.examen.1EV.2025\\di.examen.1EV.2025.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\windows10\\.nuget\\packages\\bouncycastle.cryptography\\2.6.2\\bouncycastle.cryptography.2.6.2.nupkg.sha512",
     "C:\\Users\\windows10\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",

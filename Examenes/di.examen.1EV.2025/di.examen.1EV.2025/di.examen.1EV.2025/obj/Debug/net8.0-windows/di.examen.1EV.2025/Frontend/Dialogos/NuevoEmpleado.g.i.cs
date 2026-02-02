@@ -117,8 +117,8 @@ namespace di.examen._1EV._2025.Frontend.Dialogos {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/di.examen.1EV.2025;component/di.examen.1ev.2025/frontend/dialogos/nuevoempleado." +
-                    "xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/di.examen.1EV.2025;V1.0.0.0;component/di.examen.1ev.2025/frontend/dialogos/nuevo" +
+                    "empleado.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\..\di.examen.1EV.2025\Frontend\Dialogos\NuevoEmpleado.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

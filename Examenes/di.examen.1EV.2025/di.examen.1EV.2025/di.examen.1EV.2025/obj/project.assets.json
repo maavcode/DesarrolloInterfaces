@@ -2732,11 +2732,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\windows10\\Desktop\\DesarrolloInterfaces\\Examenes\\di.examen.1EV.2025\\di.examen.1EV.2025\\di.examen.1EV.2025\\di.examen.1EV.2025.csproj",
+      "projectUniqueName": "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\Examenes\\di.examen.1EV.2025\\di.examen.1EV.2025\\di.examen.1EV.2025\\di.examen.1EV.2025.csproj",
       "projectName": "di.examen.1EV.2025",
-      "projectPath": "C:\\Users\\windows10\\Desktop\\DesarrolloInterfaces\\Examenes\\di.examen.1EV.2025\\di.examen.1EV.2025\\di.examen.1EV.2025\\di.examen.1EV.2025.csproj",
+      "projectPath": "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\Examenes\\di.examen.1EV.2025\\di.examen.1EV.2025\\di.examen.1EV.2025\\di.examen.1EV.2025.csproj",
       "packagesPath": "C:\\Users\\windows10\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\windows10\\Desktop\\DesarrolloInterfaces\\Examenes\\di.examen.1EV.2025\\di.examen.1EV.2025\\di.examen.1EV.2025\\obj\\",
+      "outputPath": "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\Examenes\\di.examen.1EV.2025\\di.examen.1EV.2025\\di.examen.1EV.2025\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
