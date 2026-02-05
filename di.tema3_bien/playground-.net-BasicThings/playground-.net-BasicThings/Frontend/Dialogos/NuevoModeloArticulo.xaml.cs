@@ -28,10 +28,12 @@ namespace playground_.net_BasicThings.Frontend.Dialogos
         private readonly ILoggerFactory _loggerFactory;
         // DECLARACION DEL MVARTICULO
         private MVModeloArticulo _mvModeloArticulo;
-        public NuevoModeloArticulo(MVModeloArticulo mvModeloArticulo)
+        public NuevoModeloArticulo(
+            MVModeloArticulo mvModeloArticulo
+            )
         {
             InitializeComponent();
-
+            
             _mvModeloArticulo = mvModeloArticulo;
 
         }
@@ -58,6 +60,7 @@ namespace playground_.net_BasicThings.Frontend.Dialogos
             // INICIALIZA EL MVARTICULO (CARGA LOS TIPOS DE ARTICULO)
             await _mvModeloArticulo.Inicializa();
             // ENLAZA EL MODELOARTICULO PASADO COMO PARAMETRO AL MVARTICULO
+            // ASÍ SE PUEDE USAR TANTO PARA AÑADIR COMO PARA MODIFICAR
             _mvModeloArticulo.modeloArticulo = modeloarticulo;
             // MANEJA LOS ERRORES DE VALIDACION
             this.AddHandler(

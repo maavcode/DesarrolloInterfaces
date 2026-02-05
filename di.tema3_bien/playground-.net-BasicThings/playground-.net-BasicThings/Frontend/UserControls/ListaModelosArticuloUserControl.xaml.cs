@@ -61,9 +61,9 @@ namespace playground_.net_BasicThings.Frontend.UserControls
 
         }
 
-        private void eliminarModeloArticulo_Click(object sender, RoutedEventArgs e)
+        private async Task eliminarModeloArticulo_Click(object sender, RoutedEventArgs e)
         {
-
+            
         }
 
         private void cmbTipoArtipulo_SelectionChanged(object sender, SelectionChangedEventArgs e)

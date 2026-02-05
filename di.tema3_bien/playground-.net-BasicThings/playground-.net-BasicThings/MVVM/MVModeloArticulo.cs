@@ -18,6 +18,7 @@ namespace playground_.net_BasicThings.MVVM
         // Propiedad que guarda el modelo de artículo actual, la propiedad que guarda el repositorio del mismo y la lista de modelos de artículo
         private Modeloarticulo _modeloArticulo;
         private ModeloArticuloRepository _modeloArticuloRepository;
+        // Lista de Modelos de Artículo
         private List<Modeloarticulo> _listaModelosArticulo;
         // Propiedad que guarda el repositorio de tipos de artículo y la lista de tipos de artículo
         private List<Tipoarticulo> _listaTipoArticulos;

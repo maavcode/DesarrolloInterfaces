@@ -77,8 +77,7 @@
                                 Click="editarModeloArticulo_Click"/>
                             <MenuItem 
                                 Header="Eliminar modelo articulo"
-                                x:Name="eliminarModeloArticulo"
-                                Click="eliminarModeloArticulo_Click"/>
+                                x:Name="eliminarModeloArticulo"/>
                         </ContextMenu>
                     </DataGrid.ContextMenu>
                 </DataGrid>

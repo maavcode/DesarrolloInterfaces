@@ -8,6 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Data;
 
 namespace playground_.net_BasicThings.MVVM
 {
@@ -42,6 +43,59 @@ namespace playground_.net_BasicThings.MVVM
         private List<Departamento> _listaDepartamentos; 
         private List<Usuario> _listaUsuarios;
         #endregion
+        #region Filtros
+
+        #region Si el filtro se activa por boton
+        // Estos estan porque el filtro se activa por boton
+        private int _totalResultados;
+
+        public int totalResultados
+        {
+            get => _totalResultados;
+            set => SetProperty(ref _totalResultados, value);
+        }
+        private int _contadorResultados;
+        #endregion
+
+        // Predicado general para aplicar los filtros a la lista de artículos
+        private Predicate<object> _predicadoFiltros;
+        // Lista de criterios para filtrar los artículos
+        private List<Predicate<Articulo>> _criterios;
+
+        // Propiedad para ver el número de resultados que se podran mostrar
+        private int _maximoResultados;
+        public int maximoResultados
+        {
+            get => _maximoResultados;
+            set => SetProperty(ref _maximoResultados, value);
+        }
+
+        #region Filtro por fecha inicio y final alta
+        // Filtro por fecha de alta
+        private Predicate<Articulo> _criterioFecha;
+        // Fecha inicial del filtro
+        private DateTime _fechaInicial;
+
+        public DateTime fechaInicial
+        {
+            get => _fechaInicial;
+            set => SetProperty(ref _fechaInicial, value);
+        }
+
+        // Fecha final del filtro
+        private DateTime _fechaFinal;
+
+        public DateTime fechaFinal
+        {
+            get => _fechaFinal;
+            set => SetProperty(ref _fechaFinal, value);
+        }
+        #endregion
+
+        #region 
+        #endregion
+
+        #endregion
         #region Getters y Setters
         // Funcion getter y setter para el artículo actual
         public Articulo articulo
@@ -53,7 +107,7 @@ namespace playground_.net_BasicThings.MVVM
         public List<Tipoarticulo> listaTiposArticulos => _listaTipoArticulos;
         public List<Modeloarticulo> listaModelosArticulos => _listaModeloArticulos;
         public List<String> listaEstados => _listaEstados;
-        public List<Articulo> listaArticulos => _listaArticulos;
+        public ListCollectionView listaArticulos { get; set; }
         public List<Espacio> listaEspacios => _listaEspacios;
         public List<Departamento> listaDepartamentos => _listaDepartamentos;
         public List<Usuario> listaUsuarios => _listaUsuarios;
@@ -78,18 +132,88 @@ namespace playground_.net_BasicThings.MVVM
             _tipoArticuloRepository = tipoArticuloRepository;
             _modeloArticuloRepository = modeloArticuloRepository;
         }
+        #region Metodos privados
+        public async Task InicializaListas()
+        {
+            _listaEstados =
+                   new List<string> { "Nuevo", "Usado", "Reparación", "Baja" };
+            OnPropertyChanged(nameof(listaEstados));
+
+            _listaUsuarios =
+                await GetAllAsync<Usuario>(_usuarioRepository);
+            OnPropertyChanged(nameof(listaUsuarios));
+
+            _listaModeloArticulos =
+                await GetAllAsync<Modeloarticulo>(_modeloArticuloRepository);
+            OnPropertyChanged(nameof(listaModelosArticulos));
+
+            _listaDepartamentos =
+                await GetAllAsync<Departamento>(_departamentoRepository);
+            OnPropertyChanged(nameof(listaDepartamentos));
+
+            _listaEspacios =
+                await GetAllAsync<Espacio>(_espacioRepository);
+            OnPropertyChanged(nameof(listaEspacios));
+            // 
+            _listaArticulos =
+                   await GetAllAsync<Articulo>(_articuloRepository);
+            OnPropertyChanged(nameof(listaArticulos));
+            listaArticulos = new ListCollectionView(_listaArticulos);
+            // Establecer el número máximo de resultados al tamaño de la lista de artículos
+            maximoResultados = _listaArticulos.Count;
+            // Inicializar el número total de resultados al máximo permitido
+            totalResultados = maximoResultados;
+
+            // Inicializar la lista de criterios de filtro
+            _criterios = new List<Predicate<Articulo>>();
+            
+            //  
+            fechaInicial = DateTime.UtcNow.AddMonths(-1);
+            fechaFinal = DateTime.UtcNow;
+        }
+
+        #region Metodos Filtros
+        private void InicializaCriterios()
+        {
+            // Inicializa el criterio de filtro por fecha de alta
+            _criterioFecha = new Predicate<Articulo>(a => _fechaInicial <= _fechaFinal
+                                                    && a.Fechaalta >= _fechaInicial);            
+        }
+
+        private void AddCriterios()
+        {
+            // Limpiar la lista de criterios antes de agregar los nuevos criterios
+            _criterios.Clear();
+            // Agrega el criterio de filtro por fecha de alta solo si la fecha inicial es menor o igual a la fecha final
+            if (_fechaInicial <= _fechaFinal)
+            {
+                _criterios.Add(_criterioFecha);
+            }
+
+        }
+
+        // Metodo para quedarme con los articulos que cumplen los filtros
+        private bool FiltroCriterios(object item)
+        {
+            Articulo articulo = (Articulo)item;
+
+            if (_criterios != null && !_criterios.TrueForAll(x => x(articulo)))
+                return false;
+
+                _contadorResultados++;
+
+                return _contadorResultados <= totalResultados;
+        }
+        #endregion
+        #endregion
         // Método para inicializar los datos necesarios para el ViewModel
         public async Task Inicializa()
         {
             try
             {
-                _listaTipoArticulos = await GetAllAsync<Tipoarticulo>(_tipoArticuloRepository);
-                _listaModeloArticulos = await GetAllAsync<Modeloarticulo>(_modeloArticuloRepository);
-                _listaEstados = new List<string> { "Nuevo", "Usado", "Dañado"};
-                _listaArticulos = await GetAllAsync<Articulo>(_articuloRepository);
-                _listaEspacios = await GetAllAsync<Espacio>(_espacioRepository);
-                _listaDepartamentos = await GetAllAsync<Departamento>(_departamentoRepository);
-                _listaUsuarios = await GetAllAsync<Usuario>(_usuarioRepository);
+                await InicializaListas();
+                InicializaCriterios();
+                _predicadoFiltros = new Predicate<object>(FiltroCriterios);
             }
             catch (Exception ex)
             {
@@ -121,6 +245,26 @@ namespace playground_.net_BasicThings.MVVM
                 correcto = false;
             }
             return correcto;
+        }
+
+        public void Filtrar()
+        {
+            // Reiniciar el contador de resultados antes de aplicar el filtro
+            _contadorResultados = 0;
+
+            AddCriterios();
+            
+            listaArticulos.Filter = _predicadoFiltros;
+        }
+
+        public void LimpiarFiltros()
+        {
+            listaArticulos.Filter = null;
+            totalResultados = maximoResultados;
+            // Reiniciar las fechas a su valor inicial (puedes ajustarlo según tus necesidades)
+            fechaInicial = DateTime.UtcNow;
+            fechaFinal = DateTime.UtcNow;
+            
         }
 
     }

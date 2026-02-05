@@ -37,5 +37,15 @@ namespace playground_.net_BasicThings.Frontend.UserControls
             //Esta línea enlaza la interfaz con el MV | SI NO SE PONE DATACONTEXT NO FUNCIONARÁ EL ITEMSOURC
             DataContext = _mvArticulo;
         }
+
+        private void btnFiltrar_Click(object sender, RoutedEventArgs e)
+        {
+            _mvArticulo.Filtrar();
+        }
+
+        private void btnLimpiarFiltros_Click(object sender, RoutedEventArgs e)
+        {
+            _mvArticulo.LimpiarFiltros();
+        }
     }
 }
