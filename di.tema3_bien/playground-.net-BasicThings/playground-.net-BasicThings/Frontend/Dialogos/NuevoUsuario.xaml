@@ -11,9 +11,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:playground_.net_BasicThings.Frontend.Dialogos"
         mc:Ignorable="d"
-        Title="NuevoUsuario" Height="350" Width="800"
-    
-        Loaded="diagNuevoUsuario_Loaded">
+        Title="NuevoUsuario" Height="350" Width="800">
     <Grid Background="White">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="5*"/>

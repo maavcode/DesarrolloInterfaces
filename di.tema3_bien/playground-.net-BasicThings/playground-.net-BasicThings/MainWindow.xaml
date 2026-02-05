@@ -116,6 +116,7 @@
                             <ListViewItem Content="Entraas" Padding="20 5" />
                             <ListViewItem Content="Busqueda" Padding="20 5" />
                             <ListViewItem Content="Listado pendientes" Padding="20 5" />
+                            <ListViewItem Content="Listado pendientes" Padding="20 5" />
                         </ListView>
                     </Expander>
                 </Grid>
@@ -149,6 +150,7 @@
                             <ListViewItem Content="Lista de Modelos de Articulo" Padding="20 5" />
                             <ListViewItem Content="Lista de Articulos" Padding="20 5" />
                             <ListViewItem Content="Nuevo Usuario" Padding="20 5" />
+                            <ListViewItem Content="Lista Usuarios" Padding="20 5" />
                         </ListView>
                     </Expander>
                 </Grid>
@@ -249,5 +251,4 @@
     </DockPanel>
 
 </mah:MetroWindow>
-
 

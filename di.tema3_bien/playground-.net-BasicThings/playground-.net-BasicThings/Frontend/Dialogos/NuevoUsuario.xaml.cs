@@ -1,5 +1,6 @@
 ﻿using MahApps.Metro.Controls;
 using MahApps.Metro.Controls;
+using playground_.net_BasicThings.Backend.Modelos;
 using playground_.net_BasicThings.MVVM;
 using System;
 using System.Collections.Generic;
@@ -32,10 +33,15 @@ namespace playground_.net_BasicThings.Frontend.Dialogos
             _mvUsuario = mvUsuario;
         }
 
-        private async void diagNuevoUsuario_Loaded(object sender, RoutedEventArgs e)
+        public async Task Inicializa(
+            Usuario usuario
+            )
         {
             // INICIALIZA EL MVARTICULO (CARGA LOS TIPOS DE ARTICULO)
             await _mvUsuario.Inicializa();
+
+            // ENLAZA EL MODELOARTICULO PASADO COMO PARAMETRO AL MVARTICULO
+            _mvUsuario.usuario = usuario;
 
             // MANEJA LOS ERRORES DE VALIDACION
             this.AddHandler(Validation.ErrorEvent, new RoutedEventHandler(_mvUsuario.OnErrorEvent));

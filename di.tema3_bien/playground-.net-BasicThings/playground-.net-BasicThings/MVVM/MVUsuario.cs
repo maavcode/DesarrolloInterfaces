@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Data;
 
 namespace playground_.net_BasicThings.MVVM
 {
@@ -27,6 +28,8 @@ namespace playground_.net_BasicThings.MVVM
         private List<Tipousuario> _listaTiposUsuarios;
         private List<Rol> _listaRoles;
 
+        private List<Usuario> _listaUsuarios;
+
         #endregion
         #region Getters y Setters
         public Usuario usuario
@@ -37,13 +40,15 @@ namespace playground_.net_BasicThings.MVVM
         // Funciones getter y setter para los combo box
         public List<Tipousuario> listaTiposUsuarios => _listaTiposUsuarios;
         public List<Rol> listaRoles => _listaRoles;
+        public ListCollectionView listaUsuarios { get; set; }
 
         #endregion
         public MVUsuario(
             UsuarioRepository usuarioRepository,
             GenericRepository<Tipousuario> tipousuarioRepository,
             GenericRepository<Rol> rolRepository
-            ) { 
+            )
+        {
             _usuario = new Usuario();
             _usuarioRepository = usuarioRepository;
             _tipousuarioRepository = tipousuarioRepository;
@@ -56,6 +61,9 @@ namespace playground_.net_BasicThings.MVVM
             {
                 _listaTiposUsuarios = await GetAllAsync<Tipousuario>(_tipousuarioRepository);
                 _listaRoles = await GetAllAsync<Rol>(_rolRepository);
+
+                _listaUsuarios = await GetAllAsync<Usuario>(_usuarioRepository);
+                listaUsuarios = new ListCollectionView(_listaUsuarios);
             }
             catch (Exception ex)
             {
