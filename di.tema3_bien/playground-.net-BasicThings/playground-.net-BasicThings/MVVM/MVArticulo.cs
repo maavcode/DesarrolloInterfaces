@@ -92,7 +92,31 @@ namespace playground_.net_BasicThings.MVVM
         }
         #endregion
 
-        #region 
+        #region Filtro por Numero de serie
+        private Predicate<Articulo> _criterioNumeroSerie;
+        private string _textoNumeroSerie;
+
+        public string textoNumeroSerie
+        {
+            get => _textoNumeroSerie;
+            set => SetProperty(ref _textoNumeroSerie, value);
+        }
+        #endregion
+
+        #region Filtro por Espacio
+        private Predicate<Articulo> _criterioEspacio;
+
+        private Espacio _espacioSeleccionado;
+
+        public Espacio espacioSeleccionado
+        {
+            get => _espacioSeleccionado;
+            set => SetProperty(ref _espacioSeleccionado, value);
+        }
+        #endregion
+
+        #region Filtro por Resultados
+        // Se usa el total de resultados y maximo
         #endregion
 
         #endregion
@@ -176,8 +200,24 @@ namespace playground_.net_BasicThings.MVVM
         private void InicializaCriterios()
         {
             // Inicializa el criterio de filtro por fecha de alta
-            _criterioFecha = new Predicate<Articulo>(a => _fechaInicial <= _fechaFinal
-                                                    && a.Fechaalta >= _fechaInicial);            
+            _criterioFecha = new Predicate<Articulo>(a =>
+                                    a.Fechaalta >= _fechaInicial &&
+                                    a.Fechaalta <= _fechaFinal
+                                );
+
+
+            _criterioNumeroSerie = new Predicate<Articulo>(a =>
+                                    !string.IsNullOrEmpty(_textoNumeroSerie) &&
+                                    !string.IsNullOrEmpty(a.Numserie) &&
+                                    a.Numserie.StartsWith(_textoNumeroSerie, StringComparison.OrdinalIgnoreCase)
+                                );
+
+
+            _criterioEspacio = new Predicate<Articulo>(a =>
+                                    _espacioSeleccionado != null &&
+                                    a.Espacio == _espacioSeleccionado.Idespacio
+                                );
+
         }
 
         private void AddCriterios()
@@ -188,6 +228,16 @@ namespace playground_.net_BasicThings.MVVM
             if (_fechaInicial <= _fechaFinal)
             {
                 _criterios.Add(_criterioFecha);
+            }
+            // Agrega el criterio de filtro por número de serie solo si el texto del número de serie no está vacío
+            if (!string.IsNullOrEmpty(_textoNumeroSerie))
+            {
+                _criterios.Add(_criterioNumeroSerie);
+            }
+            // Agrega el criterio de filtro por espacio solo si se ha seleccionado un espacio
+            if (_espacioSeleccionado != null)
+            {
+                _criterios.Add(_criterioEspacio);
             }
 
         }
@@ -264,7 +314,11 @@ namespace playground_.net_BasicThings.MVVM
             // Reiniciar las fechas a su valor inicial (puedes ajustarlo según tus necesidades)
             fechaInicial = DateTime.UtcNow;
             fechaFinal = DateTime.UtcNow;
-            
+            // Reiniciar el texto del número de serie
+            textoNumeroSerie = string.Empty;
+            // Reiniciar el espacio seleccionado
+            espacioSeleccionado = null;
+
         }
 
     }

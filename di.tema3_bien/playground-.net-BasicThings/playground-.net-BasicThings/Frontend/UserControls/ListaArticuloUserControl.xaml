@@ -25,20 +25,9 @@
             </Grid>
         <Grid Grid.Row="1">
             <StackPanel Orientation="Horizontal">
-                <TextBlock Text="FILTROS"
-                           Margin="10"
-                           Foreground="Black"
-                           FontWeight="Bold"
-                           VerticalAlignment="Center" />
-
-                <TextBlock Text="FECHA DE ALTA:"
-                           Margin="10"
-                           Foreground="Black"
-                           FontWeight="Bold"
-                           VerticalAlignment="Center" />
+               
 
                 <TextBlock Text="Fecha Inicial:"
-                           Margin="10,10,5,10"
                            Foreground="Black"
                            VerticalAlignment="Center"/>
 
@@ -49,24 +38,67 @@
                             VerticalAlignment="Center"/>
 
                 <TextBlock Text="Fecha Final:"
-                            Margin="10,10,5,10"
                             Foreground="Black"
                             VerticalAlignment="Center"/>
 
                 <DatePicker SelectedDate="{Binding fechaFinal}"
                             x:Name="datePickerFechaFinal"
                             Width="150"
-                            Margin="0,10,10,10"
                             VerticalAlignment="Center"/>
 
+                <TextBlock Text="Nº SERIE:"
+                           Foreground="Black"
+                           FontWeight="Bold"
+                           VerticalAlignment="Center" />
+
+                <TextBox Text="{Binding textoNumeroSerie, UpdateSourceTrigger=PropertyChanged}"
+                         Style="{StaticResource MahApps.Styles.TextBox}"
+                         mah:TextBoxHelper.Watermark="Escribe un número de serie"
+                         Width="180"
+                         Margin="0,10,5,10"
+                         x:Name="textoNumeroSerie"
+                         TextChanged="textoNumeroSerie_TextChanged"
+                         VerticalAlignment="Center"/>
+
+                <TextBlock Text="ESPACIO:"
+                           Foreground="Black"
+                           FontWeight="Bold"
+                           VerticalAlignment="Center" />
+
+                <ComboBox ItemsSource="{Binding listaEspacios}"
+                          SelectedItem="{Binding espacioSeleccionado}"
+                          Style="{StaticResource MahApps.Styles.ComboBox}"
+                          mah:TextBoxHelper.Watermark="Selecciona un espacio"
+                          DisplayMemberPath="Nombre"
+                          x:Name="cmbEspacio"
+                          SelectionChanged="cmbEspacio_SelectionChanged"
+                          Width="150"
+                          Margin="0,0,0,0"
+                          VerticalAlignment="Center"/>
+
+                <TextBlock Text="RESULTADOS:"
+                           Foreground="Black"
+                           FontWeight="Bold"
+                           VerticalAlignment="Center" />
+
+                <Slider Minimum="1"
+                        Maximum="{Binding maximoResultados}"
+                        Value="{Binding totalResultados}"
+                        Width="180"
+                        x:Name="sliderResultados"
+                        ValueChanged="sliderResultados_ValueChanged"
+                        VerticalAlignment="Center"/>
+
+                <TextBlock Text="{Binding totalResultados}"
+                           Foreground="Black"
+                           VerticalAlignment="Center" />
+
                 <Button Content="FILTRAR"
-                        Margin="10"
                         Padding="10,5"
                         x:Name="btnFiltrar"
                         Click="btnFiltrar_Click" />
 
                 <Button Content="LIMPIAR FILTROS"
-                        Margin="10"
                         Padding="10,5"
                         x:Name="btnLimpiarFiltros"
                         Click="btnLimpiarFiltros_Click" />

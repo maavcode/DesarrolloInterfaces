@@ -38,6 +38,16 @@ namespace playground_.net_BasicThings.Frontend.UserControls
             DataContext = _mvArticulo;
         }
 
+        private void textoNumeroSerie_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void cmbEspacio_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
         private void btnFiltrar_Click(object sender, RoutedEventArgs e)
         {
             _mvArticulo.Filtrar();
@@ -46,6 +56,11 @@ namespace playground_.net_BasicThings.Frontend.UserControls
         private void btnLimpiarFiltros_Click(object sender, RoutedEventArgs e)
         {
             _mvArticulo.LimpiarFiltros();
+        }
+
+        private void sliderResultados_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+
         }
     }
 }
