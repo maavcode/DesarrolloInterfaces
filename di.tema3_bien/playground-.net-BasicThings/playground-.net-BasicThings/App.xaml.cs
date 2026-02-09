@@ -90,6 +90,11 @@ namespace playground_.net_BasicThings
             services.AddTransient<ListaArticuloUserControl>();
             services.AddTransient<ListaUsuariosUserControl>();
 
+            services.AddTransient<ArbolEspaciosUserControl>();
+
+            services.AddTransient<EspacioRepository>();
+            services.AddTransient<MVEspacios>();
+
             services.AddTransient<MVArticuloJero>();
             services.AddTransient<MVModeloArticulo>();
             services.AddTransient<MVArticulo>();

@@ -14,6 +14,9 @@
     <Compile Update="Frontend\Dialogos\NuevoUsuario.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Frontend\UserControls\ArbolEspaciosUserControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Frontend\UserControls\ListaArticuloUserControl.xaml.cs">
       <SubType>Code</SubType>
     </Compile>

@@ -26,6 +26,8 @@ namespace playground_.net_BasicThings
         private ListaArticuloUserControl _listaArticuloUserControl;
         private NuevoUsuarioUserControl _nuevoUsuarioUserControl;
         private ListaUsuariosUserControl _listaUsuariosUserControl;
+
+        private ArbolEspaciosUserControl _arbolEspaciosUserControl;
         public MainWindow(
             NuevoArticuloUserControl nuevoArticuloUserControl,
 
@@ -37,7 +39,10 @@ namespace playground_.net_BasicThings
 ,
             NuevoUsuarioUserControl nuevoUsuarioUserControl,
 
-            ListaUsuariosUserControl listaUsuariosUserControl
+            ListaUsuariosUserControl listaUsuariosUserControl,
+
+            ArbolEspaciosUserControl arbolEspaciosUserControl
+
             )
         {
             InitializeComponent();
@@ -47,6 +52,8 @@ namespace playground_.net_BasicThings
             _listaArticuloUserControl = listaArticulosUserControl;
             _nuevoUsuarioUserControl = nuevoUsuarioUserControl;
             _listaUsuariosUserControl = listaUsuariosUserControl;
+
+            _arbolEspaciosUserControl = arbolEspaciosUserControl;
         }
 
         private void BtnSalir_Click(object sender, RoutedEventArgs e)
@@ -76,6 +83,8 @@ namespace playground_.net_BasicThings
                 "Lista de Articulos" => _listaArticuloUserControl,
                 "Nuevo Usuario" => _nuevoUsuarioUserControl,
                 "Lista Usuarios" => _listaUsuariosUserControl,
+
+                "Arbol Espacios" => _arbolEspaciosUserControl,
                 // Aqui los nuevos userControl
                 _ => null // Luego el HOME
             };

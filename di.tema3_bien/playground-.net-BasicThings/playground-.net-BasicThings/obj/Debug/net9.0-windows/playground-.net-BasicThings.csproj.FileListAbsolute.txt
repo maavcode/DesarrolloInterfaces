@@ -714,3 +714,8 @@ C:\Users\mario\Documents\Codigo\Clase\DesarrolloInterfaces\di.tema3_bien\playgro
 C:\Users\mario\Documents\Codigo\Clase\DesarrolloInterfaces\di.tema3_bien\playground-.net-BasicThings\playground-.net-BasicThings\obj\Debug\net9.0-windows\ref\playground-.net-BasicThings.dll
 C:\Users\mario\Documents\Codigo\Clase\DesarrolloInterfaces\di.tema3_bien\playground-.net-BasicThings\playground-.net-BasicThings\obj\Debug\net9.0-windows\Frontend\UserControls\ListaUsuariosUserControl.g.cs
 C:\Users\mario\Documents\Codigo\Clase\DesarrolloInterfaces\di.tema3_bien\playground-.net-BasicThings\playground-.net-BasicThings\obj\Debug\net9.0-windows\Frontend\UserControls\ListaUsuariosUserControl.baml
+C:\Users\windows10\Documents\Clase\DesarrolloInterfaces\di.tema3_bien\playground-.net-BasicThings\playground-.net-BasicThings\obj\Debug\net9.0-windows\Frontend\UserControls\ListaUsuariosUserControl.g.cs
+C:\Users\windows10\Documents\Clase\DesarrolloInterfaces\di.tema3_bien\playground-.net-BasicThings\playground-.net-BasicThings\obj\Debug\net9.0-windows\Frontend\UserControls\ListaUsuariosUserControl.baml
+C:\Users\windows10\Documents\Clase\DesarrolloInterfaces\di.tema3_bien\playground-.net-BasicThings\playground-.net-BasicThings\obj\Debug\net9.0-windows\Frontend\UserControls\ArbolEspaciosUserControl.g.cs
+C:\Users\windows10\Documents\Clase\DesarrolloInterfaces\di.tema3_bien\playground-.net-BasicThings\playground-.net-BasicThings\obj\Debug\net9.0-windows\Frontend\UserControls\ArbolEspaciosUserControl.baml
+C:\Users\windows10\Documents\Clase\DesarrolloInterfaces\di.tema3_bien\playground-.net-BasicThings\playground-.net-BasicThings\obj\Debug\net9.0-windows\GeneratedInternalTypeHelper.g.cs
