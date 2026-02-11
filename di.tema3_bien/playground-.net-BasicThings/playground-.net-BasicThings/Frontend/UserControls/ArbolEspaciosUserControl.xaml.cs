@@ -1,4 +1,5 @@
-﻿using playground_.net_BasicThings.MVVM;
+﻿using playground_.net_BasicThings.Backend.Modelos;
+using playground_.net_BasicThings.MVVM;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -33,6 +34,14 @@ namespace playground_.net_BasicThings.Frontend.UserControls
             await _mvEspacios.Inicializa();
             DataContext = _mvEspacios;
         }
-   
+        // RELLENAR TABLA CON LISTA DE ARTICULOS DE UN ESPACIO
+        private void treeEspacios_SelectedItemChanged(object sender, RoutedPropertyChangedEventArgs<object> e)
+        {
+            if (treeEspacios.SelectedItem is Espacio)
+            {
+                dgArticulosPorEspacio.ItemsSource = ((Espacio)treeEspacios.SelectedItem).Articulos;
+
+            }
+        }
     }
 }

@@ -22,7 +22,8 @@
         </Grid>
         <Grid DockPanel.Dock="Left">
             <!-- Arbol -->
-            <TreeView ItemsSource="{Binding listaEspacios}" x:Name="treeEspacios">
+            <TreeView ItemsSource="{Binding listaEspacios}" x:Name="treeEspacios"
+                      SelectedItemChanged="treeEspacios_SelectedItemChanged">
                 <!-- IMPORTANTE -->
                 <TreeView.Resources>
                     <!-- Primer nivel -->
@@ -64,8 +65,59 @@
                 </TreeView.Resources>
             </TreeView>
         </Grid>
-        <Grid DockPanel.Dock="Bottom">
+        <Grid DockPanel.Dock="Bottom" HorizontalAlignment="Center">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Text="MODIFICA LAS PROPIEDADES DEL ARTICULO" Margin="20" FontSize="16" Foreground="DarkViolet" Grid.Row="0" Grid.ColumnSpan="9" HorizontalAlignment="Center"/>
+
+            <TextBox Grid.Row="1" mat:HintAssist.Hint="Numero de Serie" Margin="20,0,20,20"  Grid.Column="0" Text="{Binding articuloSeleccionado.Numserie}"/>
+            <DatePicker Grid.Row="1" mat:HintAssist.Hint="Fecha alta" Margin="20" Grid.Column="1" Text="{Binding articuloSeleccionado.Fechaalta}"/>
             
+            <ComboBox Grid.Row="2" mat:HintAssist.Hint="Modelo del articulo" Margin="20"  Grid.Column="0"
+                      ItemsSource="{Binding listaModelosArticulo}" SelectedItem="{Binding articuloSeleccionado.ModeloNavigation}" DisplayMemberPath="Nombre"/>
+            <ComboBox Grid.Row="2" mat:HintAssist.Hint="Usuario" Margin="20"  Grid.Column="1"
+                      ItemsSource="{Binding listaUsuarios}" SelectedItem="{Binding articuloSeleccionado.UsuarioaltaNavigation}" DisplayMemberPath="Nombre"/>
+
+            <ComboBox Grid.Row="1" mat:HintAssist.Hint="Estado" Margin="20"  Grid.Column="2"
+                      ItemsSource="{Binding listaEstados}" SelectedItem="{Binding articuloSeleccionado.Estado}"/>
+            <ComboBox Grid.Row="1" mat:HintAssist.Hint="Departamento" Margin="20"  Grid.Column="3"
+                      ItemsSource="{Binding listaDepartamentos}" SelectedItem="{Binding articuloSeleccionado.DepartamentoNavigation}" DisplayMemberPath="Nombre"/>
+
+            <TextBox Grid.Row="2" mat:HintAssist.Hint="Observacion" Margin="20,0,20,20"  Grid.Column="2" Text="{Binding articuloSeleccionado.Observaciones}"/>
+            <ComboBox Grid.Column="3" Grid.Row="2" mat:HintAssist.Hint="Espacios" Margin="20"
+                      ItemsSource="{Binding listaEspacios}" SelectedItem="{Binding articuloSeleccionado.EspacioNavigation}" DisplayMemberPath="Nombre"/>
+
+            <Button Content="Modificar" Grid.Column="4" Grid.Row="2" x:Name="btnModificarArticulo"/>
+        </Grid>
+        <Grid x:Name="panelCentral">
+            <DataGrid x:Name="dgArticulosPorEspacio" AutoGenerateColumns="False" ColumnWidth="*" CanUserAddRows="False" SelectedItem="{Binding articuloSeleccionado}" IsReadOnly="True">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Numero de Serie" Binding="{Binding Numserie}"/>
+                    <DataGridTextColumn Header="Modelo deArticulo" Binding="{Binding ModeloNavigation.Nombre}"/>
+                    <DataGridTextColumn Header="Usuario" Binding="{Binding UsuarioaltaNavigation.Nombre}"/>
+                    <DataGridTemplateColumn Header="Fecha de alta">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <DatePicker SelectedDate="{Binding Fechaalta}"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                </DataGrid.Columns>
+            </DataGrid>
         </Grid>
     </DockPanel>
 </UserControl>
