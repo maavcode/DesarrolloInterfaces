@@ -5,6 +5,7 @@
              xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:playground_.net_BasicThings.Frontend.UserControls"
+             xmlns:mat="http://materialdesigninxaml.net/winfx/xaml/themes"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800"
              Loaded="DiagListaModelosArticulos_Loaded"
@@ -43,6 +44,11 @@
                                  Text="{Binding textoNombre, UpdateSourceTrigger=PropertyChanged}"
                                  x:Name="txtNombreModelo"
                                  TextChanged="txtNombreModelo_TextChanged"/>
+                        <CheckBox Content="Mostrar solo modelos con 10 o mas artículos"
+                                  Margin="10,10,10,10" VerticalAlignment="Center"
+                                  IsChecked="{Binding soloModelosCon10Articulos}"
+                                  Checked="CheckBox_Checked"
+                                  Unchecked="CheckBox_Unchecked"/>
                         <Button Content="Limpiar Filtros"
                                 Margin="10,10,10,10"
                                 Padding="10,5"
@@ -65,6 +71,7 @@
                         <DataGridTextColumn Header="Nombre" Binding="{Binding Nombre}" Width="*"/>
                         <DataGridTextColumn Header="Modelo" Binding="{Binding Modelo}" Width="*"/>
                         <DataGridTextColumn Header="Marca" Binding="{Binding Marca}" Width="*"/>
+                        <DataGridTextColumn Header="Cantidad" Binding="{Binding Articulos.Count}" Width="*"/>
                         <DataGridTextColumn Header="Descripción" Binding="{Binding Descripcion}" Width="2*"/>
                     </DataGrid.Columns>
                     
@@ -80,6 +87,33 @@
                                 x:Name="eliminarModeloArticulo"/>
                         </ContextMenu>
                     </DataGrid.ContextMenu>
+
+                    <DataGrid.RowDetailsTemplate>
+                        <DataTemplate>
+                            <DockPanel>
+                                <Grid DockPanel.Dock="Top">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+                                    <TextBlock Text="Articulos de este modelo" Margin="10" Foreground="DarkViolet"/>
+                                    <Button x:Name="btnCerrar" HorizontalAlignment="Right" Margin="10" Click="btnCerrar_Click" Grid.Column="1">
+                                        <mat:PackIcon Kind="Close" />
+                                    </Button>
+                                </Grid>
+                                <Grid>
+                                    <DataGrid ItemsSource="{Binding Articulos}" CanUserAddRows="False" IsReadOnly="True" AutoGenerateColumns="False">
+                                        <DataGrid.Columns>
+                                            <DataGridTextColumn Header="Numero de serie" Binding="{Binding Numserie}" Foreground="Violet"/>
+                                            <DataGridTextColumn Header="Fecha alta" Binding="{Binding Fechaalta, StringFormat='dd/MM/yyyy'}" Foreground="Violet"/>
+                                            <DataGridTextColumn Header="Estado" Binding="{Binding Estado}" Foreground="Violet"/>
+                                            <DataGridTextColumn Header="Nombre espacio" Binding="{Binding EspacioNavigation.Nombre}" Foreground="Violet"/>
+                                        </DataGrid.Columns>
+                                    </DataGrid>
+                                </Grid>
+                            </DockPanel>
+                        </DataTemplate>
+                    </DataGrid.RowDetailsTemplate>
                 </DataGrid>
             </Grid>
         </DockPanel>

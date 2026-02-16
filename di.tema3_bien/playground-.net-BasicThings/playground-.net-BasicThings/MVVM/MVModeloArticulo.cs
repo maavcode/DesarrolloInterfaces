@@ -36,6 +36,9 @@ namespace playground_.net_BasicThings.MVVM
 
         private Predicate<Modeloarticulo> _criterioNombreTipo;
 
+        private bool _soloModelosCon10Articulos;
+        private Predicate<Modeloarticulo> _criterioSoloModelosCon10Articulos;
+
         #endregion
 
         #region Getters y Setters
@@ -61,6 +64,11 @@ namespace playground_.net_BasicThings.MVVM
             set => SetProperty(ref _textoNombre, value);
         }
 
+        public bool soloModelosCon10Articulos
+        {
+            get => _soloModelosCon10Articulos;
+            set => SetProperty(ref _soloModelosCon10Articulos, value);
+        }
         #endregion
 
         // Constructor que recibe el modelo de artículo y el repositorio como parámetros
@@ -103,6 +111,8 @@ namespace playground_.net_BasicThings.MVVM
             _criterioNombreTipo = new Predicate<Modeloarticulo>(m => !string.IsNullOrEmpty(_textoNombre) 
                                     && m.Nombre!.ToLower().StartsWith(_textoNombre.ToLower()));
 
+            _criterioSoloModelosCon10Articulos = new Predicate<Modeloarticulo>(m => m.Articulos != null &&  m.Articulos.Count > 10);
+
         }
 
         private void AddCriterios()
@@ -116,6 +126,10 @@ namespace playground_.net_BasicThings.MVVM
             }
             if (!string.IsNullOrEmpty(textoNombre)){
                 _criterios.Add(_criterioNombreTipo);
+            }
+            if (soloModelosCon10Articulos)
+            {
+                _criterios.Add(_criterioSoloModelosCon10Articulos);
             }
         }
         private bool FiltroCriterios(object item)
@@ -183,6 +197,7 @@ namespace playground_.net_BasicThings.MVVM
             textoNombre = string.Empty;
             // Reseteamos el filtro de la lista
             listaModelosArticulo.Filter = null;
+            soloModelosCon10Articulos = false;
         }
     }
 }

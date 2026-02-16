@@ -80,5 +80,20 @@ namespace playground_.net_BasicThings.Frontend.UserControls
         {
             _mvModeloArticulo.LimpiarFiltros();
         }
+
+        private void btnCerrar_Click(object sender, RoutedEventArgs e)
+        {
+            _mvModeloArticulo.modeloArticulo = null;
+        }
+
+        private void CheckBox_Checked(object sender, RoutedEventArgs e)
+        {
+            _mvModeloArticulo.Filtrar();
+        }
+
+        private void CheckBox_Unchecked(object sender, RoutedEventArgs e)
+        {
+            _mvModeloArticulo.Filtrar();
+        }
     }
 }
