@@ -147,8 +147,6 @@ namespace playground_.net_BasicThings.MVVM
             ModeloArticuloRepository modeloArticuloRepository
             )
         {
-            // Cada vez que ejecute el dalogo es uno diferente, el repositorio no
-            _articulo = new Articulo();
             _articuloRepository = articuloRepository;
             _espacioRepository = espacioRepository;
             _departamentoRepository = departamentoRepository;

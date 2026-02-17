@@ -1,38 +1,58 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\mario\\Documents\\Codigo\\Clase\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\",
+  "WorkspaceRootPath": "C:\\Users\\mario\\Desktop\\Codigo\\Clase\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1D3D366F-8934-42EF-B68C-A1732F22B90F}|playground-.net-BasicThings\\playground-.net-BasicThings.csproj|c:\\users\\mario\\documents\\codigo\\clase\\desarrollointerfaces\\di.tema3_bien\\playground-.net-basicthings\\playground-.net-basicthings\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D3D366F-8934-42EF-B68C-A1732F22B90F}|playground-.net-BasicThings\\playground-.net-BasicThings.csproj|solutionrelative:playground-.net-basicthings\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1D3D366F-8934-42EF-B68C-A1732F22B90F}|playground-.net-BasicThings\\playground-.net-BasicThings.csproj|c:\\users\\mario\\desktop\\codigo\\clase\\desarrollointerfaces\\di.tema3_bien\\playground-.net-basicthings\\playground-.net-basicthings\\frontend\\usercontrols\\nuevousuariousercontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D3D366F-8934-42EF-B68C-A1732F22B90F}|playground-.net-BasicThings\\playground-.net-BasicThings.csproj|solutionrelative:playground-.net-basicthings\\frontend\\usercontrols\\nuevousuariousercontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D3D366F-8934-42EF-B68C-A1732F22B90F}|playground-.net-BasicThings\\playground-.net-BasicThings.csproj|c:\\users\\mario\\documents\\codigo\\clase\\desarrollointerfaces\\di.tema3_bien\\playground-.net-basicthings\\playground-.net-basicthings\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1D3D366F-8934-42EF-B68C-A1732F22B90F}|playground-.net-BasicThings\\playground-.net-BasicThings.csproj|solutionrelative:playground-.net-basicthings\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{1D3D366F-8934-42EF-B68C-A1732F22B90F}|playground-.net-BasicThings\\playground-.net-BasicThings.csproj|c:\\users\\mario\\desktop\\codigo\\clase\\desarrollointerfaces\\di.tema3_bien\\playground-.net-basicthings\\playground-.net-basicthings\\frontend\\dialogos\\nuevoarticulo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D3D366F-8934-42EF-B68C-A1732F22B90F}|playground-.net-BasicThings\\playground-.net-BasicThings.csproj|solutionrelative:playground-.net-basicthings\\frontend\\dialogos\\nuevoarticulo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D3D366F-8934-42EF-B68C-A1732F22B90F}|playground-.net-BasicThings\\playground-.net-BasicThings.csproj|c:\\users\\mario\\documents\\codigo\\clase\\desarrollointerfaces\\di.tema3_bien\\playground-.net-basicthings\\playground-.net-basicthings\\frontend\\dialogos\\nuevousuario.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{1D3D366F-8934-42EF-B68C-A1732F22B90F}|playground-.net-BasicThings\\playground-.net-BasicThings.csproj|c:\\users\\mario\\desktop\\codigo\\clase\\desarrollointerfaces\\di.tema3_bien\\playground-.net-basicthings\\playground-.net-basicthings\\frontend\\usercontrols\\nuevousuariousercontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1D3D366F-8934-42EF-B68C-A1732F22B90F}|playground-.net-BasicThings\\playground-.net-BasicThings.csproj|solutionrelative:playground-.net-basicthings\\frontend\\usercontrols\\nuevousuariousercontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D3D366F-8934-42EF-B68C-A1732F22B90F}|playground-.net-BasicThings\\playground-.net-BasicThings.csproj|c:\\users\\mario\\desktop\\codigo\\clase\\desarrollointerfaces\\di.tema3_bien\\playground-.net-basicthings\\playground-.net-basicthings\\frontend\\usercontrols\\nuevomodeloarticulousercontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D3D366F-8934-42EF-B68C-A1732F22B90F}|playground-.net-BasicThings\\playground-.net-BasicThings.csproj|solutionrelative:playground-.net-basicthings\\frontend\\usercontrols\\nuevomodeloarticulousercontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D3D366F-8934-42EF-B68C-A1732F22B90F}|playground-.net-BasicThings\\playground-.net-BasicThings.csproj|c:\\users\\mario\\desktop\\codigo\\clase\\desarrollointerfaces\\di.tema3_bien\\playground-.net-basicthings\\playground-.net-basicthings\\frontend\\dialogos\\nuevousuario.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{1D3D366F-8934-42EF-B68C-A1732F22B90F}|playground-.net-BasicThings\\playground-.net-BasicThings.csproj|solutionrelative:playground-.net-basicthings\\frontend\\dialogos\\nuevousuario.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D3D366F-8934-42EF-B68C-A1732F22B90F}|playground-.net-BasicThings\\playground-.net-BasicThings.csproj|c:\\users\\mario\\documents\\codigo\\clase\\desarrollointerfaces\\di.tema3_bien\\playground-.net-basicthings\\playground-.net-basicthings\\frontend\\usercontrols\\listausuariosusercontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D3D366F-8934-42EF-B68C-A1732F22B90F}|playground-.net-BasicThings\\playground-.net-BasicThings.csproj|solutionrelative:playground-.net-basicthings\\frontend\\usercontrols\\listausuariosusercontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D3D366F-8934-42EF-B68C-A1732F22B90F}|playground-.net-BasicThings\\playground-.net-BasicThings.csproj|c:\\users\\mario\\documents\\codigo\\clase\\desarrollointerfaces\\di.tema3_bien\\playground-.net-basicthings\\playground-.net-basicthings\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D3D366F-8934-42EF-B68C-A1732F22B90F}|playground-.net-BasicThings\\playground-.net-BasicThings.csproj|solutionrelative:playground-.net-basicthings\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D3D366F-8934-42EF-B68C-A1732F22B90F}|playground-.net-BasicThings\\playground-.net-BasicThings.csproj|c:\\users\\mario\\documents\\codigo\\clase\\desarrollointerfaces\\di.tema3_bien\\playground-.net-basicthings\\playground-.net-basicthings\\frontend\\usercontrols\\listausuariosusercontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1D3D366F-8934-42EF-B68C-A1732F22B90F}|playground-.net-BasicThings\\playground-.net-BasicThings.csproj|solutionrelative:playground-.net-basicthings\\frontend\\usercontrols\\listausuariosusercontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D3D366F-8934-42EF-B68C-A1732F22B90F}|playground-.net-BasicThings\\playground-.net-BasicThings.csproj|c:\\users\\mario\\documents\\codigo\\clase\\desarrollointerfaces\\di.tema3_bien\\playground-.net-basicthings\\playground-.net-basicthings\\mvvm\\mvarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1D3D366F-8934-42EF-B68C-A1732F22B90F}|playground-.net-BasicThings\\playground-.net-BasicThings.csproj|c:\\users\\mario\\desktop\\codigo\\clase\\desarrollointerfaces\\di.tema3_bien\\playground-.net-basicthings\\playground-.net-basicthings\\mvvm\\mvarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1D3D366F-8934-42EF-B68C-A1732F22B90F}|playground-.net-BasicThings\\playground-.net-BasicThings.csproj|solutionrelative:playground-.net-basicthings\\mvvm\\mvarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D3D366F-8934-42EF-B68C-A1732F22B90F}|playground-.net-BasicThings\\playground-.net-BasicThings.csproj|c:\\users\\mario\\documents\\codigo\\clase\\desarrollointerfaces\\di.tema3_bien\\playground-.net-basicthings\\playground-.net-basicthings\\frontend\\usercontrols\\listaarticulousercontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D3D366F-8934-42EF-B68C-A1732F22B90F}|playground-.net-BasicThings\\playground-.net-BasicThings.csproj|solutionrelative:playground-.net-basicthings\\frontend\\usercontrols\\listaarticulousercontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1D3D366F-8934-42EF-B68C-A1732F22B90F}|playground-.net-BasicThings\\playground-.net-BasicThings.csproj|c:\\users\\mario\\desktop\\codigo\\clase\\desarrollointerfaces\\di.tema3_bien\\playground-.net-basicthings\\playground-.net-basicthings\\frontend\\dialogos\\nuevousuario.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D3D366F-8934-42EF-B68C-A1732F22B90F}|playground-.net-BasicThings\\playground-.net-BasicThings.csproj|solutionrelative:playground-.net-basicthings\\frontend\\dialogos\\nuevousuario.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D3D366F-8934-42EF-B68C-A1732F22B90F}|playground-.net-BasicThings\\playground-.net-BasicThings.csproj|c:\\users\\mario\\desktop\\codigo\\clase\\desarrollointerfaces\\di.tema3_bien\\playground-.net-basicthings\\playground-.net-basicthings\\mvvm\\mvusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D3D366F-8934-42EF-B68C-A1732F22B90F}|playground-.net-BasicThings\\playground-.net-BasicThings.csproj|solutionrelative:playground-.net-basicthings\\mvvm\\mvusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D3D366F-8934-42EF-B68C-A1732F22B90F}|playground-.net-BasicThings\\playground-.net-BasicThings.csproj|c:\\users\\mario\\desktop\\codigo\\clase\\desarrollointerfaces\\di.tema3_bien\\playground-.net-basicthings\\playground-.net-basicthings\\mvvm\\mvmodeloarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D3D366F-8934-42EF-B68C-A1732F22B90F}|playground-.net-BasicThings\\playground-.net-BasicThings.csproj|solutionrelative:playground-.net-basicthings\\mvvm\\mvmodeloarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D3D366F-8934-42EF-B68C-A1732F22B90F}|playground-.net-BasicThings\\playground-.net-BasicThings.csproj|c:\\users\\mario\\desktop\\codigo\\clase\\desarrollointerfaces\\di.tema3_bien\\playground-.net-basicthings\\playground-.net-basicthings\\frontend\\dialogos\\nuevoarticulo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1D3D366F-8934-42EF-B68C-A1732F22B90F}|playground-.net-BasicThings\\playground-.net-BasicThings.csproj|solutionrelative:playground-.net-basicthings\\frontend\\dialogos\\nuevoarticulo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D3D366F-8934-42EF-B68C-A1732F22B90F}|playground-.net-BasicThings\\playground-.net-BasicThings.csproj|c:\\users\\mario\\desktop\\codigo\\clase\\desarrollointerfaces\\di.tema3_bien\\playground-.net-basicthings\\playground-.net-basicthings\\backend\\modelos\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D3D366F-8934-42EF-B68C-A1732F22B90F}|playground-.net-BasicThings\\playground-.net-BasicThings.csproj|solutionrelative:playground-.net-basicthings\\backend\\modelos\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D3D366F-8934-42EF-B68C-A1732F22B90F}|playground-.net-BasicThings\\playground-.net-BasicThings.csproj|c:\\users\\mario\\desktop\\codigo\\clase\\desarrollointerfaces\\di.tema3_bien\\playground-.net-basicthings\\playground-.net-basicthings\\frontend\\usercontrols\\listausuariosusercontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1D3D366F-8934-42EF-B68C-A1732F22B90F}|playground-.net-BasicThings\\playground-.net-BasicThings.csproj|solutionrelative:playground-.net-basicthings\\frontend\\usercontrols\\listausuariosusercontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D3D366F-8934-42EF-B68C-A1732F22B90F}|playground-.net-BasicThings\\playground-.net-BasicThings.csproj|c:\\users\\mario\\desktop\\codigo\\clase\\desarrollointerfaces\\di.tema3_bien\\playground-.net-basicthings\\playground-.net-basicthings\\frontend\\usercontrols\\listausuariosusercontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D3D366F-8934-42EF-B68C-A1732F22B90F}|playground-.net-BasicThings\\playground-.net-BasicThings.csproj|solutionrelative:playground-.net-basicthings\\frontend\\usercontrols\\listausuariosusercontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,103 +70,189 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\mario\\Documents\\Codigo\\Clase\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "playground-.net-BasicThings\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\mario\\Documents\\Codigo\\Clase\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\MainWindow.xaml.cs",
-              "RelativeToolTip": "playground-.net-BasicThings\\MainWindow.xaml.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAUwE0AAAA+AAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "NuevoModeloArticuloUserControl.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\mario\\Desktop\\Codigo\\Clase\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\Frontend\\UserControls\\NuevoModeloArticuloUserControl.xaml.cs",
+              "RelativeDocumentMoniker": "playground-.net-BasicThings\\Frontend\\UserControls\\NuevoModeloArticuloUserControl.xaml.cs",
+              "ToolTip": "C:\\Users\\mario\\Desktop\\Codigo\\Clase\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\Frontend\\UserControls\\NuevoModeloArticuloUserControl.xaml.cs",
+              "RelativeToolTip": "playground-.net-BasicThings\\Frontend\\UserControls\\NuevoModeloArticuloUserControl.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T17:51:02.025Z",
+              "WhenOpened": "2026-02-17T22:17:32.009Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\mario\\Documents\\Codigo\\Clase\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "playground-.net-BasicThings\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\mario\\Documents\\Codigo\\Clase\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\MainWindow.xaml",
-              "RelativeToolTip": "playground-.net-BasicThings\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-05T17:50:11.101Z",
+              "DocumentIndex": 0,
+              "Title": "NuevoUsuarioUserControl.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\mario\\Desktop\\Codigo\\Clase\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\Frontend\\UserControls\\NuevoUsuarioUserControl.xaml.cs",
+              "RelativeDocumentMoniker": "playground-.net-BasicThings\\Frontend\\UserControls\\NuevoUsuarioUserControl.xaml.cs",
+              "ToolTip": "C:\\Users\\mario\\Desktop\\Codigo\\Clase\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\Frontend\\UserControls\\NuevoUsuarioUserControl.xaml.cs",
+              "RelativeToolTip": "playground-.net-BasicThings\\Frontend\\UserControls\\NuevoUsuarioUserControl.xaml.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAACUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T22:16:53.598Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "NuevoUsuario.xaml",
-              "DocumentMoniker": "C:\\Users\\mario\\Documents\\Codigo\\Clase\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\Frontend\\Dialogos\\NuevoUsuario.xaml",
-              "RelativeDocumentMoniker": "playground-.net-BasicThings\\Frontend\\Dialogos\\NuevoUsuario.xaml",
-              "ToolTip": "C:\\Users\\mario\\Documents\\Codigo\\Clase\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\Frontend\\Dialogos\\NuevoUsuario.xaml",
-              "RelativeToolTip": "playground-.net-BasicThings\\Frontend\\Dialogos\\NuevoUsuario.xaml",
+              "Title": "NuevoUsuarioUserControl.xaml",
+              "DocumentMoniker": "C:\\Users\\mario\\Desktop\\Codigo\\Clase\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\Frontend\\UserControls\\NuevoUsuarioUserControl.xaml",
+              "RelativeDocumentMoniker": "playground-.net-BasicThings\\Frontend\\UserControls\\NuevoUsuarioUserControl.xaml",
+              "ToolTip": "C:\\Users\\mario\\Desktop\\Codigo\\Clase\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\Frontend\\UserControls\\NuevoUsuarioUserControl.xaml",
+              "RelativeToolTip": "playground-.net-BasicThings\\Frontend\\UserControls\\NuevoUsuarioUserControl.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-05T17:49:06.393Z",
+              "WhenOpened": "2026-02-17T22:16:53.012Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\mario\\Documents\\Codigo\\Clase\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\App.xaml.cs",
-              "RelativeDocumentMoniker": "playground-.net-BasicThings\\App.xaml.cs",
-              "ToolTip": "C:\\Users\\mario\\Documents\\Codigo\\Clase\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\App.xaml.cs",
-              "RelativeToolTip": "playground-.net-BasicThings\\App.xaml.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAYwFYAAAAuAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "MVModeloArticulo.cs",
+              "DocumentMoniker": "C:\\Users\\mario\\Desktop\\Codigo\\Clase\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\MVVM\\MVModeloArticulo.cs",
+              "RelativeDocumentMoniker": "playground-.net-BasicThings\\MVVM\\MVModeloArticulo.cs",
+              "ToolTip": "C:\\Users\\mario\\Desktop\\Codigo\\Clase\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\MVVM\\MVModeloArticulo.cs",
+              "RelativeToolTip": "playground-.net-BasicThings\\MVVM\\MVModeloArticulo.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T17:47:57.307Z",
+              "WhenOpened": "2026-02-17T22:14:01.797Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ListaUsuariosUserControl.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\mario\\Documents\\Codigo\\Clase\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\Frontend\\UserControls\\ListaUsuariosUserControl.xaml.cs",
-              "RelativeDocumentMoniker": "playground-.net-BasicThings\\Frontend\\UserControls\\ListaUsuariosUserControl.xaml.cs",
-              "ToolTip": "C:\\Users\\mario\\Documents\\Codigo\\Clase\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\Frontend\\UserControls\\ListaUsuariosUserControl.xaml.cs",
-              "RelativeToolTip": "playground-.net-BasicThings\\Frontend\\UserControls\\ListaUsuariosUserControl.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAANAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\mario\\Desktop\\Codigo\\Clase\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\Backend\\Modelos\\Usuario.cs",
+              "RelativeDocumentMoniker": "playground-.net-BasicThings\\Backend\\Modelos\\Usuario.cs",
+              "ToolTip": "C:\\Users\\mario\\Desktop\\Codigo\\Clase\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\Backend\\Modelos\\Usuario.cs",
+              "RelativeToolTip": "playground-.net-BasicThings\\Backend\\Modelos\\Usuario.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAAwBwAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T17:46:14.648Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ListaUsuariosUserControl.xaml",
-              "DocumentMoniker": "C:\\Users\\mario\\Documents\\Codigo\\Clase\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\Frontend\\UserControls\\ListaUsuariosUserControl.xaml",
-              "RelativeDocumentMoniker": "playground-.net-BasicThings\\Frontend\\UserControls\\ListaUsuariosUserControl.xaml",
-              "ToolTip": "C:\\Users\\mario\\Documents\\Codigo\\Clase\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\Frontend\\UserControls\\ListaUsuariosUserControl.xaml",
-              "RelativeToolTip": "playground-.net-BasicThings\\Frontend\\UserControls\\ListaUsuariosUserControl.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-05T17:45:52.989Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MVArticulo.cs",
-              "DocumentMoniker": "C:\\Users\\mario\\Documents\\Codigo\\Clase\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\MVVM\\MVArticulo.cs",
-              "RelativeDocumentMoniker": "playground-.net-BasicThings\\MVVM\\MVArticulo.cs",
-              "ToolTip": "C:\\Users\\mario\\Documents\\Codigo\\Clase\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\MVVM\\MVArticulo.cs",
-              "RelativeToolTip": "playground-.net-BasicThings\\MVVM\\MVArticulo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAM4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T15:34:41.504Z",
+              "WhenOpened": "2026-02-17T21:56:19.564Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "ListaArticuloUserControl.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\mario\\Documents\\Codigo\\Clase\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\Frontend\\UserControls\\ListaArticuloUserControl.xaml.cs",
-              "RelativeDocumentMoniker": "playground-.net-BasicThings\\Frontend\\UserControls\\ListaArticuloUserControl.xaml.cs",
-              "ToolTip": "C:\\Users\\mario\\Documents\\Codigo\\Clase\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\Frontend\\UserControls\\ListaArticuloUserControl.xaml.cs",
-              "RelativeToolTip": "playground-.net-BasicThings\\Frontend\\UserControls\\ListaArticuloUserControl.xaml.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAqwDEAAAAAAAAAAAAAAA==",
+              "Title": "MVUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\mario\\Desktop\\Codigo\\Clase\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\MVVM\\MVUsuario.cs",
+              "RelativeDocumentMoniker": "playground-.net-BasicThings\\MVVM\\MVUsuario.cs",
+              "ToolTip": "C:\\Users\\mario\\Desktop\\Codigo\\Clase\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\MVVM\\MVUsuario.cs",
+              "RelativeToolTip": "playground-.net-BasicThings\\MVVM\\MVUsuario.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAswDIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T15:34:50.937Z"
+              "WhenOpened": "2026-02-17T21:46:40.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ListaUsuariosUserControl.xaml",
+              "DocumentMoniker": "C:\\Users\\mario\\Desktop\\Codigo\\Clase\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\Frontend\\UserControls\\ListaUsuariosUserControl.xaml",
+              "RelativeDocumentMoniker": "playground-.net-BasicThings\\Frontend\\UserControls\\ListaUsuariosUserControl.xaml",
+              "ToolTip": "C:\\Users\\mario\\Desktop\\Codigo\\Clase\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\Frontend\\UserControls\\ListaUsuariosUserControl.xaml",
+              "RelativeToolTip": "playground-.net-BasicThings\\Frontend\\UserControls\\ListaUsuariosUserControl.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-17T21:46:53.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ListaUsuariosUserControl.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\mario\\Desktop\\Codigo\\Clase\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\Frontend\\UserControls\\ListaUsuariosUserControl.xaml.cs",
+              "RelativeDocumentMoniker": "playground-.net-BasicThings\\Frontend\\UserControls\\ListaUsuariosUserControl.xaml.cs",
+              "ToolTip": "C:\\Users\\mario\\Desktop\\Codigo\\Clase\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\Frontend\\UserControls\\ListaUsuariosUserControl.xaml.cs",
+              "RelativeToolTip": "playground-.net-BasicThings\\Frontend\\UserControls\\ListaUsuariosUserControl.xaml.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAC8AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T21:46:54.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NuevoUsuario.xaml",
+              "DocumentMoniker": "C:\\Users\\mario\\Desktop\\Codigo\\Clase\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\Frontend\\Dialogos\\NuevoUsuario.xaml",
+              "RelativeDocumentMoniker": "playground-.net-BasicThings\\Frontend\\Dialogos\\NuevoUsuario.xaml",
+              "ToolTip": "C:\\Users\\mario\\Desktop\\Codigo\\Clase\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\Frontend\\Dialogos\\NuevoUsuario.xaml",
+              "RelativeToolTip": "playground-.net-BasicThings\\Frontend\\Dialogos\\NuevoUsuario.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-17T21:47:03.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NuevoUsuario.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\mario\\Desktop\\Codigo\\Clase\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\Frontend\\Dialogos\\NuevoUsuario.xaml.cs",
+              "RelativeDocumentMoniker": "playground-.net-BasicThings\\Frontend\\Dialogos\\NuevoUsuario.xaml.cs",
+              "ToolTip": "C:\\Users\\mario\\Desktop\\Codigo\\Clase\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\Frontend\\Dialogos\\NuevoUsuario.xaml.cs",
+              "RelativeToolTip": "playground-.net-BasicThings\\Frontend\\Dialogos\\NuevoUsuario.xaml.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwDEAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T21:47:04.144Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "b081dc05-5235-4090-a904-8908a3cdb3e9",
+        "Display": 0,
+        "X": 514,
+        "Y": 38,
+        "Width": 1399,
+        "Height": 796,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MVArticulo.cs",
+              "DocumentMoniker": "C:\\Users\\mario\\Desktop\\Codigo\\Clase\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\MVVM\\MVArticulo.cs",
+              "RelativeDocumentMoniker": "playground-.net-BasicThings\\MVVM\\MVArticulo.cs",
+              "ToolTip": "C:\\Users\\mario\\Desktop\\Codigo\\Clase\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\MVVM\\MVArticulo.cs",
+              "RelativeToolTip": "playground-.net-BasicThings\\MVVM\\MVArticulo.cs",
+              "ViewState": "AgIAAIQAAAAAAAAAAAA7wJQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T21:48:00.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NuevoArticulo.xaml",
+              "DocumentMoniker": "C:\\Users\\mario\\Desktop\\Codigo\\Clase\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\Frontend\\Dialogos\\NuevoArticulo.xaml",
+              "RelativeDocumentMoniker": "playground-.net-BasicThings\\Frontend\\Dialogos\\NuevoArticulo.xaml",
+              "ToolTip": "C:\\Users\\mario\\Desktop\\Codigo\\Clase\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\Frontend\\Dialogos\\NuevoArticulo.xaml",
+              "RelativeToolTip": "playground-.net-BasicThings\\Frontend\\Dialogos\\NuevoArticulo.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-17T22:06:10.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NuevoArticulo.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\mario\\Desktop\\Codigo\\Clase\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\Frontend\\Dialogos\\NuevoArticulo.xaml.cs",
+              "RelativeDocumentMoniker": "playground-.net-BasicThings\\Frontend\\Dialogos\\NuevoArticulo.xaml.cs",
+              "ToolTip": "C:\\Users\\mario\\Desktop\\Codigo\\Clase\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\Frontend\\Dialogos\\NuevoArticulo.xaml.cs",
+              "RelativeToolTip": "playground-.net-BasicThings\\Frontend\\Dialogos\\NuevoArticulo.xaml.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAQwCwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T22:04:15.935Z",
+              "EditorCaption": ""
             }
           ]
         }

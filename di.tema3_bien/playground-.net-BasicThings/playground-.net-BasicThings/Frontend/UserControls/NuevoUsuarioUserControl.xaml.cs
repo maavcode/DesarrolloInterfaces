@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
+using playground_.net_BasicThings.Backend.Modelos;
 using playground_.net_BasicThings.Frontend.Dialogos;
 using System;
 using System.Collections.Generic;
@@ -34,9 +35,10 @@ namespace playground_.net_BasicThings.Frontend.UserControls
             _serviceProvider = serviceProvider;
         }
 
-        private void onNuevoUsuarioPulsado(object sender, RoutedEventArgs e)
+        private async void onNuevoUsuarioPulsado(object sender, RoutedEventArgs e)
         {
             _nuevoUsuario = _serviceProvider.GetRequiredService<NuevoUsuario>();
+            await _nuevoUsuario.Inicializa(new Usuario());
             _nuevoUsuario.ShowDialog(); // SHOWDIALOG() HACE QUE EL DIALOGO PRINCIPAL ESTE BLOQUEADO
         }
     }

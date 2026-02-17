@@ -25,7 +25,7 @@ namespace playground_.net_BasicThings.MVVM
         private GenericRepository<Rol> _rolRepository;
 
         // Listas de datos para los combo box
-        private List<Tipousuario> _listaTiposUsuarios;
+        private List<Tipousuario> _listaTiposUsuario;
         private List<Rol> _listaRoles;
 
         private List<Usuario> _listaUsuarios;
@@ -38,7 +38,7 @@ namespace playground_.net_BasicThings.MVVM
             set => SetProperty(ref _usuario, value);
         }
         // Funciones getter y setter para los combo box
-        public List<Tipousuario> listaTiposUsuarios => _listaTiposUsuarios;
+        public List<Tipousuario> listaTiposUsuario => _listaTiposUsuario;
         public List<Rol> listaRoles => _listaRoles;
         public ListCollectionView listaUsuarios { get; set; }
 
@@ -49,7 +49,6 @@ namespace playground_.net_BasicThings.MVVM
             GenericRepository<Rol> rolRepository
             )
         {
-            _usuario = new Usuario();
             _usuarioRepository = usuarioRepository;
             _tipousuarioRepository = tipousuarioRepository;
             _rolRepository = rolRepository;
@@ -59,7 +58,7 @@ namespace playground_.net_BasicThings.MVVM
         {
             try
             {
-                _listaTiposUsuarios = await GetAllAsync<Tipousuario>(_tipousuarioRepository);
+                _listaTiposUsuario = await GetAllAsync<Tipousuario>(_tipousuarioRepository);
                 _listaRoles = await GetAllAsync<Rol>(_rolRepository);
 
                 _listaUsuarios = await GetAllAsync<Usuario>(_usuarioRepository);

@@ -177,7 +177,7 @@
                             Foreground="White"
                             Style="{StaticResource MaterialDesignListView}"
                             ScrollViewer.HorizontalScrollBarVisibility="Disabled">
-                            <ListViewItem Content="Gestión de Usuarios" Padding="20 5" />
+                            <ListViewItem Content="Gestión de Usuarios" Padding="20 5" MouseDoubleClick="ListViewItem_MouseDoubleClick"/>
                             <ListViewItem Content="Contraseñas" Padding="20 5" />
                             <ListViewItem Content="Mantenimiento" Padding="20 5" />
                             <ListViewItem Content="Stock" Padding="20 5" />

@@ -26,12 +26,12 @@ public partial class Usuario: ValidatableViewModel
     /// </summary>
     [Column("username")]
     [StringLength(20)]
-    [Required(ErrorMessage = "El campo 'username' es obligatorio")]
+    [Required(ErrorMessage = "El campo username es obligatorio")]
     public string Username { get; set; } = null!;
 
     [Column("password")]
     [StringLength(200)]
-    [Required(ErrorMessage = "El campo 'password' es obligatorio")]
+    [Required(ErrorMessage = "El campo password es obligatorio")]
 
     public string Password { get; set; } = null!;
 

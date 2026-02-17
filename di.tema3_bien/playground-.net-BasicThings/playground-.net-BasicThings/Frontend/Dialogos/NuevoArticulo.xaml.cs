@@ -27,7 +27,6 @@ namespace playground_.net_BasicThings.Frontend.Dialogos
     /// </summary>
     public partial class NuevoArticulo : MetroWindow
     {
-        private readonly ILoggerFactory _loggerFactory;
         // DECLARACION MVARTICULO
         private MVArticulo _mvArticulo;
         public NuevoArticulo(MVArticulo mVArticulo)
@@ -36,10 +35,14 @@ namespace playground_.net_BasicThings.Frontend.Dialogos
             _mvArticulo = mVArticulo;
         }
 
-        private async void DiagArticulo_Loaded(object sender, RoutedEventArgs e)
+        public async Task Inicializa(
+            Articulo articulo
+            )
         {
             // INICIALIZA EL MVARTICULO (CARGA LOS TIPOS DE ARTICULO)
             await _mvArticulo.Inicializa();
+
+            _mvArticulo.articulo = articulo;
 
             // MANEJA LOS ERRORES DE VALIDACION
             this.AddHandler(Validation.ErrorEvent, new RoutedEventHandler(_mvArticulo.OnErrorEvent));

@@ -93,5 +93,13 @@ namespace playground_.net_BasicThings
             if (_currentControl != null)
                 MainContent.Children.Add(_currentControl);
         }
+
+        private void ListViewItem_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            // Limpiamos el panel donde cargamos pantallas
+            MainContent.Children.Clear();
+            // Insertamos el nuevo control
+            MainContent.Children.Add(_arbolEspaciosUserControl);
+        }
     }
 }

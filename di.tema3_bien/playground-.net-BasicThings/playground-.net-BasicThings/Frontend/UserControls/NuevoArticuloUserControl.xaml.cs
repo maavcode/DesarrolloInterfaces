@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
+using playground_.net_BasicThings.Backend.Modelos;
 using playground_.net_BasicThings.Frontend.Dialogos;
 using System;
 using System.Collections.Generic;
@@ -34,6 +35,7 @@ namespace playground_.net_BasicThings.Frontend.UserControls
         private void onNuevoArticuloPulsado(object sender, RoutedEventArgs e)
         {
             _nuevoArticulo = _serviceProvider.GetRequiredService<NuevoArticulo>();
+            _nuevoArticulo.Inicializa(new Articulo());
             _nuevoArticulo.ShowDialog(); // SHOWDIALOG() HACE QUE EL DIALOGO PRINCIPAL ESTE BLOQUEADO
         }
     }

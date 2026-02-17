@@ -45,7 +45,7 @@ namespace playground_.net_BasicThings.Frontend.UserControls
             DataContext = _mvUsuario;
         }
 
-        private async void editarModeloArticulo_Click(object sender, RoutedEventArgs e)
+        private async void editaUsuario_Click(object sender, RoutedEventArgs e)
         {
             // CREA UNA NUEVA INSTANCIA DEL DIÁLOGO PARA CREAR/EDITAR MODELOS DE ARTÍCULO
             _nuevoUsuario = _serviceProvider.GetRequiredService<NuevoUsuario>();

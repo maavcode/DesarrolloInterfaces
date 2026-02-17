@@ -64,7 +64,7 @@
             Margin="20,45,0,0"
             BorderBrush="Gray"
             ItemsSource="{Binding listaRoles}"
-            SelectedItem="{Binding usuario.RolNavigation,ValidatesOnDataErrors=True,
+            SelectedItem="{Binding usuario.RolNavigation, ValidatesOnDataErrors=True,
             NotifyOnValidationError=True}"
             DisplayMemberPath="Nombre"
             Foreground="Black"/>    
@@ -80,7 +80,7 @@
              FontWeight="Bold"
              FontSize="13"
              Foreground="Black"
-             Text="{Binding usuario.Password,ValidatesOnDataErrors=True, NotifyOnValidationError=True, UpdateSourceTrigger=PropertyChanged}"/>
+             Text="{Binding usuario.Password, ValidatesOnDataErrors=True, NotifyOnValidationError=True, UpdateSourceTrigger=PropertyChanged}"/>
 
         <!-- TIPO -->
         <ComboBox
@@ -94,7 +94,7 @@
         Margin="20,45,0,0"
         BorderBrush="Gray"
         ItemsSource="{Binding listaTiposUsuarios}"
-        SelectedItem="{Binding usuario.TipoNavigation,ValidatesOnDataErrors=True,
+        SelectedItem="{Binding usuario.TipoNavigation, ValidatesOnDataErrors=True,
         NotifyOnValidationError=True}"
         DisplayMemberPath="Nombre"
         Foreground="Black"/>

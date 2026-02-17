@@ -11,8 +11,7 @@
         Height="640"
         Width="600"
         x:Name="diagArticulo"
-        Title="NuevoArticulo"
-        Loaded="DiagArticulo_Loaded">
+        Title="NuevoArticulo">
     <Grid>
         <!-- Rectangulo inicial -->
         <Grid Width="Auto"
