@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\mario\Desktop\Codigo\Clase\DesarrolloInterfaces\di.tema3_bien\playground-.net-BasicThings\playground-.net-BasicThings\obj\Debug\net9.0-windows\
+C:\Users\windows10\Documents\Clase\DesarrolloInterfaces\di.tema3_bien\playground-.net-BasicThings\playground-.net-BasicThings\obj\Debug\net9.0-windows\
 playground_.net_BasicThings
 none
 false
 TRACE;DEBUG;NET;NET9_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-C:\Users\mario\Desktop\Codigo\Clase\DesarrolloInterfaces\di.tema3_bien\playground-.net-BasicThings\playground-.net-BasicThings\App.xaml
+C:\Users\windows10\Documents\Clase\DesarrolloInterfaces\di.tema3_bien\playground-.net-BasicThings\playground-.net-BasicThings\App.xaml
 141305193645
 
 58950761611
-2331827522673
+233-1714482901
 Frontend\Dialogos\Login.xaml;Frontend\Dialogos\NuevoArticulo.xaml;Frontend\Dialogos\NuevoModeloArticulo.xaml;Frontend\Dialogos\NuevoUsuario.xaml;Frontend\Mensajes\MensajeDialogo.xaml;Frontend\Mensajes\VentanaMensaje.xaml;Frontend\UserControls\ArbolEspaciosUserControl.xaml;Frontend\UserControls\ListaArticuloUserControl.xaml;Frontend\UserControls\ListaModelosArticuloUserControl.xaml;Frontend\UserControls\ListaUsuariosUserControl.xaml;Frontend\UserControls\NuevoArticuloUserControl.xaml;Frontend\UserControls\NuevoModeloArticuloUserControl.xaml;Frontend\UserControls\NuevoUsuarioUserControl.xaml;MainWindow.xaml;
 
-False
+True
 

@@ -3482,19 +3482,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mario\\.nuget\\packages\\": {}
+    "C:\\Users\\windows10\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mario\\Desktop\\Codigo\\Clase\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\playground-.net-BasicThings.csproj",
+      "projectUniqueName": "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\playground-.net-BasicThings.csproj",
       "projectName": "playground-.net-BasicThings",
-      "projectPath": "C:\\Users\\mario\\Desktop\\Codigo\\Clase\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\playground-.net-BasicThings.csproj",
-      "packagesPath": "C:\\Users\\mario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mario\\Desktop\\Codigo\\Clase\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\obj\\",
+      "projectPath": "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\playground-.net-BasicThings.csproj",
+      "packagesPath": "C:\\Users\\windows10\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\windows10\\Documents\\Clase\\DesarrolloInterfaces\\di.tema3_bien\\playground-.net-BasicThings\\playground-.net-BasicThings\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\mario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\windows10\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3520,7 +3525,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "10.0.100"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net9.0-windows7.0": {
@@ -3582,7 +3587,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
